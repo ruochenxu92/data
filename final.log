@@ -1,87 +1,48 @@
 nohup: ignoring input
-2015-03-23 18:46:22+0000 [scrapy] INFO: Scrapy 0.24.5 started (bot: superqq_spider)
-2015-03-23 18:46:22+0000 [scrapy] INFO: Optional features available: ssl, http11, boto
-2015-03-23 18:46:22+0000 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'superqq_spider.spiders', 'SPIDER_MODULES': ['superqq_spider.spiders'], 'DOWNLOAD_DELAY': 6, 'BOT_NAME': 'superqq_spider'}
-2015-03-23 18:46:22+0000 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
-2015-03-23 18:46:23+0000 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
-2015-03-23 18:46:23+0000 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
-2015-03-23 18:46:23+0000 [scrapy] INFO: Enabled item pipelines: JsonWriterPipeline
-2015-03-23 18:46:23+0000 [xxu461000] INFO: Spider opened
-2015-03-23 18:46:23+0000 [xxu461000] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2015-03-23 18:46:23+0000 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
-2015-03-23 18:46:23+0000 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
-2015-03-23 18:46:59+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/10?skip=0&show=1000> (referer: None)
-2015-03-23 18:47:05+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/10?skip=1000&show=1000> (referer: None)
-2015-03-23 18:47:11+0000 [xxu461000] DEBUG: Filtered duplicate request: <GET http://arxiv.org/abs/1002.4290> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
-2015-03-23 18:47:13+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/10?skip=2000&show=1000> (referer: None)
-2015-03-23 18:47:14+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/10?skip=3000&show=1000> (referer: None)
-2015-03-23 18:47:23+0000 [xxu461000] INFO: Crawled 4 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
-2015-03-23 18:47:25+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/10?skip=4000&show=1000> (referer: None)
-2015-03-23 18:47:28+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/10?skip=5000&show=1000> (referer: None)
-2015-03-23 18:47:33+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/10?skip=7000&show=1000> (referer: None)
-2015-03-23 18:47:39+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/10?skip=6000&show=1000> (referer: None)
-2015-03-23 18:47:54+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=0&show=1000> (referer: None)
-2015-03-23 18:48:09+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=1000&show=1000> (referer: None)
-2015-03-23 18:48:17+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=2000&show=1000> (referer: None)
-2015-03-23 18:48:23+0000 [xxu461000] INFO: Crawled 11 pages (at 7 pages/min), scraped 0 items (at 0 items/min)
-2015-03-23 18:48:25+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=3000&show=1000> (referer: None)
-2015-03-23 18:48:31+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1001.2892> (referer: http://arxiv.org/list/cs/10?skip=0&show=1000)
-2015-03-23 18:48:31+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1001.2892>
-	{'abstract': u"In this paper, we introduce the Causal Cognitive Interference Channel With Delay (CC-IFC-WD) in which the cognitive user transmission can depend on future received symbols as well as the past ones. Taking the effect of the link delays into account, CC-IFC-WD fills the gap between the genie-aided and causal 1cognitive radio channels. We study three special cases: 1) Classical CC-IFC (L=0), 2) CC-IFC without delay (L=1) and 3) CC-IFC with a block length delay (L=n). In each case, we obtain an inner bound on the capacity region. Our coding schemes make use of cooperative strategy by generalized block Markov superposition coding, collaborative strategy by rate splitting, and Gel'fand-Pinsker coding in order to pre-cancel part of the interference. Moreover, instantaneous relaying and non-causal partial Decode-and-Forward strategies are employed in the second and third cases, respectively. The derived regions under special conditions, reduce to several previously known results. Moreover, we show that the coding strategy which we use to derive achievable rate region for the classical CC-IFC achieves capacity for a special case of this channel. Furthermore, we extend our achievable rate regions to Gaussian case. Providing a numerical example for Gaussian CC-IFC-WD, we investigate the rate gain of the cognitive link for different delay values.",
-	 'authors': u'Mahtab Mirmohseni, Bahareh Akhbari, Mohammad Reza Aref,',
+2015-03-23 19:50:48+0000 [scrapy] INFO: Scrapy 0.24.5 started (bot: superqq_spider)
+2015-03-23 19:50:48+0000 [scrapy] INFO: Optional features available: ssl, http11, boto
+2015-03-23 19:50:48+0000 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'superqq_spider.spiders', 'SPIDER_MODULES': ['superqq_spider.spiders'], 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'superqq_spider'}
+2015-03-23 19:50:48+0000 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-03-23 19:50:48+0000 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-03-23 19:50:48+0000 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-03-23 19:50:48+0000 [scrapy] INFO: Enabled item pipelines: JsonWriterPipeline
+2015-03-23 19:50:48+0000 [xxu461000] INFO: Spider opened
+2015-03-23 19:50:48+0000 [xxu461000] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 19:50:48+0000 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-03-23 19:50:48+0000 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-03-23 19:51:07+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/15?skip=3000&show=1000> (referer: None)
+2015-03-23 19:51:14+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/15?skip=2000&show=1000> (referer: None)
+2015-03-23 19:51:23+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/15?skip=0&show=1000> (referer: None)
+2015-03-23 19:51:25+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/15?skip=1000&show=1000> (referer: None)
+2015-03-23 19:51:25+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=16000&show=1000> (referer: None)
+2015-03-23 19:51:37+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=14000&show=1000> (referer: None)
+2015-03-23 19:51:48+0000 [xxu461000] INFO: Crawled 6 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 19:51:51+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=13000&show=1000> (referer: None)
+2015-03-23 19:51:56+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=15000&show=1000> (referer: None)
+2015-03-23 19:51:58+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=11000&show=1000> (referer: None)
+2015-03-23 19:52:04+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=12000&show=1000> (referer: None)
+2015-03-23 19:52:04+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=9000&show=1000> (referer: None)
+2015-03-23 19:52:11+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=7000&show=1000> (referer: None)
+2015-03-23 19:52:13+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=10000&show=1000> (referer: None)
+2015-03-23 19:52:15+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1503.04444> (referer: http://arxiv.org/list/cs/15?skip=3000&show=1000)
+2015-03-23 19:52:15+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1503.04444>
+	{'abstract': u'A new diagnostic scheme is presented for ball bearing localized faults, which utilizes preprocessed time domain features based pattern recognition (PR). Vibration data is acquired from faulty bearings using a test rig, and the features are extracted from the data segments that are preprocessed prior to use in the fault classification process. The preprocessing involves smoothing of the features, which reduces the undesired impact of noise and vibration randomness on the PR process, and thus enhances the diagnostic accuracy. The results are compared with a similar scheme in terms of minimum features requirement to achieve an optimum classification accuracy, and the feature processing based proposed scheme provides better results.',
+	 'authors': u'Muhammad Masood Tahir, Ayyaz Hussain,',
 	 'category': u'Computer Science ',
-	 'date': '2010-1-7',
-	 'pdflink': u'http://arxiv.org/e-print/1001.2892',
-	 'subjects': u'Information Theory (cs.IT)',
-	 'title': u'\nOn the Capacity of Causal Cognitive Interference Channel With Delay',
-	 'urllink': u'http://arxiv.org/abs/1001.2892'}
-2015-03-23 18:48:35+0000 [xxu461000] ERROR: Spider error processing <GET http://arxiv.org/list/cs/11?skip=3000&show=1000>
-	Traceback (most recent call last):
-	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
-	    call.func(*call.args, **call.kw)
-	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
-	    taskObj._oneWorkUnit()
-	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
-	    result = next(self._iterator)
-	  File "/usr/lib/pymodules/python2.7/scrapy/utils/defer.py", line 57, in <genexpr>
-	    work = (callable(elem, *args, **named) for elem in iterable)
-	--- <exception caught here> ---
-	  File "/usr/lib/pymodules/python2.7/scrapy/utils/defer.py", line 96, in iter_errback
-	    yield next(it)
-	  File "/usr/lib/pymodules/python2.7/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
-	    for x in result:
-	  File "/usr/lib/pymodules/python2.7/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
-	    return (_set_referer(r) for r in result or ())
-	  File "/usr/lib/pymodules/python2.7/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
-	    return (r for r in result or () if _filter(r))
-	  File "/usr/lib/pymodules/python2.7/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
-	    return (r for r in result or () if _filter(r))
-	  File "/home/testproj/finalspider/superqq_spider/spiders/SuperQQSpider1.py", line 100, in parse
-	    item['urllink'] = prefix + sel.xpath('span/a[1]/@href').extract()[0]
-	exceptions.IndexError: list index out of range
-	
-2015-03-23 18:48:35+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=4000&show=1000> (referer: None)
-2015-03-23 18:48:40+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1003.0628> (referer: http://arxiv.org/list/cs/10?skip=1000&show=1000)
-2015-03-23 18:48:40+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1003.0628>
-	{'abstract': u'Text documents are complex high dimensional objects. To effectively visualize such data it is important to reduce its dimensionality and visualize the low dimensional embedding as a 2-D or 3-D scatter plot. In this paper we explore dimensionality reduction methods that draw upon domain knowledge in order to achieve a better low dimensional embedding and visualization of documents. We consider the use of geometries specified manually by an expert, geometries derived automatically from corpus statistics, and geometries computed from linguistic resources.',
-	 'authors': u'Yi Mao, Krishnakumar Balasubramanian, Guy Lebanon,',
+	 'date': '2015-3-15',
+	 'pdflink': u'http://arxiv.org/pdf/1503.04444',
+	 'subjects': u'Computer Vision and Pattern Recognition (cs.CV)',
+	 'title': u'\nPattern Recognition of Bearing Faults using Smoother Statistical  Features',
+	 'urllink': u'http://arxiv.org/abs/1503.04444'}
+2015-03-23 19:52:19+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1502.06103> (referer: http://arxiv.org/list/cs/15?skip=2000&show=1000)
+2015-03-23 19:52:19+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1502.06103>
+	{'abstract': u"This paper considers the use of compressive sensing based algorithms for velocity estimation of moving vehicles. The procedure is based on sparse reconstruction algorithms combined with time-frequency analysis applied to video data. This algorithm provides an accurate estimation of object's velocity even in the case of a very reduced number of available video frames. The influence of crucial parameters is analysed for different types of moving vehicles.",
+	 'authors': u'Ana Miletic, Nemanja Ivanovic,',
 	 'category': u'Computer Science ',
-	 'date': '2010-3-2',
-	 'pdflink': u'http://arxiv.org/pdf/1003.0628',
-	 'subjects': u'Computation and Language (cs.CL)',
-	 'title': u'\nLinguistic Geometries for Unsupervised Dimensionality Reduction',
-	 'urllink': u'http://arxiv.org/abs/1003.0628'}
-2015-03-23 18:48:42+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=5000&show=1000> (referer: None)
-2015-03-23 18:48:48+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=6000&show=1000> (referer: None)
-2015-03-23 18:48:49+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1004.2342> (referer: http://arxiv.org/list/cs/10?skip=2000&show=1000)
-2015-03-23 18:48:50+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1004.2342>
-	{'abstract': u'We study the convergence of Markov Decision Processes made of a large number of objects to optimization problems on ordinary differential equations (ODE). We show that the optimal reward of such a Markov Decision Process, satisfying a Bellman equation, converges to the solution of a continuous Hamilton-Jacobi-Bellman (HJB) equation based on the mean field approximation of the Markov Decision Process. We give bounds on the difference of the rewards, and a constructive algorithm for deriving an approximating solution to the Markov Decision Process from a solution of the HJB equations. We illustrate the method on three examples pertaining respectively to investment strategies, population dynamics control and scheduling in queues are developed. They are used to illustrate and justify the construction of the controlled ODE and to show the gain obtained by solving a continuous HJB equation rather than a large discrete Bellman equation.',
-	 'authors': u'Nicolas Gast, Bruno Gaujal, Jean-Yves Le Boudec,',
-	 'category': u'Computer Science ',
-	 'date': '2010-4-4',
-	 'pdflink': u'http://arxiv.org/pdf/1004.2342',
-	 'subjects': u'Artificial Intelligence (cs.AI)',
-	 'title': u'\nMean field for Markov Decision Processes: from Discrete to Continuous  Optimization',
-	 'urllink': u'http://arxiv.org/abs/1004.2342'}
-2015-03-23 18:48:55+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=7000&show=1000> (referer: None)
-2015-03-23 18:48:59+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=8000&show=1000> (referer: None)
+	 'date': '2015-2-21',
+	 'pdflink': u'http://arxiv.org/pdf/1502.06103',
+	 'subjects': u'Multimedia (cs.MM)',
+	 'title': u'\nCompressive sensing based velocity estimation in video data',
+	 'urllink': u'http://arxiv.org/abs/1502.06103'}
+2015-03-23 19:52:23+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=4000&show=1000> (referer: None)
+2015-03-23 19:52:24+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1501.00163> (referer: http://arxiv.org/list/cs/15?skip=0&show=1000)
