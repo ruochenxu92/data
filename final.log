@@ -46,3 +46,533 @@ nohup: ignoring input
 	 'urllink': u'http://arxiv.org/abs/1502.06103'}
 2015-03-23 19:52:23+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=4000&show=1000> (referer: None)
 2015-03-23 19:52:24+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1501.00163> (referer: http://arxiv.org/list/cs/15?skip=0&show=1000)
+2015-03-23 19:52:25+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1501.00163>
+	{'abstract': u'This paper investigates polynomial remainder codes with non-pairwise coprime moduli. We first consider a robust reconstruction problem for polynomials from erroneous residues when the degrees of all residue errors are assumed small, namely robust Chinese Remainder Theorem (CRT) for polynomials. It basically says that a polynomial can be reconstructed from erroneous residues such that the degree of the reconstruction error is upper bounded by whenever the degrees of all residue errors are upper bounded by , where a sufficient condition for and a reconstruction algorithm are obtained. By releasing the constraint that all residue errors have small degrees, another robust reconstruction is then presented when there are multiple unrestricted errors and an arbitrary number of errors with small degrees in the residues. By making full use of redundancy in moduli, we obtain a stronger residue error correction capability in the sense that apart from the number of errors that can be corrected in the previous existing result, some errors with small degrees can be also corrected in the residues. With this newly obtained result, improvements in uncorrected error probability and burst error correction capability in a data transmission are illustrated.',
+	 'authors': u'Li Xiao, Xiang-Gen Xia,',
+	 'category': u'Computer Science ',
+	 'date': '2014-12-31',
+	 'pdflink': u'http://arxiv.org/pdf/1501.00163',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nError Correction in Polynomial Remainder Codes with Non-Pairwise Coprime  Moduli and Robust Chinese Remainder Theorem for Polynomials',
+	 'urllink': u'http://arxiv.org/abs/1501.00163'}
+2015-03-23 19:52:25+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=8000&show=1000> (referer: None)
+2015-03-23 19:52:30+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1501.06857> (referer: http://arxiv.org/list/cs/15?skip=1000&show=1000)
+2015-03-23 19:52:30+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1501.06857>
+	{'abstract': u'Creating rankings might seem like a vain exercise in belly-button gazing, even more so for people so unlike that kind of things as programmers. However, in this paper we will try to prove how creating city (or province) based rankings in Spain has led to all kind of interesting effects, including increased productivity and community building. We describe the methodology we have used to search for programmers residing in a particular province focusing on those where most population is concentrated and apply different measures to show how these communities differ in structure, number and productivity.',
+	 'authors': u'J.J. Merelo, Nuria Rico, Israel Blancas, M. G. Arenas, Fernando Tricas, Jos\xe9 Antonio Vacas,',
+	 'category': u'Computer Science ',
+	 'date': '2015-1-27',
+	 'pdflink': u'http://arxiv.org/pdf/1501.06857',
+	 'subjects': u'Social and Information Networks (cs.SI)',
+	 'title': u'\nMeasuring the local GitHub developer community',
+	 'urllink': u'http://arxiv.org/abs/1501.06857'}
+2015-03-23 19:52:31+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=6000&show=1000> (referer: None)
+2015-03-23 19:52:33+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/14?skip=5000&show=1000> (referer: None)
+2015-03-23 19:52:35+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1501.02245> (referer: http://arxiv.org/list/cs/15?skip=1000&show=1000)
+2015-03-23 19:52:36+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1501.02245>
+	{'abstract': u'This study presented a type of image processing code which is used for sharpening photoelastic fringe patterns of transparent materials in photoelastic experiences to determine the stress distribution. C-Sharp software was utilized for coding the algorithm of this image processing method. For evaluation of this code, the results of a photoelastic experience of a sample contact problem between a half-plane with an oblique edge crack and a tilted wedge using this image processing method was compared with the FEM results of the same problem in order to obtain the stress intensity factors (SIF) of the specimen. A good agreement between experimental results extracted from this method of image processing and computational results was observed.',
+	 'authors': u'Seyedmeysam Khaleghian, Anahita Emami, Nasser Soltani,',
+	 'category': u'Computer Science ',
+	 'date': '2015-1-6',
+	 'pdflink': u'http://arxiv.org/pdf/1501.02245',
+	 'subjects': u'Materials Science (cond-mat.mtrl-sci)',
+	 'title': u'\nImage Processing Code for Sharpening Photoelastic Fringe Patterns and  Its Usage in Determination of Stress Intensity Factors in a Sample Contact  Problem',
+	 'urllink': u'http://arxiv.org/abs/1501.02245'}
+2015-03-23 19:52:49+0000 [xxu461000] INFO: Crawled 22 pages (at 16 pages/min), scraped 5 items (at 5 items/min)
+2015-03-23 19:53:49+0000 [xxu461000] INFO: Crawled 22 pages (at 0 pages/min), scraped 5 items (at 0 items/min)
+2015-03-23 19:54:49+0000 [xxu461000] INFO: Crawled 22 pages (at 0 pages/min), scraped 5 items (at 0 items/min)
+2015-03-23 19:55:48+0000 [xxu461000] INFO: Crawled 22 pages (at 0 pages/min), scraped 5 items (at 0 items/min)
+2015-03-23 19:55:49+0000 [xxu461000] DEBUG: Filtered duplicate request: <GET http://arxiv.org/abs/1405.1189> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-03-23 19:55:49+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2300> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:55:49+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2300>
+	{'abstract': u'We show that finding orthogonal grid-embeddings of plane graphs (planar with fixed combinatorial embedding) with the minimum number of bends in the so-called Kandinsky model (which allows vertices of degree ) is NP-complete, thus solving a long-standing open problem. On the positive side, we give an efficient algorithm for several restricted variants, such as graphs of bounded branch width and a subexponential exact algorithm for general plane graphs.',
+	 'authors': u'Thomas Bl\xe4sius, Guido Br\xfcckner, Ignaz Rutter,',
+	 'category': u'Computer Science ',
+	 'date': '2014-4-14',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2300',
+	 'subjects': u'Computational Geometry (cs.CG)',
+	 'title': u'\nComplexity of Higher-Degree Orthogonal Graph Embedding in the Kandinsky  Model',
+	 'urllink': u'http://arxiv.org/abs/1405.2300'}
+2015-03-23 19:55:54+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.7584> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:55:55+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.7584>
+	{'abstract': u'The Data Access System (DAS) is a metadata and data management software system, providing a reusable solution for the storage of data acquired both from telescopes and auxiliary data sources during the instrument development phases and operations. It is part of the Customizable Instrument WorkStation system (CIWS-FW), a framework for the storage, processing and quick-look at the data acquired from scientific instruments. The DAS provides a data access layer mainly targeted to software applications: quick-look displays, pre-processing pipelines and scientific workflows. It is logically organized in three main components: an intuitive and compact Data Definition Language (DAS DDL) in XML format, aimed for user-defined data types; an Application Programming Interface (DAS API), automatically adding classes and methods supporting the DDL data types, and providing an object-oriented query language; a data management component, which maps the metadata of the DDL data types in a relational Data Base Management System (DBMS), and stores the data in a shared (network) file system. With the DAS DDL, developers define the data model for a particular project, specifying for each data type the metadata attributes, the data format and layout (if applicable), and named references to related or aggregated data types. Together with the DDL user-defined data types, the DAS API acts as the only interface to store, query and retrieve the metadata and data in the DAS system, providing both an abstract interface and a data model specific one in C, C++ and Python. The mapping of metadata in the back-end database is automatic and supports several relational DBMSs, including MySQL, Oracle and PostgreSQL.',
+	 'authors': u'Marco Frailis, Stefano Sartor, Andrea Zacchei, Marcello Lodi, Roberto Cirami, Fabio Pasian, Massimo Trifoglio, Andrea Bulgarelli, Fulvio Gianotti, Enrico Franceschi, Luciano Nicastro, Vito Conforti, Andrea Zoli, Ricky Smart, Roberto Morbidelli, Mauro Dadina,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-29',
+	 'pdflink': u'http://arxiv.org/pdf/1405.7584',
+	 'subjects': u'Instrumentation and Methods for Astrophysics (astro-ph.IM)',
+	 'title': u'\nDAS: a data management system for instrument tests and operations',
+	 'urllink': u'http://arxiv.org/abs/1405.7584'}
+2015-03-23 19:55:57+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1407.5242> (referer: http://arxiv.org/list/cs/14?skip=8000&show=1000)
+2015-03-23 19:55:57+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1407.5242>
+	{'abstract': u'Object proposal algorithms have shown great promise as a first step for object recognition and detection. Good object proposal generation algorithms require high object recall rate as well as low computational cost, because generating object proposals is usually utilized as a preprocessing step. The problem of how to accelerate the object proposal generation and evaluation process without decreasing recall is thus of great interest. In this paper, we propose a new object proposal generation method using two-stage cascade SVMs, where in the first stage linear filters are learned for predefined quantized scales/aspect-ratios independently, and in the second stage a global linear classifier is learned across all the quantized scales/aspect-ratios for calibration, so that all the proposals can be compared properly. The proposals with highest scores are our final output. Specifically, we explain our scale/aspect-ratio quantization scheme, and investigate the effects of combinations of and regularizers in cascade SVMs with/without ranking constraints in learning. Comprehensive experiments on VOC2007 dataset are conducted, and our results achieve the state-of-the-art performance with high object recall rate and high computational efficiency. Besides, our method has been demonstrated to be suitable for not only class-specific but also generic object proposal generation.',
+	 'authors': u'Ziming Zhang, Philip H.S. Torr,',
+	 'category': u'Computer Science ',
+	 'date': '2014-7-20',
+	 'pdflink': u'http://arxiv.org/pdf/1407.5242',
+	 'subjects': u'Computer Vision and Pattern Recognition (cs.CV)',
+	 'title': u'\nObject Proposal Generation using Two-Stage Cascade SVMs',
+	 'urllink': u'http://arxiv.org/abs/1407.5242'}
+2015-03-23 19:56:02+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1404.5372> (referer: http://arxiv.org/list/cs/14?skip=4000&show=1000)
+2015-03-23 19:56:02+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1404.5372>
+	{'abstract': u'The linked open data (LOD) paradigm has emerged as a promising approach to structuring and sharing geospatial information. One of the major obstacles to this vision lies in the difficulties found in the automatic integration between heterogeneous vocabularies and ontologies that provides the semantic backbone of the growing constellation of open geo-knowledge bases. In this article, we show how to utilize WordNet as a semantic hub to increase the integration of LOD. With this purpose in mind, we devise Voc2WordNet, an unsupervised mapping technique between a given vocabulary and WordNet, combining intensional and extensional aspects of the geographic terms. Voc2WordNet is evaluated against a sample of human-generated alignments with the OpenStreetMap (OSM) Semantic Network, a crowdsourced geospatial resource, and the GeoNames ontology, the vocabulary of a large digital gazetteer. These empirical results indicate that the approach can obtain high precision and recall.',
+	 'authors': u'Andrea Ballatore, Michela Bertolotto, David C. Wilson,',
+	 'category': u'Computer Science ',
+	 'date': '2014-4-22',
+	 'pdflink': u'http://arxiv.org/pdf/1404.5372',
+	 'subjects': u'Information Retrieval (cs.IR)',
+	 'title': u'\nLinking Geographic Vocabularies through WordNet',
+	 'urllink': u'http://arxiv.org/abs/1404.5372'}
+2015-03-23 19:56:06+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2295> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:56:06+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2295>
+	{'abstract': u'This paper studies the gains, in terms of served requests, attainable through out-of-band device-to-device (D2D) video exchanges in large cellular networks. A stochastic framework, in which users are clustered to exchange files, is introduced, considering several aspects of this problem: the file-caching policy, user matching for exchanges, aspects regarding scheduling and transmissions. A family of admissible protocols is introduced: each protocol is composed of a clustering strategy induced by any hard-core point process, and any suitable in-cluster coordination strategy, which dictates the dynamics inside the clusters. Two metrics, quantifying the "local" and "global" fraction of video requests served through D2D are defined, and relevant trade-off regions involving these metrics, as well as quality-of-service constraints are identified. A simple coordination strategy is proposed and analyzed, to obtain inner bounds to the trade-off regions, and draw conclusions on the performance attainable through D2D. To this end, an analysis of the time-varying interference that the nodes experience, and tight approximations of its Laplace transform are derived.',
+	 'authors': u'Andr\xe9s Altieri, Pablo Piantanida, Leonardo Rey Vega, Cecilia Galarza,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-9',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2295',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nOn Fundamental Trade-offs of Device-to-Device Communications in Large  Wireless Networks',
+	 'urllink': u'http://arxiv.org/abs/1405.2295'}
+2015-03-23 19:56:11+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.7375> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:56:11+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.7375>
+	{'abstract': u'The computational cost of counting the number of solutions satisfying a Boolean formula, which is a problem instance of #SAT, has proven subtle to quantify. Even when finding individual satisfying solutions is computationally easy (e.g. 2-SAT, which is in P), determining the number of solutions is #P-hard. Recently, computational methods simulating quantum systems experienced advancements due to the development of tensor network algorithms and associated quantum physics-inspired techniques. By these methods, we give an algorithm using an axiomatic tensor contraction language for n-variable #SAT instances with complexity where is the number of COPY-tensors, is the number of gates, and is the maximal degree of any COPY-tensor. Thus, counting problems can be solved efficiently when their tensor network expression has at most COPY-tensors and polynomial fan-out. This framework also admits an intuitive proof of a variant of the Tovey conjecture (the r,1-SAT instance of the Dubois-Tovey theorem). This study increases the theory, expressiveness and application of tensor based algorithmic tools and provides an alternative insight on these problems which have a long history in statistical physics and computer science.',
+	 'authors': u'Jacob D. Biamonte, Jason Morton, Jacob W. Turner,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-28',
+	 'pdflink': u'http://arxiv.org/pdf/1405.7375',
+	 'subjects': u'Quantum Physics (quant-ph)',
+	 'title': u'\nTensor Network Contractions for #SAT',
+	 'urllink': u'http://arxiv.org/abs/1405.7375'}
+2015-03-23 19:56:16+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1407.5238> (referer: http://arxiv.org/list/cs/14?skip=8000&show=1000)
+2015-03-23 19:56:16+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1407.5238>
+	{'abstract': u"We examine the process of engineering features for developing models that improve our understanding of learners' online behavior in MOOCs. Because feature engineering relies so heavily on human insight, we argue that extra effort should be made to engage the crowd for feature proposals and even their operationalization. We show two approaches where we have started to engage the crowd. We also show how features can be evaluated for their relevance in predictive accuracy. When we examined crowd-sourced features in the context of predicting stopout, not only were they nuanced, but they also considered more than one interaction mode between the learner and platform and how the learner was relatively performing. We were able to identify different influential features for stop out prediction that depended on whether a learner was in 1 of 4 cohorts defined by their level of engagement with the course discussion forum or wiki. This report is part of a compendium which considers different aspects of MOOC data science and stop out prediction.",
+	 'authors': u"Kalyan Veeramachaneni, Una-May O'Reilly, Colin Taylor,",
+	 'category': u'Computer Science ',
+	 'date': '2014-7-20',
+	 'pdflink': u'http://arxiv.org/pdf/1407.5238',
+	 'subjects': u'Computers and Society (cs.CY)',
+	 'title': u'\nTowards Feature Engineering at Scale for Data from Massive Open Online  Courses',
+	 'urllink': u'http://arxiv.org/abs/1407.5238'}
+2015-03-23 19:56:22+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1404.5367> (referer: http://arxiv.org/list/cs/14?skip=4000&show=1000)
+2015-03-23 19:56:22+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1404.5367>
+	{'abstract': u'Most state-of-the-art approaches for named-entity recognition (NER) use semi supervised information in the form of word clusters and lexicons. Recently neural network-based language models have been explored, as they as a byproduct generate highly informative vector representations for words, known as word embeddings. In this paper we present two contributions: a new form of learning word embeddings that can leverage information from relevant lexicons to improve the representations, and the first system to use neural word embeddings to achieve state-of-the-art results on named-entity recognition in both CoNLL and Ontonotes NER. Our system achieves an F1 score of 90.90 on the test set for CoNLL 2003---significantly better than any previous system trained on public data, and matching a system employing massive private industrial query-log data.',
+	 'authors': u'Alexandre Passos, Vineet Kumar, Andrew McCallum,',
+	 'category': u'Computer Science ',
+	 'date': '2014-4-22',
+	 'pdflink': u'http://arxiv.org/pdf/1404.5367',
+	 'subjects': u'Computation and Language (cs.CL)',
+	 'title': u'\nLexicon Infused Phrase Embeddings for Named Entity Resolution',
+	 'urllink': u'http://arxiv.org/abs/1404.5367'}
+2015-03-23 19:56:27+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1409.2064> (referer: http://arxiv.org/list/cs/14?skip=10000&show=1000)
+2015-03-23 19:56:27+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1409.2064>
+	{'abstract': u'By using experimental measurements of smart grid applications compliant with IEC 61850 in trace-driven WiMAX simulations, we show that the WiMAX MAC protocol efficiency decreases as a function of the number of stations. To avoid this shortcoming, we propose and analyze a novel WiMAX MAC protocol for smart grid applications, which uses lattice correlators to improve the throughput-delay performance significantly. For the considered configurations, the obtained maximum throughput of the proposed MAC protocol outperforms the current WiMAX MAC protocol by up to 41%.',
+	 'authors': u'Martin L\xe9vesque,',
+	 'category': u'Computer Science ',
+	 'date': '2014-9-6',
+	 'pdflink': u'http://arxiv.org/pdf/1409.2064',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nRethinking the Contention Resolution Mechanism in WiMAX Networks using  Lattice Correlators for Improved Smart Grid Communication Performance',
+	 'urllink': u'http://arxiv.org/abs/1409.2064'}
+2015-03-23 19:56:31+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2294> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:56:31+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2294>
+	{'abstract': u'An anomaly detection problem is investigated, in which there are totally n sequences with s anomalous sequences to be detected. Each normal sequence contains m independent and identically distributed (i.i.d.) samples drawn from a distribution p, whereas each anomalous sequence contains m i.i.d. samples drawn from a distribution q that is distinct from p. The distributions p and q are assumed to be unknown a priori. Two scenarios, respectively with and without a reference sequence generated by p, are studied. Distribution-free tests are constructed using maximum mean discrepancy (MMD) as the metric, which is based on mean embeddings of distributions into a reproducing kernel Hilbert space (RKHS). For both scenarios, it is shown that as the number n of sequences goes to infinity, if the value of s is known, then the number m of samples in each sequence should be at the order O(log n) or larger in order for the developed tests to consistently detect s anomalous sequences. If the value of s is unknown, then m should be at the order strictly larger than O(log n). Computational complexity of all developed tests is shown to be polynomial. Numerical results demonstrate that our tests outperform (or perform as well as) the tests based on other competitive traditional statistical approaches and kernel-based approaches under various cases. Consistency of the proposed test is also demonstrated on a real data set.',
+	 'authors': u'Shaofeng Zou, Yingbin Liang, H. Vincent Poor, Xinghua Shi,',
+	 'category': u'Computer Science ',
+	 'date': '2014-4-25',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2294',
+	 'subjects': u'Learning (cs.LG)',
+	 'title': u'\nNonparametric Detection of Anomalous Data via Kernel Mean Embedding',
+	 'urllink': u'http://arxiv.org/abs/1405.2294'}
+2015-03-23 19:56:36+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.7292> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:56:36+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.7292>
+	{'abstract': u'The results from most machine learning experiments are used for a specific purpose and then discarded. This results in a significant loss of information and requires rerunning experiments to compare learning algorithms. This also requires implementation of another algorithm for comparison, that may not always be correctly implemented. By storing the results from previous experiments, machine learning algorithms can be compared easily and the knowledge gained from them can be used to improve their performance. The purpose of this work is to provide easy access to previous experimental results for learning and comparison. These stored results are comprehensive -- storing the prediction for each test instance as well as the learning algorithm, hyperparameters, and training set that were used. Previous results are particularly important for meta-learning, which, in a broad sense, is the process of learning from previous machine learning results such that the learning process is improved. While other experiment databases do exist, one of our focuses is on easy access to the data. We provide meta-learning data sets that are ready to be downloaded for meta-learning experiments. In addition, queries to the underlying database can be made if specific information is desired. We also differ from previous experiment databases in that our databases is designed at the instance level, where an instance is an example in a data set. We store the predictions of a learning algorithm trained on a specific training set for each instance in the test set. Data set level information can then be obtained by aggregating the results from the instances. The instance level information can be used for many tasks such as determining the diversity of a classifier or algorithmically determining the optimal subset of training instances for a learning algorithm.',
+	 'authors': u'Michael R. Smith, Andrew White, Christophe Giraud-Carrier, Tony Martinez,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-28',
+	 'pdflink': u'http://arxiv.org/pdf/1405.7292',
+	 'subjects': u'Machine Learning (stat.ML)',
+	 'title': u'\nAn Easy to Use Repository for Comparing and Improving Machine Learning  Algorithm Usage',
+	 'urllink': u'http://arxiv.org/abs/1405.7292'}
+2015-03-23 19:56:42+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1407.5234> (referer: http://arxiv.org/list/cs/14?skip=8000&show=1000)
+2015-03-23 19:56:42+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1407.5234>
+	{'abstract': u'We consider the general problem of matching a subspace to a signal in R^N that has been observed indirectly (compressed) through a random projection. We are interested in the case where the collection of K-dimensional subspaces is continuously parameterized, i.e. naturally indexed by an interval from the real line, or more generally a region of R^D. Our main results show that if the dimension of the random projection is on the order of K times a geometrical constant that describes the complexity of the collection, then the match obtained from the compressed observation is nearly as good as one obtained from a full observation of the signal. We give multiple concrete examples of collections of subspaces for which this geometrical constant can be estimated, and discuss the relevance of the results to the general problems of template matching and source localization.',
+	 'authors': u'William Mantzel, Justin Romberg,',
+	 'category': u'Computer Science ',
+	 'date': '2014-7-20',
+	 'pdflink': u'http://arxiv.org/pdf/1407.5234',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nCompressed Subspace Matching on the Continuum',
+	 'urllink': u'http://arxiv.org/abs/1407.5234'}
+2015-03-23 19:56:47+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1404.5357> (referer: http://arxiv.org/list/cs/14?skip=4000&show=1000)
+2015-03-23 19:56:47+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1404.5357>
+	{'abstract': u'In this work we present a morphological analysis of Bishnupriya Manipuri language, an Indo-Aryan language spoken in the north eastern India. As of now, there is no computational work available for the language. Finite state morphology is one of the successful approaches applied in a wide variety of languages over the year. Therefore we adapted the finite state approach to analyse morphology of the Bishnupriya Manipuri language.',
+	 'authors': u'Nayan Jyoti Kalita, Navanath Saharia, Smriti Kumar Sinha,',
+	 'category': u'Computer Science ',
+	 'date': '2014-4-22',
+	 'pdflink': u'http://arxiv.org/pdf/1404.5357',
+	 'subjects': u'Computation and Language (cs.CL)',
+	 'title': u'\nMorphological Analysis of the Bishnupriya Manipuri Language using Finite  State Transducers',
+	 'urllink': u'http://arxiv.org/abs/1404.5357'}
+2015-03-23 19:56:48+0000 [xxu461000] INFO: Crawled 35 pages (at 13 pages/min), scraped 18 items (at 13 items/min)
+2015-03-23 19:56:52+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1409.2056> (referer: http://arxiv.org/list/cs/14?skip=10000&show=1000)
+2015-03-23 19:56:52+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1409.2056>
+	{'abstract': u"Many proofs of the fundamental theorem of algebra rely on the fact that the minimum of the modulus of a complex polynomial over the complex plane is attained at some complex number. The proof then follows by arguing the minimum value is zero. This can be done by proving that at any complex number that is not a zero of the polynomial we can exhibit a direction of descent for the modulus. In this note we present a very short and simple proof of the existence of such descent direction. In particular, our descent direction gives rise to Newton's method for solving a polynomial equation via modulus minimization and also makes the iterates definable at any critical point.",
+	 'authors': u'Bahman Kalantari,',
+	 'category': u'Computer Science ',
+	 'date': '2014-9-6',
+	 'pdflink': u'http://arxiv.org/pdf/1409.2056',
+	 'subjects': u'Numerical Analysis (cs.NA)',
+	 'title': u"\nA One-Line Proof of the Fundamental Theorem of Algebra with Newton's  Method as a Consequence",
+	 'urllink': u'http://arxiv.org/abs/1409.2056'}
+2015-03-23 19:56:54+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2281> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:56:54+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2281>
+	{'abstract': u'This volume contains the papers accepted at the 1st Workshop on Resource Awareness and Adaptivity in Multi-Core Computing (Racing 2014), held in Paderborn, Germany, May 29-30, 2014. Racing 2014 was co-located with the IEEE European Test Symposium (ETS).',
+	 'authors': u'Frank Hannig, J\xfcrgen Teich,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-8',
+	 'pdflink': u'http://arxiv.org/html/1405.2281',
+	 'subjects': u'Distributed, Parallel, and Cluster Computing (cs.DC)',
+	 'title': u'\nProceedings of the First Workshop on Resource Awareness and Adaptivity  in Multi-Core Computing (Racing 2014)',
+	 'urllink': u'http://arxiv.org/abs/1405.2281'}
+2015-03-23 19:57:00+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.7147> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:57:00+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.7147>
+	{'abstract': u'In this work, quadratic double and quadratic bordered double circulant constructions are applied to F_4 + uF_4 as well as F_4, as a result of which extremal binary self-dual codes of length 56 and 64 are obtained. The binary extension theorems as well as the ring extension version are used to obtain 7 extremal self-dual binary codes of length 58, 24 extremal self-dual binary codes of length 66 and 29 extremal self-dual binary codes of length 68, all with new weight enumerators, updating the list of all the known extremal self-dual codes in the literature.',
+	 'authors': u'Abidin Kaya, Bahattin Yildiz, Irfan Siap,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-28',
+	 'pdflink': u'http://arxiv.org/pdf/1405.7147',
+	 'subjects': u'Combinatorics (math.CO)',
+	 'title': u'\nNew extremal binary self-dual codes from F_4 + uF_4-lifts of quadratic  double circulant codes over F_4',
+	 'urllink': u'http://arxiv.org/abs/1405.7147'}
+2015-03-23 19:57:05+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2406> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:05+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2406>
+	{'abstract': u"In this study, we show that a movement policy can be improved efficiently using the previous experiences of a real robot. Reinforcement Learning (RL) is becoming a popular approach to acquire a nonlinear optimal policy through trial and error. However, it is considered very difficult to apply RL to real robot control since it usually requires many learning trials. Such trials cannot be executed in real environments because unrealistic time is necessary and the real system's durability is limited. Therefore, in this study, instead of executing many learning trials, we propose to use a recently developed RL algorithm, importance-weighted PGPE, by which the robot can efficiently reuse previously sampled data to improve it's policy parameters. We apply importance-weighted PGPE to CB-i, our real humanoid robot, and show that it can learn a target reaching movement and a cart-pole swing up movement in a real environment without using any prior knowledge of the task or any carefully designed initial trajectory.",
+	 'authors': u'Norikazu Sugimoto, Voot Tangkaratt, Thijs Wensveen, Tingting Zhao, Masashi Sugiyama, Jun Morimoto,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2406',
+	 'subjects': u'Robotics (cs.RO)',
+	 'title': u'\nEfficient Reuse of Previous Experiences to Improve Policies in Real  Environment',
+	 'urllink': u'http://arxiv.org/abs/1405.2406'}
+2015-03-23 19:57:10+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2872> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:10+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2872>
+	{'abstract': u"Over the last 20 years significant effort has been dedicated to the development of sampling-based motion planning algorithms such as the Rapidly-exploring Random Trees (RRT) and its asymptotically optimal version (e.g. RRT*). However, asymptotic optimality for RRT* only holds for linear and fully actuated systems or for a small number of non-linear systems (e.g. Dubin's car) for which a steering function is available. The purpose of this paper is to show that asymptotically optimal motion planning for dynamical systems with differential constraints can be achieved without the use of a steering function. We develop a novel analysis on sampling-based planning algorithms that sample the control space. This analysis demonstrated that asymptotically optimal path planning for any Lipschitz continuous dynamical system can be achieved by sampling the control space directly. We also determine theoretical bounds on the convergence rates for this class of algorithms. As the number of iterations increases, the trajectory generated by these algorithms, approaches the optimal control trajectory, with probability one. Simulation results are promising.",
+	 'authors': u'Georgios Papadopoulos, Hanna Kurniawati, Nicholas M. Patrikalakis,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2872',
+	 'subjects': u'Robotics (cs.RO)',
+	 'title': u'\nAnalysis of Asymptotically Optimal Sampling-based Motion Planning  Algorithms for Lipschitz Continuous Dynamical Systems',
+	 'urllink': u'http://arxiv.org/abs/1405.2872'}
+2015-03-23 19:57:14+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2861> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:14+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2861>
+	{'abstract': u"Content-Centric Networking (CCN) is a communications paradigm that emphasizes content distribution. Named-Data Networking (NDN) is an instantiation of CCN, a candidate Future Internet Architecture. NDN supports human-readable content naming and router-based content caching which lends itself to efficient, secure and scalable content distribution. Because of NDN's fundamental requirement that each content object must be signed by its producer, fragmentation has been considered incompatible with NDN since it precludes authentication of individual content fragments by routers. The alternative of hop-by-hop reassembly is problematic due to the substantial incurred delay. In this paper, we show that secure and efficient content fragmentation is both possible and even advantageous in NDN and similar information-centric architectures that involve signed content. We design a concrete technique that facilitates efficient and secure content fragmentation in NDN, discuss its security guarantees and assess performance. We also describe a prototype implementation and compare performance of cut-through with hop-by-hop fragmentation and reassembly.",
+	 'authors': u'Cesar Ghali, Ashok Narayanan, David Oran, Gene Tsudik,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2861',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nSecure Fragmentation for Content-Centric Networks',
+	 'urllink': u'http://arxiv.org/abs/1405.2861'}
+2015-03-23 19:57:17+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2856> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:17+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2856>
+	{'abstract': u'This paper maps the national UK web presence on the basis of an analysis of the .uk domain from 1996 to 2010. It reviews previous attempts to use web archives to understand national web domains and describes the dataset. Next, it presents an analysis of the .uk domain, including the overall number of links in the archive and changes in the link density of different second-level domains over time. We then explore changes over time within a particular second-level domain, the academic subdomain .ac.uk, and compare linking practices with variables, including institutional affiliation, league table ranking, and geographic location. We do not detect institutional affiliation affecting linking practices and find only partial evidence of league table ranking affecting network centrality, but find a clear inverse relationship between the density of links and the geographical distance between universities. This echoes prior findings regarding offline academic activity, which allows us to argue that real-world factors like geography continue to shape academic relationships even in the Internet age. We conclude with directions for future uses of web archive resources in this emerging area of research.',
+	 'authors': u'Scott A. Hale, Taha Yasseri, Josh Cowls, Eric T. Meyer, Ralph Schroeder, Helen Margetts,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2856',
+	 'subjects': u'Digital Libraries (cs.DL)',
+	 'title': u'\nMapping the UK Webspace: Fifteen Years of British Universities on the  Web',
+	 'urllink': u'http://arxiv.org/abs/1405.2856'}
+2015-03-23 19:57:22+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2852> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:22+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2852>
+	{'abstract': u'Labelled Markov chains (LMCs) are widely used in probabilistic verification, speech recognition, computational biology, and many other fields. Checking two LMCs for equivalence is a classical problem subject to extensive studies, while the total variation distance provides a natural measure for the "inequivalence" of two LMCs: it is the maximum difference between probabilities that the LMCs assign to the same event. In this paper we develop a theory of the total variation distance between two LMCs, with emphasis on the algorithmic aspects: (1) we provide a polynomial-time algorithm for determining whether two LMCs have distance 1, i.e., whether they can almost always be distinguished; (2) we provide an algorithm for approximating the distance with arbitrary precision; and (3) we show that the threshold problem, i.e., whether the distance exceeds a given threshold, is NP-hard and hard for the square-root-sum problem. We also make a connection between the total variation distance and Bernoulli convolutions.',
+	 'authors': u'Taolue Chen, Stefan Kiefer,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2852',
+	 'subjects': u'Logic in Computer Science (cs.LO)',
+	 'title': u'\nOn the Total Variation Distance of Labelled Markov Chains',
+	 'urllink': u'http://arxiv.org/abs/1405.2852'}
+2015-03-23 19:57:26+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2850> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:26+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2850>
+	{'abstract': u'A critical component in the implementation of a concurrent tabling system is the design of the table space. One of the most successful proposals for representing tables is based on a two-level trie data structure, where one trie level stores the tabled subgoal calls and the other stores the computed answers. In this work, we present a simple and efficient lock-free design where both levels of the tries can be shared among threads in a concurrent environment. To implement lock-freedom we took advantage of the CAS atomic instruction that nowadays can be widely found on many common architectures. CAS reduces the granularity of the synchronization when threads access concurrent areas, but still suffers from low-level problems such as false sharing or cache memory side-effects. In order to be as effective as possible in the concurrent search and insert operations over the table space data structures, we based our design on a hash trie data structure in such a way that it minimizes potential low-level synchronization problems by dispersing as much as possible the concurrent areas. Experimental results in the Yap Prolog system show that our new lock-free hash trie design can effectively reduce the execution time and scale better than previous designs.',
+	 'authors': u'Miguel Areias, Ricardo Rocha,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-9',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2850',
+	 'subjects': u'Programming Languages (cs.PL)',
+	 'title': u'\nA Simple and Efficient Lock-Free Hash Trie Design for Concurrent Tabling',
+	 'urllink': u'http://arxiv.org/abs/1405.2850'}
+2015-03-23 19:57:32+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2848> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:32+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2848>
+	{'abstract': u'Ontological queries are evaluated against a knowledge base consisting of an extensional database and an ontology (i.e., a set of logical assertions and constraints which derive new intensional knowledge from the extensional database), rather than directly on the extensional database. The evaluation and optimization of such queries is an intriguing new problem for database research. In this paper, we discuss two important aspects of this problem: query rewriting and query optimization. Query rewriting consists of the compilation of an ontological query into an equivalent first-order query against the underlying extensional database. We present a novel query rewriting algorithm for rather general types of ontological constraints which is well-suited for practical implementations. In particular, we show how a conjunctive query against a knowledge base, expressed using linear and sticky existential rules, that is, members of the recently introduced Datalog+/- family of ontology languages, can be compiled into a union of conjunctive queries (UCQ) against the underlying database. Ontological query optimization, in this context, attempts to improve this rewriting process so to produce possibly small and cost-effective UCQ rewritings for an input query.',
+	 'authors': u'Georg Gottlob, Giorgio Orsi, Andreas Pieris,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2848',
+	 'subjects': u'Databases (cs.DB)',
+	 'title': u'\nQuery Rewriting and Optimization for Ontological Databases',
+	 'urllink': u'http://arxiv.org/abs/1405.2848'}
+2015-03-23 19:57:35+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2833> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:35+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2833>
+	{'abstract': u'Distributed (Cloud) Storage Systems (DSS) exhibit heterogeneity in several dimensions such as the volume (size) of data, frequency of data access and the desired degree of reliability. Ultimately, the complex interplay between these dimensions impacts the latency performance of cloud storage systems. To this end, we propose and analyze a heterogeneous distributed storage model in which storage servers (disks) store the data of distinct classes. Data of class is encoded using a erasure code and the (random) data retrieval requests can also vary from class to class. We present a queuing theoretic analysis of the proposed model and establish upper and lower bounds on the average latency for each data class under various scheduling policies for data retrieval. Using simulations, we verify the accuracy of the proposed bounds and present qualitative insights which reveal the impact of heterogeneity and scheduling policies on the mean latency of different data classes. Lastly, we conclude with a discussion on per-class fairness in heterogeneous DSS.',
+	 'authors': u'Akshay Kumar, Ravi Tandon, T. Charles Clancy,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2833',
+	 'subjects': u'Distributed, Parallel, and Cluster Computing (cs.DC)',
+	 'title': u'\nOn the Latency of Erasure-Coded Cloud Storage Systems',
+	 'urllink': u'http://arxiv.org/abs/1405.2833'}
+2015-03-23 19:57:39+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2826> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:39+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2826>
+	{'abstract': u"Public transit systems in urban areas usually require large state subsidies, primarily due to high fare evasion rates. In this paper, we study new models for optimizing fare inspection strategies in transit networks based on bilevel programming. In the first level, the leader (the network operator) determines probabilities for inspecting passengers at different locations, while in the second level, the followers (the fare-evading passengers) respond by optimizing their routes given the inspection probabilities and travel times. To model the followers' behavior we study both a non-adaptive variant, in which passengers select a path a priori and continue along it throughout their journey, and an adaptive variant, in which they gain information along the way and use it to update their route. For these problems, which are interesting in their own right, we design exact and approximation algorithms and we prove a tight bound of 3/4 on the ratio of the optimal cost between adaptive and non-adaptive strategies. For the leader's optimization problem, we study a fixed-fare and a flexible-fare variant, where ticket prices may or may not be set at the operator's will. For the latter variant, we design an LP based approximation algorithm. Finally, using a local search procedure that shifts inspection probabilities within an initially determined support set, we perform an extensive computational study for all variants of the problem on instances of the Dutch railway and the Amsterdam subway network. This study reveals that our solutions are within 95% of theoretical upper bounds drawn from the LP relaxation.",
+	 'authors': u'Jos\xe9 R. Correa, Tobias Harks, Vincent J.C. Kreuzen, Jannik Matuschke,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2826',
+	 'subjects': u'Computer Science and Game Theory (cs.GT)',
+	 'title': u'\nFare Evasion in Transit Networks',
+	 'urllink': u'http://arxiv.org/abs/1405.2826'}
+2015-03-23 19:57:41+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0554> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:57:41+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0554>
+	{'abstract': u'We develop a framework for convexifying a fairly general class of optimization problems. Under additional assumptions, we analyze the suboptimality of the solution to the convexified problem relative to the original nonconvex problem and prove additive approximation guarantees. We then develop algorithms based on stochastic gradient methods to solve the resulting optimization problems and show bounds on convergence rates. %We show a simple application of this framework to supervised learning, where one can perform integration explicitly and can use standard (non-stochastic) optimization algorithms with better convergence guarantees. We then extend this framework to apply to a general class of discrete-time dynamical systems. In this context, our convexification approach falls under the well-studied paradigm of risk-sensitive Markov Decision Processes. We derive the first known model-based and model-free policy gradient optimization algorithms with guaranteed convergence to the optimal solution. Finally, we present numerical results validating our formulation in different applications.',
+	 'authors': u'Krishnamurthy Dvijotham, Maryam Fazel, Emanuel Todorov,',
+	 'category': u'Computer Science ',
+	 'date': '2014-6-3',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0554',
+	 'subjects': u'Systems and Control (cs.SY)',
+	 'title': u'\nUniversal Convexification via Risk-Aversion',
+	 'urllink': u'http://arxiv.org/abs/1406.0554'}
+2015-03-23 19:57:47+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2822> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:47+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2822>
+	{'abstract': u'Dynamic spectrum sharing is a promising technology for improving the spectrum utilization. In this paper, we study how secondary users can share the spectrum in a distributed fashion based on social imitations. The imitation-based mechanism leverages the social intelligence of the secondary user crowd and only requires a low computational power for each individual user. We introduce the information sharing graph to model the social information sharing relationship among the secondary users. We propose an imitative spectrum access mechanism on a general information sharing graph such that each secondary user first estimates its expected throughput based on local observations, and then imitates the channel selection of another neighboring user who achieves a higher throughput. We show that the imitative spectrum access mechanism converges to an imitation equilibrium, where no beneficial imitation can be further carried out on the time average. Numerical results show that the imitative spectrum access mechanism can achieve efficient spectrum utilization and meanwhile provide good fairness across secondary users.',
+	 'authors': u'Xu Chen, Jianwei Huang,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2822',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nImitation-based Social Spectrum Sharing',
+	 'urllink': u'http://arxiv.org/abs/1405.2822'}
+2015-03-23 19:57:48+0000 [xxu461000] INFO: Crawled 49 pages (at 14 pages/min), scraped 32 items (at 14 items/min)
+2015-03-23 19:57:52+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0532> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:57:52+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0532>
+	{'abstract': u"(arXiv abridged abstract) In the last two decades, videogames have evolved in a nearly explosive way from the pixelated graphics to today's near-realistic 3D environments. The interaction devices traditionally used in videogames have not evolved with the same intensity, but recent HCI studies have explored biofeedback interaction - the explicit manipulation of a person's physiological data as input to a system - as an alternative to them. Traditional biofeedback prototypes apply 1 sensor to each game mechanic (unimodality). In this dissertation, we introduce the combination of 2 physiological sensors simultaneously per game mechanic (multimodality) and present a First-Person Shooter game comprised of 8 game mechanics with three interaction flavours (no biofeedback/vanilla, unimodal and multimodal). An empirical study with 32 regular players was employed to explore and study differences between the three interaction types and where they can be best employed. Players compared the three games in terms of Fun, Ease of Use, Originality, Playability and Favourite Condition. For the sake of completeness, other evaluation methods were used as well: IMI Questionnaire, keywords association and open-ended commentaries. The vanilla version was considered easier to use, but both biofeedback versions were considered the most fun. Both versions were praised differently: the unimodal version for its simplicity of use, and the multimodal for its realism, activation safety of game mechanics and depth added to the game. Our conclusion is that multimodal biofeedback can have a relevant impact in terms of added depth, depending on the way it is used inside the game. On a boundary case, it can be used to increase the feeling of empowerment on the player when using certain abilities, or to intentionally make in-game actions more difficult by demanding more physical effort from the player.",
+	 'authors': u'Gon\xe7alo Amaral da Silva,',
+	 'category': u'Computer Science ',
+	 'date': '2014-6-2',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0532',
+	 'subjects': u'Human-Computer Interaction (cs.HC)',
+	 'title': u'\nMultimodal vs. Unimodal Physiological Control in Videogames for Enhanced  Realism and Depth',
+	 'urllink': u'http://arxiv.org/abs/1406.0532'}
+2015-03-23 19:57:55+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2820> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:57:55+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2820>
+	{'abstract': u'We consider a bound on the bias reduction of a random number generator by processing based on binary linear codes. We introduce a new bound on the total variation distance of the processed output based on the weight distribution of the code generated by the chosen binary matrix. Starting from this result we show a lower bound for the entropy rate of the output of linear binary extractors.',
+	 'authors': u'Alessio Meneghetti, Massimiliano Sala, Alessandro Tomasi,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2820',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nA weight-distribution bound for entropy extractors using linear binary  codes',
+	 'urllink': u'http://arxiv.org/abs/1405.2820'}
+2015-03-23 19:57:59+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0516> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:57:59+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0516>
+	{'abstract': u"The emergence and wide-spread use of social networks and microblogging sites has led to a dramatic increase on the availability of users' activity data. Importantly, this data can be exploited to solve some of the problems that have captured the attention of economists and marketers for decades as, e.g., product adoption, product competition and product life cycle. In this paper, we leverage on users' activity data from a popular microblogging site to model and predict the competing dynamics of products and social conventions adoptions. To this aim, we propose a data-driven model, based on continuous-time Hawkes processes, for the adoption and frequency of use of competing products and conventions. We then develop an inference method to efficiently fit the model parameters by solving a convex program. The problem decouples into a collection of smaller subproblems, thus scaling easily to networks with hundred of thousands of nodes. We validate our method over synthetic and real diffusion data gathered from Twitter, and show that the proposed model does not only present a good predictive power but also provides interpretable model parameters, which allow us to gain insights into the fundamental principles that drive product and convention adoptions.",
+	 'authors': u'Isabel Valera, Manuel Gomez-Rodriguez, Krishna Gummadi,',
+	 'category': u'Computer Science ',
+	 'date': '2014-6-2',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0516',
+	 'subjects': u'Social and Information Networks (cs.SI)',
+	 'title': u'\nModeling Diffusion of Competing Products and Conventions in Social Media',
+	 'urllink': u'http://arxiv.org/abs/1406.0516'}
+2015-03-23 19:58:05+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2816> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:58:05+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2816>
+	{'abstract': u'This paper proposes a cooperation protocol between a secondary user (SU) and a primary user (PU) which dedicates a free frequency subband for the SU if cooperation results in energy saving. Time is slotted and users are equipped with buffers. Under the proposed protocol, the PU releases portion of its bandwidth for secondary transmission. Moreover, it assigns a portion of the time slot duration for the SU to relay primary packets and achieve a higher successful packet reception probability at the primary receiver. We assume that the PU has three states: idle, forward, and retransmission states. At each of these states, the SU accesses the channel with adaptive transmission parameters. The PU cooperates with the SU if and only if the achievable average number of transmitted primary packets per joule is higher than the number of transmitted packets per joule when it operates alone. The numerical results show the beneficial gains of the proposed cooperative cognitive protocol.',
+	 'authors': u'Ahmed El Shafie, Ahmed Sultan, Tamer Khattab,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2816',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nMaximum Throughput of a Secondary User Cooperating with an Energy-Aware  Primary User',
+	 'urllink': u'http://arxiv.org/abs/1405.2816'}
+2015-03-23 19:58:10+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0495> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:58:10+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0495>
+	{'abstract': u"This article describes the recognition part of a system that will be used for personalized therapy of dyslalia affecting pre scholars. Dyslalia is a speech disorder that affect pronunciation of one ore many sounds. The full system targets interdisciplinary research (computer science, psychology, electronics) - having as main objective the development of methods, models, algorithms, System on Chip architectures with regards to the elaboration and implementation of a complete system addressing the therapy of dyslalia affecting pre scholars, in a personalized and user centered manner. The system addresses the number of 10% of children with age between 4 and 7 that, according to the statistics, present different variations of speech impairments. Although these impairments do not create major difficulties concerning common communication, it has been noticed that problems are likely to appear affecting negatively the child's personality as well as his social environment.",
+	 'authors': u'Stefan-Gheorghe Pentiuc, Ovidiu-Andrei Schipor, Mirela Danubianu, Doina-Maria Schipor,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-29',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0495',
+	 'subjects': u'Computers and Society (cs.CY)',
+	 'title': u'\nAutomatic Recognition of Dyslalia Affecting Pre-Scholars',
+	 'urllink': u'http://arxiv.org/abs/1406.0495'}
+2015-03-23 19:58:14+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2815> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:58:14+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2815>
+	{'abstract': u"In this work, we study the problem of band allocation of buffered secondary users (SUs) to primary bands licensed to (owned by) buffered primary users (PUs). The bands are assigned to SUs in an orthogonal (one-to-one) fashion such that neither band sharing nor multi-band allocations are permitted. In order to study the stability region of the secondary network, the optimization problem used to obtain the stability region's envelope (closure) is established and is shown to be a linear program which can be solved efficiently and reliably. We compare our orthogonal allocation system with two typical low-complexity and intuitive band allocation systems. In one system, each cognitive user chooses a band randomly in each time slot with some assignment probability designed such that the system maintained stable, while in the other system fixed (deterministic) band assignment is adopted throughout the lifetime of the network. We derive the stability regions of these two systems. We prove mathematically, as well as through numerical results, the advantages of our proposed orthogonal system over the other two systems.",
+	 'authors': u'Ahmed El Shafie, Tamer Khattab,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2815',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nOn Orthogonal Band Allocation for Multi-User Multi-Band Cognitive Radio  Networks: Stability Analysis',
+	 'urllink': u'http://arxiv.org/abs/1405.2815'}
+2015-03-23 19:58:19+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0492> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:58:19+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0492>
+	{'abstract': u'We present a new exact algorithm for the Steiner tree problem in graphs which is based on dynamic programming. Known empirically fast algorithms are primarily based on reductions, heuristics and branching. Our algorithm combines the best known worst-case run time with a fast, often superior, practical performance.',
+	 'authors': u'Stefan Hougardy, Jannik Silvanus, Jens Vygen,',
+	 'category': u'Computer Science ',
+	 'date': '2014-6-2',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0492',
+	 'subjects': u'Data Structures and Algorithms (cs.DS)',
+	 'title': u'\nDijkstra meets Steiner: a fast exact goal-oriented Steiner tree  algorithm',
+	 'urllink': u'http://arxiv.org/abs/1406.0492'}
+2015-03-23 19:58:25+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2814> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:58:25+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2814>
+	{'abstract': u'In this paper, we propose a cognitive protocol that involves cooperation between the primary and secondary users. In addition to its own queue, the secondary user (SU) has a queue to store, and then relay, the undelivered primary packets. When the primary queue is nonempty, the SU remains idle and attempts to decode the primary packet. When the primary queue is empty, the SU splits the total channel bandwidth into two orthogonal subbands and assigns each to a queue probabilistically. We show the advantage of the proposed protocol over the prioritized cognitive relaying (PCR) protocol in which the SU assigns a priority in transmission to the primary packets over its own packets. We present two problem formulations, one based on throughput and the other on delay. Both optimization problems are shown to be linear programs for a given bandwidth assignment. Numerical results demonstrate the benefits of the proposed protocol.',
+	 'authors': u'Ahmed El Shafie, Ahmed Sultan, Tamer Khattab,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2814',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nProbabilistic Band-Splitting for a Buffered Cooperative Cognitive  Terminal',
+	 'urllink': u'http://arxiv.org/abs/1405.2814'}
+2015-03-23 19:58:28+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0486> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:58:28+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0486>
+	{'abstract': u'Monte Carlo Tree Search (MCTS) has improved the performance of game engines in domains such as Go, Hex, and general game playing. MCTS has been shown to outperform classic alpha-beta search in games where good heuristic evaluations are difficult to obtain. In recent years, combining ideas from traditional minimax search in MCTS has been shown to be advantageous in some domains, such as Lines of Action, Amazons, and Breakthrough. In this paper, we propose a new way to use heuristic evaluations to guide the MCTS search by storing the two sources of information, estimated win rates and heuristic evaluations, separately. Rather than using the heuristic evaluations to replace the playouts, our technique backs them up implicitly during the MCTS simulations. These minimax values are then used to guide future simulations. We show that using implicit minimax backups leads to stronger play performance in Kalah, Breakthrough, and Lines of Action.',
+	 'authors': u'Marc Lanctot, Mark H.M. Winands, Tom Pepels, Nathan R. Sturtevant,',
+	 'category': u'Computer Science ',
+	 'date': '2014-6-2',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0486',
+	 'subjects': u'Artificial Intelligence (cs.AI)',
+	 'title': u'\nMonte Carlo Tree Search with Heuristic Evaluations using Implicit  Minimax Backups',
+	 'urllink': u'http://arxiv.org/abs/1406.0486'}
+2015-03-23 19:58:34+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2809> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:58:34+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2809>
+	{'abstract': u"The effect of the primary traffic on a secondary user's (SU) throughput under Rayleigh flat fading channel is investigated. For this case, closed form expressions are derived for the average probability of detection and the average probability of false alarm. Based on these expressions, the average SU throughput under the desired signal-to-noise ratio (SNR) constraint in order to maintain the quality of the secondary link is found analytically considering the random arrival or departure of the primary user. It is shown that the spectrum sensing performance and SU throughput degrade with increase in the primary traffic and the deep fade condition of the channel over which the detection is performed. The degree of degradation in SU throughput is seen to be severed further due to the interference link from the primary transmitter to the secondary receiver. Under these detrimental effects, a sensing-throughput trade-off for SU is illustrated. Finally, the combined effect of the primary traffic, fading, imperfect spectrum sensing and the interference link from a primary transmitter is studied on the outage probability at SU.",
+	 'authors': u'Sanket Kalamkar, Adrish Banerjee,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2809',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nOn the Effect of Primary User Traffic on Secondary Throughput and Outage  Probability Under Rayleigh Flat Fading Channel',
+	 'urllink': u'http://arxiv.org/abs/1405.2809'}
+2015-03-23 19:58:40+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0455> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:58:40+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0455>
+	{'abstract': u'The majority of recommender systems are designed to recommend items (such as movies and products) to users. We focus on the problem of recommending buyers to sellers which comes with new challenges: (1) constraints on the number of recommendations buyers are part of before they become overwhelmed, (2) constraints on the number of recommendations sellers receive within their budget, and (3) constraints on the set of buyers that sellers want to receive (e.g., no more than two people from the same household). We propose the following critical problems of recommending buyers to sellers: Constrained Recommendation (C-REC) capturing the first two challenges, and Conflict-Aware Constrained Recommendation (CAC-REC) capturing all three challenges at the same time. We show that C-REC can be modeled using linear programming and can be efficiently solved using modern solvers. On the other hand, we show that CAC-REC is NP-hard. We propose two approximate algorithms to solve CAC-REC and show that they achieve close to optimal solutions via comprehensive experiments using real-world datasets.',
+	 'authors': u'Cheng Chen, Lan Zheng, Venkatesh Srinivasan, Alex Thomo, Kui Wu, Anthony Sukow,',
+	 'category': u'Computer Science ',
+	 'date': '2014-6-2',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0455',
+	 'subjects': u'Social and Information Networks (cs.SI)',
+	 'title': u'\nBuyer to Seller Recommendation under Constraints',
+	 'urllink': u'http://arxiv.org/abs/1406.0455'}
+2015-03-23 19:58:46+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2806> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:58:46+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2806>
+	{'abstract': u'In order to operate an electrical distribution network in a secure and cost-efficient way, it is necessary, due to the rise of renewable energy-based distributed generation, to develop Active Network Management (ANM) strategies. These strategies rely on short-term policies that control the power injected by generators and/or taken off by loads in order to avoid congestion or voltage problems. While simple ANM strategies would curtail the production of generators, more advanced ones would move the consumption of loads to relevant time periods to maximize the potential of renewable energy sources. However, such advanced strategies imply solving large-scale optimal sequential decision-making problems under uncertainty, something that is understandably complicated. In order to promote the development of computational techniques for active network management, we detail a generic procedure for formulating ANM decision problems as Markov decision processes. We also specify it to a 75-bus distribution network. The resulting test instance is available at this http URL It can be used as a test bed for comparing existing computational techniques, as well as for developing new ones. A solution technique that consists in an approximate multistage program is also illustrated on the test instance.',
+	 'authors': u'Quentin Gemine, Damien Ernst, Bertrand Corn\xe9lusse,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2806',
+	 'subjects': u'Systems and Control (cs.SY)',
+	 'title': u'\nActive network management for electrical distribution systems: problem  formulation and benchmark',
+	 'urllink': u'http://arxiv.org/abs/1405.2806'}
+2015-03-23 19:58:48+0000 [xxu461000] INFO: Crawled 61 pages (at 12 pages/min), scraped 44 items (at 12 items/min)
+2015-03-23 19:58:51+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0440> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:58:51+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0440>
+	{'abstract': u"Software-Defined Networking (SDN) is an emerging paradigm that promises to change this state of affairs, by breaking vertical integration, separating the network's control logic from the underlying routers and switches, promoting (logical) centralization of network control, and introducing the ability to program the network. The separation of concerns introduced between the definition of network policies, their implementation in switching hardware, and the forwarding of traffic, is key to the desired flexibility: by breaking the network control problem into tractable pieces, SDN makes it easier to create and introduce new abstractions in networking, simplifying network management and facilitating network evolution. In this paper we present a comprehensive survey on SDN. We start by introducing the motivation for SDN, explain its main concepts and how it differs from traditional networking, its roots, and the standardization activities regarding this novel paradigm. Next, we present the key building blocks of an SDN infrastructure using a bottom-up, layered approach. We provide an in-depth analysis of the hardware infrastructure, southbound and northbound APIs, network virtualization layers, network operating systems (SDN controllers), network programming languages, and network applications. We also look at cross-layer problems such as debugging and troubleshooting. In an effort to anticipate the future evolution of this new paradigm, we discuss the main ongoing research efforts and challenges of SDN. In particular, we address the design of switches and control platforms -- with a focus on aspects such as resiliency, scalability, performance, security and dependability -- as well as new opportunities for carrier transport networks and cloud providers. Last but not least, we analyze the position of SDN as a key enabler of a software-defined environment.",
+	 'authors': u'Diego Kreutz, Fernando M. V. Ramos, Paulo Verissimo, Christian Esteve Rothenberg, Siamak Azodolmolky, Steve Uhlig,',
+	 'category': u'Computer Science ',
+	 'date': '2014-6-2',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0440',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nSoftware-Defined Networking: A Comprehensive Survey',
+	 'urllink': u'http://arxiv.org/abs/1406.0440'}
+2015-03-23 19:58:56+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2801> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:58:56+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2801>
+	{'abstract': u'This paper introduces a new constraint domain for reasoning about data with uncertainty. It extends convex modeling with the notion of p-box to gain additional quantifiable information on the data whereabouts. Unlike existing approaches, the p-box envelops an unknown probability instead of approximating its representation. The p-box bounds are uniform cumulative distribution functions (cdf) in order to employ linear computations in the probabilistic domain. The reasoning by means of p-box cdf-intervals is an interval computation which is exerted on the real domain then it is projected onto the cdf domain. This operation conveys additional knowledge represented by the obtained probabilistic bounds. The empirical evaluation of our implementation shows that, with minimal overhead, the output solution set realizes a full enclosure of the data along with tighter bounds on its probabilistic distributions.',
+	 'authors': u'Aya Saad, Thom Fruehwirth, Carmen Gervet,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2801',
+	 'subjects': u'Logic in Computer Science (cs.LO)',
+	 'title': u'\nThe P-Box CDF-Intervals: Reliable Constraint Reasoning with Quantifiable  Information',
+	 'urllink': u'http://arxiv.org/abs/1405.2801'}
+2015-03-23 19:59:01+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0435> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:59:01+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0435>
+	{'abstract': u'The relational DBMS (RDBMS) has been widely used since it supports various high-level functionalities such as SQL, schemas, indexes, and transactions that do not exist in the O/S file system. But, a recent advent of big data technology facilitates development of new systems that sacrifice the DBMS functionality in order to efficiently manage large-scale data. Those so-called NoSQL systems use a distributed file system, which support scalability and reliability. They support scalability of the system by storing data into a large number of low-cost commodity hardware and support reliability by storing the data in replica. However, they have a drawback that they do not adequately support high-level DBMS functionality. In this paper, we propose an architecture of a DBMS that uses the DFS as storage. With this novel architecture, the DBMS is capable of supporting scalability and reliability of the DFS as well as high-level functionality of DBMS. Thus, a DBMS can utilize a virtually unlimited storage space provided by the DFS, rendering it to be suitable for big data analytics. As part of the architecture of the DBMS, we propose the notion of the meta DFS file, which allows the DBMS to use the DFS as the storage, and an efficient transaction management method including recovery and concurrency control. We implement this architecture in Odysseus/DFS, an integration of the Odysseus relational DBMS, that has been being developed at KAIST for over 24 years, with the DFS. Our experiments on transaction processing show that, due to the high-level functionality of Odysseus/DFS, it outperforms Hbase, which is a representative open-source NoSQL system. We also show that, compared with an RDBMS with local storage, the performance of Odysseus/DFS is comparable or marginally degraded, showing that the overhead of Odysseus/DFS for supporting scalability by using the DFS as the storage is not significant.',
+	 'authors': u'Jun-Sung Kim, Kyu-Young Whang, Hyuk-Yoon Kwon, Il-Yeol Song,',
+	 'category': u'Computer Science ',
+	 'date': '2014-6-2',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0435',
+	 'subjects': u'Databases (cs.DB)',
+	 'title': u'\nOdysseus/DFS: Integration of DBMS and Distributed File System for  Transaction Processing of Big Data',
+	 'urllink': u'http://arxiv.org/abs/1406.0435'}
+2015-03-23 19:59:06+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2798> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:59:06+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2798>
+	{'abstract': u'In this paper, we present a novel two-stage metric learning algorithm. We first map each learning instance to a probability distribution by computing its similarities to a set of fixed anchor points. Then, we define the distance in the input data space as the Fisher information distance on the associated statistical manifold. This induces in the input data space a new family of distance metric with unique properties. Unlike kernelized metric learning, we do not require the similarity measure to be positive semi-definite. Moreover, it can also be interpreted as a local metric learning algorithm with well defined distance approximation. We evaluate its performance on a number of datasets. It outperforms significantly other metric learning methods and SVM.',
+	 'authors': u'Jun Wang, Ke Sun, Fei Sha, Stephane Marchand-Maillet, Alexandros Kalousis,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2798',
+	 'subjects': u'Learning (cs.LG)',
+	 'title': u'\nTwo-Stage Metric Learning',
+	 'urllink': u'http://arxiv.org/abs/1405.2798'}
+2015-03-23 19:59:11+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0416> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:59:11+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0416>
+	{'abstract': u'Within the context of evolution, an altruistic act that benefits the receiving individual at the expense of the acting individual is a puzzling phenomenon. An extreme form of altruism can be found in colicinogenic E. coli. These suicidal altruists explode, releasing colicins that kill unrelated individuals, which are not colicin resistant. By committing suicide, the altruist makes it more likely that its kin will have less competition. The benefits of this strategy rely on the number of competitors and kin nearby. If the organism explodes at an inopportune time, the suicidal act may not harm any competitors. Communication could enable organisms to act altruistically when environmental conditions suggest that that strategy would be most beneficial. Quorum sensing is a form of communication in which bacteria produce a protein and gauge the amount of that protein around them. Quorum sensing is one means by which bacteria sense the biotic factors around them and determine when to produce products, such as antibiotics, that influence competition. Suicidal altruists could use quorum sensing to determine when exploding is most beneficial, but it is challenging to study the selective forces at work in microbes. To address these challenges, we use digital evolution (a form of experimental evolution that uses self-replicating computer programs as organisms) to investigate the effects of enabling altruistic organisms to communicate via quorum sensing. We found that quorum-sensing altruists killed a greater number of competitors per explosion, winning competitions against non-communicative altruists. These findings indicate that quorum sensing could increase the beneficial effect of altruism and the suite of conditions under which it will evolve.',
+	 'authors': u'Anya Elaine Johnson, Eli Strauss, Rodney Pickett, Christoph Adami, Ian Dworkin, Heather J. Goldsby,',
+	 'category': u'Computer Science ',
+	 'date': '2014-6-2',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0416',
+	 'subjects': u'Neural and Evolutionary Computing (cs.NE)',
+	 'title': u'\nMore Bang For Your Buck: Quorum-Sensing Capabilities Improve the  Efficacy of Suicidal Altruism',
+	 'urllink': u'http://arxiv.org/abs/1406.0416'}
+2015-03-23 19:59:17+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2795> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:59:17+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2795>
+	{'abstract': u'In this paper, the dynamic modeling of a seven linked humanoid robot, is accurately developed, in the three dimensional space using the Newton-Euler formalism. The aim of this study is to provide a clear and a systematic approach so that starting from generalized motion equations of all rigid bodies of the humanoid robot one can establish a reduced dynamical model. The resulting model can be expended either for simulation propositions or implemented for any given control law. In addition, transformations and developments, proposed here, can be exploited for modeling any other three-dimensional humanoid robot with a different morphology and variable number of rigid bodies and degrees of freedom.',
+	 'authors': u'Amira Aloulou, Olfa Boubaker,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-8',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2795',
+	 'subjects': u'Robotics (cs.RO)',
+	 'title': u'\nA Relevant Reduction Method for Dynamic Modeling of a Seven-linked  Humanoid Robot in the Three-dimensional Space',
+	 'urllink': u'http://arxiv.org/abs/1405.2795'}
+2015-03-23 19:59:22+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0403> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:59:22+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0403>
+	{'abstract': u'Deeply embedded systems often have the tightest constraints on energy consumption, requiring that they consume tiny amounts of current and run on batteries for years. However, they typically execute code directly from flash, instead of the more energy efficient RAM. We implement a novel compiler optimization that exploits the relative efficiency of RAM by statically moving carefully selected basic blocks from flash to RAM. Our technique uses integer linear programming, with an energy cost model to select a good set of basic blocks to place into RAM, without impacting stack or data storage. We evaluate our optimization on a common ARM microcontroller and succeed in reducing the average power consumption by up to 41% and reducing energy consumption by up to 22%, while increasing execution time. A case study is presented, where an application executes code then sleeps for a period of time. For this example we show that our optimization could allow the application to run on battery for up to 32% longer. We also show that for this scenario the total application energy can be reduced, even if the optimization increases the execution time of the code.',
+	 'authors': u'James Pallister, Kerstin Eder, Simon Hollis,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-30',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0403',
+	 'subjects': u'Other Computer Science (cs.OH)',
+	 'title': u'\nOptimizing the flash-RAM energy trade-off in deeply embedded systems',
+	 'urllink': u'http://arxiv.org/abs/1406.0403'}
+2015-03-23 19:59:28+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2794> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:59:28+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2794>
+	{'abstract': u"To appear in Theory and Practice of Logic Programming (TPLP). Tabling is a commonly used technique in logic programming for avoiding cyclic behavior of logic programs and enabling more declarative program definitions. Furthermore, tabling often improves computational performance. Rational term are terms with one or more infinite sub-terms but with a finite representation. Rational terms can be generated in Prolog by omitting the occurs check when unifying two terms. Applications of rational terms include definite clause grammars, constraint handling systems, and coinduction. In this paper, we report our extension of YAP's Prolog tabling mechanism to support rational terms. We describe the internal representation of rational terms within the table space and prove its correctness. We then use this extension to implement a tabling based approach to coinduction. We compare our approach with current coinductive transformations and describe the implementation. In addition, we present an algorithm that ensures a canonical representation for rational terms.",
+	 'authors': u'Thepfrastos Mantadelis, Ricardo Rocha, Paulo Moura,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-9',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2794',
+	 'subjects': u'Programming Languages (cs.PL)',
+	 'title': u'\nTabling, Rational Terms, and Coinduction Finally Together!',
+	 'urllink': u'http://arxiv.org/abs/1405.2794'}
+2015-03-23 19:59:33+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1406.0380> (referer: http://arxiv.org/list/cs/14?skip=6000&show=1000)
+2015-03-23 19:59:33+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1406.0380>
+	{'abstract': u'This article presents a new approach to the real-time solution of inverse problems on embedded systems. The class of problems addressed corresponds to ordinary differential equations (ODEs) with generalized linear constraints, whereby the data from an array of sensors forms the forcing function. The solution of the equation is formulated as a least squares (LS) problem with linear constraints. The LS approach makes the method suitable for the explicit solution of inverse problems where the forcing function is perturbed by noise. The algebraic computation is partitioned into a initial preparatory step, which precomputes the matrices required for the run-time computation; and the cyclic run-time computation, which is repeated with each acquisition of sensor data. The cyclic computation consists of a single matrix-vector multiplication, in this manner computation complexity is known a-priori, fulfilling the definition of a real-time computation. Numerical testing of the new method is presented on perturbed as well as unperturbed problems; the results are compared with known analytic solutions and solutions acquired from state-of-the-art implicit solvers. The solution is implemented with model based design and uses only fundamental linear algebra; consequently, this approach supports automatic code generation for deployment on embedded systems. The targeting concept was tested via software- and processor-in-the-loop verification on two systems with different processor architectures. Finally, the method was tested on a laboratory prototype with real measurement data for the monitoring of flexible structures. The problem solved is: the real-time overconstrained reconstruction of a curve from measured gradients. Such systems are commonly encountered in the monitoring of structures and/or ground subsidence.',
+	 'authors': u"Christoph Gugg, Matthew Harker, Paul O'Leary, Gerhard Rath,",
+	 'category': u'Computer Science ',
+	 'date': '2014-6-2',
+	 'pdflink': u'http://arxiv.org/pdf/1406.0380',
+	 'subjects': u'Discrete Mathematics (cs.DM)',
+	 'title': u'\nAn Algebraic Framework for the Real-Time Solution of Inverse Problems on  Embedded Systems',
+	 'urllink': u'http://arxiv.org/abs/1406.0380'}
+2015-03-23 19:59:38+0000 [xxu461000] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1405.2786> (referer: http://arxiv.org/list/cs/14?skip=5000&show=1000)
+2015-03-23 19:59:38+0000 [xxu461000] DEBUG: Scraped from <200 http://arxiv.org/abs/1405.2786>
+	{'abstract': u'To fully utilize the spatial multiplexing gains or array gains of massive MIMO, the channel state information must be obtained at the transmitter side (CSIT). However, conventional CSIT estimation approaches are not suitable for FDD massive MIMO systems because of the overwhelming training and feedback overhead. In this paper, we consider multi-user massive MIMO systems and deploy the compressive sensing (CS) technique to reduce the training as well as the feedback overhead in the CSIT estimation. The multi-user massive MIMO systems exhibits a hidden joint sparsity structure in the user channel matrices due to the shared local scatterers in the physical propagation environment. As such, instead of naively applying the conventional CS to the CSIT estimation, we propose a distributed compressive CSIT estimation scheme so that the compressed measurements are observed at the users locally, while the CSIT recovery is performed at the base station jointly. A joint orthogonal matching pursuit recovery algorithm is proposed to perform the CSIT recovery, with the capability of exploiting the hidden joint sparsity in the user channel matrices. We analyze the obtained CSIT quality in terms of the normalized mean absolute error, and through the closed-form expressions, we obtain simple insights into how the joint channel sparsity can be exploited to improve the CSIT recovery performance.',
+	 'authors': u'Xiongbin Rao, Vincent K. N. Lau,',
+	 'category': u'Computer Science ',
+	 'date': '2014-5-12',
+	 'pdflink': u'http://arxiv.org/pdf/1405.2786',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nDistributed Compressive CSIT Estimation and Feedback for FDD Multi-user  Massive MIMO Systems',
+	 'urllink': u'http://arxiv.org/abs/1405.2786'}
