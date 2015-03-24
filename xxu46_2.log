@@ -1,0 +1,964 @@
+nohup: ignoring input
+2015-03-23 21:40:57+0000 [scrapy] INFO: Scrapy 0.24.5 started (bot: superqq_spider)
+2015-03-23 21:40:57+0000 [scrapy] INFO: Optional features available: ssl, http11, boto
+2015-03-23 21:40:57+0000 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'superqq_spider.spiders', 'SPIDER_MODULES': ['superqq_spider.spiders'], 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 102, 'BOT_NAME': 'superqq_spider'}
+2015-03-23 21:40:57+0000 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-03-23 21:40:57+0000 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentPoolMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-03-23 21:40:57+0000 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-03-23 21:40:57+0000 [scrapy] INFO: Enabled item pipelines: JsonWriterPipeline
+2015-03-23 21:40:57+0000 [xxu46_2] INFO: Spider opened
+2015-03-23 21:40:57+0000 [xxu46_2] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:40:57+0000 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2015-03-23 21:40:57+0000 [scrapy] DEBUG: Web service listening on 127.0.0.1:6081
+2015-03-23 21:41:22+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=3000&show=1000> (referer: None)
+2015-03-23 21:41:35+0000 [xxu46_2] DEBUG: Filtered duplicate request: <GET http://arxiv.org/abs/1105.6061> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-03-23 21:41:57+0000 [xxu46_2] INFO: Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:42:57+0000 [xxu46_2] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:43:53+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=2000&show=1000> (referer: None)
+2015-03-23 21:43:57+0000 [xxu46_2] INFO: Crawled 2 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:44:57+0000 [xxu46_2] INFO: Crawled 2 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:45:35+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=1000&show=1000> (referer: None)
+2015-03-23 21:45:57+0000 [xxu46_2] INFO: Crawled 3 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:46:57+0000 [xxu46_2] INFO: Crawled 3 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:48:21+0000 [xxu46_2] INFO: Crawled 3 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:48:48+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=0&show=1000> (referer: None)
+2015-03-23 21:48:57+0000 [xxu46_2] INFO: Crawled 4 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:50:41+0000 [xxu46_2] INFO: Crawled 4 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:54:51+0000 [xxu46_2] INFO: Crawled 4 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:54:51+0000 [xxu46_2] DEBUG: Retrying <GET http://arxiv.org/list/cs/10?skip=7000&show=1000> (failed 1 times): User timeout caused connection failure.
+2015-03-23 21:54:57+0000 [xxu46_2] INFO: Crawled 4 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:55:19+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/10?skip=6000&show=1000> (referer: None)
+2015-03-23 21:55:57+0000 [xxu46_2] INFO: Crawled 5 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2015-03-23 21:56:30+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1827> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 21:56:30+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1827>
+	{'abstract': u'InfiniBand is a switched fabric interconnect. The InfiniBand specification does not define an API. However the OFED package, libibverbs, has become the default API on Linux and Solaris systems. Sparse documentation exists for the verbs API. The simplest InfiniBand program provided by OFED, ibv_rc_pingpong, is about 800 lines long. The semantics of using the verbs API for this program is not obvious to the first time reader. This paper will dissect the ibv_rc_pingpong program in an attempt to make clear to users how to interact with verbs.',
+	 'authors': u'Gregory Kerr,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1827',
+	 'subjects': u'Distributed, Parallel, and Cluster Computing (cs.DC)',
+	 'title': u'\nDissecting a Small InfiniBand Application Using the Verbs API',
+	 'urllink': u'http://arxiv.org/abs/1105.1827'}
+2015-03-23 21:56:57+0000 [xxu46_2] INFO: Crawled 6 pages (at 1 pages/min), scraped 1 items (at 1 items/min)
+2015-03-23 21:57:57+0000 [xxu46_2] INFO: Crawled 6 pages (at 0 pages/min), scraped 1 items (at 0 items/min)
+2015-03-23 21:58:59+0000 [xxu46_2] INFO: Crawled 6 pages (at 0 pages/min), scraped 1 items (at 0 items/min)
+2015-03-23 21:59:02+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1842> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 21:59:02+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1842>
+	{'abstract': u"This paper studies the problem of testing if an input (Gamma,*), where Gamma is a finite set of unknown size and * is a binary operation over Gamma given as an oracle, is close to a specified class of groups. Friedl et al. [Efficient testing of groups, STOC'05] have constructed an efficient tester using poly(log|Gamma|) queries for the class of abelian groups. We focus in this paper on subclasses of abelian groups, and show that these problems are much harder: Omega(|Gamma|^) queries are necessary to test if the input is close to a cyclic group, and Omega(|Gamma|^c) queries for some constant c are necessary to test more generally if the input is close to an abelian group generated by k elements, for any fixed integer k&gt;0. We also show that knowledge of the size of the ground set Gamma helps only for k=1, in which case we construct an efficient tester using poly(log|Gamma|) queries; for any other value k&gt;1 the query complexity remains Omega(|Gamma|^c). All our upper and lower bounds hold for both the edit distance and the Hamming distance. These are, to the best of our knowledge, the first nontrivial lower bounds for such group-theoretic problems in the property testing model and, in particular, they imply the first exponential separations between the classical and quantum query complexities of testing closeness to classes of groups.",
+	 'authors': u'Francois Le Gall, Yuichi Yoshida,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1842',
+	 'subjects': u'Data Structures and Algorithms (cs.DS)',
+	 'title': u'\nProperty Testing for Cyclic Groups and Beyond',
+	 'urllink': u'http://arxiv.org/abs/1105.1842'}
+2015-03-23 21:59:57+0000 [xxu46_2] INFO: Crawled 7 pages (at 1 pages/min), scraped 2 items (at 1 items/min)
+2015-03-23 22:00:57+0000 [xxu46_2] INFO: Crawled 7 pages (at 0 pages/min), scraped 2 items (at 0 items/min)
+2015-03-23 22:01:20+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1846> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 22:01:20+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1846>
+	{'abstract': u'Recent Microsoft security bulletins show that kernel vulnerabilities are becoming more and more important security threats. Despite the pretty extensive security mitigations many of the kernel vulnerabilities are still exploitable. Successful kernel exploitation typically grants the attacker maximum privilege level and results in total machine compromise. To protect against kernel exploitation, we have developed a tool which statically rewrites the Microsoft Windows kernel as well as other kernel level modules. Such rewritten binary files allow us to monitor control flow transfers during operating system execution. At this point we are able to detect whether selected control transfer flow is valid or should be considered as an attack attempt. Our solution is especially directed towards preventing remote kernel exploitation attempts. Additionally, many of the local privilege escalation attacks are also blocked (also due to additional mitigation techniques we have implemented). Our tool was tested with Microsoft Windows XP, Windows Vista and Windows 7 (under both virtual and physical machines) on IA-32 compatible processors. Our apparatus is also completely standalone and does not require any third party software.',
+	 'authors': u'Piotr Bania,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1846',
+	 'subjects': u'Cryptography and Security (cs.CR)',
+	 'title': u'\nSecuring The Kernel via Static Binary Rewriting and Program Shepherding',
+	 'urllink': u'http://arxiv.org/abs/1105.1846'}
+2015-03-23 22:01:57+0000 [xxu46_2] INFO: Crawled 8 pages (at 1 pages/min), scraped 3 items (at 1 items/min)
+2015-03-23 22:02:46+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1885> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 22:02:46+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1885>
+	{'abstract': u'This article describes similarities of the scientific method and the free open source software development, and how reproducibility is the key of an healthy scientific production.',
+	 'authors': u'Alessandro Frigeri, Gisella Speranza,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1885',
+	 'subjects': u'Computers and Society (cs.CY)',
+	 'title': u'\n"Eppur si muove", Software Libero e Ricerca Riproducibile',
+	 'urllink': u'http://arxiv.org/abs/1105.1885'}
+2015-03-23 22:02:57+0000 [xxu46_2] INFO: Crawled 9 pages (at 1 pages/min), scraped 4 items (at 1 items/min)
+2015-03-23 22:03:57+0000 [xxu46_2] INFO: Crawled 9 pages (at 0 pages/min), scraped 4 items (at 0 items/min)
+2015-03-23 22:04:43+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1891> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 22:04:43+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1891>
+	{'abstract': u'Unions of graph Fourier multipliers are an important class of linear operators for processing signals defined on graphs. We present a novel method to efficiently distribute the application of these operators to the high-dimensional signals collected by sensor networks. The proposed method features approximations of the graph Fourier multipliers by shifted Chebyshev polynomials, whose recurrence relations make them readily amenable to distributed computation. We demonstrate how the proposed method can be used in a distributed denoising task, and show that the communication requirements of the method scale gracefully with the size of the network.',
+	 'authors': u'David I Shuman, Pierre Vandergheynst, Pascal Frossard,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1891',
+	 'subjects': u'Distributed, Parallel, and Cluster Computing (cs.DC)',
+	 'title': u'\nChebyshev Polynomial Approximation for Distributed Signal Processing',
+	 'urllink': u'http://arxiv.org/abs/1105.1891'}
+2015-03-23 22:04:57+0000 [xxu46_2] INFO: Crawled 10 pages (at 1 pages/min), scraped 5 items (at 1 items/min)
+2015-03-23 22:05:57+0000 [xxu46_2] INFO: Crawled 10 pages (at 0 pages/min), scraped 5 items (at 0 items/min)
+2015-03-23 22:06:57+0000 [xxu46_2] INFO: Crawled 10 pages (at 0 pages/min), scraped 5 items (at 0 items/min)
+2015-03-23 22:07:02+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1894> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 22:07:02+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1894>
+	{'abstract': u"A new lower bound on the minimum distance of q-ary cyclic codes is proposed. This bound improves upon the Bose-Chaudhuri-Hocquenghem (BCH) bound and, for some codes, upon the Hartmann-Tzeng (HT) bound. Several Boston bounds are special cases of our bound. For some classes of codes the bound on the minimum distance is refined. Furthermore, a quadratic-time decoding algorithm up to this new bound is developed. The determination of the error locations is based on the Euclidean Algorithm and a modified Chien search. The error evaluation is done by solving a generalization of Forney's formula.",
+	 'authors': u'Alexander Zeh, Antonia Wachter, Sergey Bezzateev,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1894',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nDecoding Cyclic Codes up to a New Bound on the Minimum Distance',
+	 'urllink': u'http://arxiv.org/abs/1105.1894'}
+2015-03-23 22:07:57+0000 [xxu46_2] INFO: Crawled 11 pages (at 1 pages/min), scraped 6 items (at 1 items/min)
+2015-03-23 22:08:57+0000 [xxu46_2] INFO: Crawled 11 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2015-03-23 22:09:25+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1901> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 22:09:25+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1901>
+	{'abstract': u'In this paper, we present an empirical study on convergence nature of Differential Evolution (DE) variants to solve unconstrained global optimization problems. The aim is to identify the competitive nature of DE variants in solving the problem at their hand and compare. We have chosen fourteen benchmark functions grouped by feature: unimodal and separable, unimodal and nonseparable, multimodal and separable, and multimodal and nonseparable. Fourteen variants of DE were implemented and tested on fourteen benchmark problems for dimensions of 30. The competitiveness of the variants are identified by the Mean Objective Function value, they achieved in 100 runs. The convergence nature of the best and worst performing variants are analyzed by measuring their Convergence Speed (Cs) and Quality Measure (Qm).',
+	 'authors': u'G.Jeyakumar C.Shanmugavelayutham,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1901',
+	 'subjects': u'Neural and Evolutionary Computing (cs.NE)',
+	 'title': u'\nConvergence Analysis of Differential Evolution Variants on Unconstrained  Global Optimization Functions',
+	 'urllink': u'http://arxiv.org/abs/1105.1901'}
+2015-03-23 22:09:57+0000 [xxu46_2] INFO: Crawled 12 pages (at 1 pages/min), scraped 7 items (at 1 items/min)
+2015-03-23 22:10:57+0000 [xxu46_2] INFO: Crawled 12 pages (at 0 pages/min), scraped 7 items (at 0 items/min)
+2015-03-23 22:11:49+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1929> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 22:11:49+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1929>
+	{'abstract': u'The World Wide Web no longer consists just of HTML pages. Our work sheds light on a number of trends on the Internet that go beyond simple Web pages. The hidden Web provides a wealth of data in semi-structured form, accessible through Web forms and Web services. These services, as well as numerous other applications on the Web, commonly use XML, the eXtensible Markup Language. XML has become the lingua franca of the Internet that allows customized markups to be defined for specific domains. On top of XML, the Semantic Web grows as a common structured data source. In this work, we first explain each of these developments in detail. Using real-world examples from scientific domains of great interest today, we then demonstrate how these new developments can assist the managing, harvesting, and organization of data on the Web. On the way, we also illustrate the current research avenues in these domains. We believe that this effort would help bridge multiple database tracks, thereby attracting researchers with a view to extend database technology.',
+	 'authors': u'Fabian Suchanek, Aparna Varde, Richi Nayak, Pierre Senellart,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1929',
+	 'subjects': u'Artificial Intelligence (cs.AI)',
+	 'title': u'\nThe Hidden Web, XML and Semantic Web: A Scientific Data Management  Perspective',
+	 'urllink': u'http://arxiv.org/abs/1105.1929'}
+2015-03-23 22:11:57+0000 [xxu46_2] INFO: Crawled 13 pages (at 1 pages/min), scraped 8 items (at 1 items/min)
+2015-03-23 22:12:57+0000 [xxu46_2] INFO: Crawled 13 pages (at 0 pages/min), scraped 8 items (at 0 items/min)
+2015-03-23 22:13:57+0000 [xxu46_2] INFO: Crawled 13 pages (at 0 pages/min), scraped 8 items (at 0 items/min)
+2015-03-23 22:13:58+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1930> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 22:13:58+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1930>
+	{'abstract': u'The database community is exploring more and more multidisciplinary avenues: Data semantics overlaps with ontology management; reasoning tasks venture into the domain of artificial intelligence; and data stream management and information retrieval shake hands, e.g., when processing Web click-streams. These new research avenues become evident, for example, in the topics that doctoral students choose for their dissertations. This paper surveys the emerging multidisciplinary research by doctoral students in database systems and related areas. It is based on the PIKM 2010, which is the 3rd Ph.D. workshop at the International Conference on Information and Knowledge Management (CIKM). The topics addressed include ontology development, data streams, natural language processing, medical databases, green energy, cloud computing, and exploratory search. In addition to core ideas from the workshop, we list some open research questions in these multidisciplinary areas.',
+	 'authors': u'Anisoara Nica, Fabian Suchanek, Aparna Varde,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1930',
+	 'subjects': u'Databases (cs.DB)',
+	 'title': u'\nEmerging multidisciplinary research across database management systems',
+	 'urllink': u'http://arxiv.org/abs/1105.1930'}
+2015-03-23 22:14:57+0000 [xxu46_2] INFO: Crawled 14 pages (at 1 pages/min), scraped 9 items (at 1 items/min)
+2015-03-23 22:15:57+0000 [xxu46_2] INFO: Crawled 14 pages (at 0 pages/min), scraped 9 items (at 0 items/min)
+2015-03-23 22:16:03+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1943> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 22:16:03+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1943>
+	{'abstract': u'We consider a multiple-input multiple-output (MIMO) multiple access channel (MAC), where the channel between each transmitter and the receiver is modeled by the doubly-scattering channel model. Based on novel techniques from random matrix theory, we derive deterministic approximations of the mutual information, the signal-to-noise-plus-interference-ratio (SINR) at the output of the minimum-mean-square-error (MMSE) detector and the sum-rate with MMSE detection which are almost surely tight in the large system limit. Moreover, we derive the asymptotically optimal transmit covariance matrices. Our simulation results show that the asymptotic analysis provides very close approximations for realistic system dimensions.',
+	 'authors': u'Jakob Hoydis, Romain Couillet, Merouane Debbah,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1943',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nAsymptotic Analysis of Double-Scattering Channels',
+	 'urllink': u'http://arxiv.org/abs/1105.1943'}
+2015-03-23 22:16:57+0000 [xxu46_2] INFO: Crawled 15 pages (at 1 pages/min), scraped 10 items (at 1 items/min)
+2015-03-23 22:17:57+0000 [xxu46_2] INFO: Crawled 15 pages (at 0 pages/min), scraped 10 items (at 0 items/min)
+2015-03-23 22:18:11+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1105.1945> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 22:18:11+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1105.1945>
+	{'abstract': u'In recent years, the data mining techniques have met a serious challenge due to the increased concerning and worries of the privacy, that is, protecting the privacy of the critical and sensitive data. Different techniques and algorithms have been already presented for Privacy Preserving data mining, which could be classified in three common approaches: Data modification approach, Data sanitization approach and Secure Multi-party Computation approach. This paper presents a Data modification- based Framework for classification and evaluation of the privacy preserving data mining techniques. Based on our framework the techniques are divided into two major groups, namely perturbation approach and anonymization approach. Also in proposed framework, eight functional criteria will be used to analyze and analogically assessment of the techniques in these two major groups. The proposed framework provides a good basis for more accurate comparison of the given techniques to privacy preserving data mining. In addition, this framework allows recognizing the overlapping amount for different approaches and identifying modern approaches in this field.',
+	 'authors': u'MohammadReza Keyvanpour, Somayyeh Seifi Moradi,',
+	 'category': u'Computer Science ',
+	 'date': '2011-5-10',
+	 'pdflink': u'http://arxiv.org/pdf/1105.1945',
+	 'subjects': u'Cryptography and Security (cs.CR)',
+	 'title': u'\nClassification and Evaluation the Privacy Preserving Data Mining  Techniques by using a Data Modification-based Framework',
+	 'urllink': u'http://arxiv.org/abs/1105.1945'}
+2015-03-23 22:18:57+0000 [xxu46_2] INFO: Crawled 16 pages (at 1 pages/min), scraped 11 items (at 1 items/min)
+2015-03-23 22:19:57+0000 [xxu46_2] INFO: Crawled 16 pages (at 0 pages/min), scraped 11 items (at 0 items/min)
+2015-03-23 22:20:24+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1106.4064> (referer: http://arxiv.org/list/cs/11?skip=3000&show=1000)
+2015-03-23 22:20:24+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1106.4064>
+	{'abstract': u'Motivated by the amount of code that goes unidentified on the web, we introduce a practical method for algorithmically identifying the programming language of source code. Our work is based on supervised learning and intelligent statistical features. We also explored, but abandoned, a grammatical approach. In testing, our implementation greatly outperforms that of an existing tool that relies on a Bayesian classifier. Code is written in Python and available under an MIT license.',
+	 'authors': u'David Klein, Kyle Murray, Simon Weber,',
+	 'category': u'Computer Science ',
+	 'date': '2011-6-21',
+	 'pdflink': u'http://arxiv.org/pdf/1106.4064',
+	 'subjects': u'Learning (cs.LG)',
+	 'title': u'\nAlgorithmic Programming Language Identification',
+	 'urllink': u'http://arxiv.org/abs/1106.4064'}
+2015-03-23 22:20:57+0000 [xxu46_2] INFO: Crawled 17 pages (at 1 pages/min), scraped 12 items (at 1 items/min)
+2015-03-23 22:21:57+0000 [xxu46_2] INFO: Crawled 17 pages (at 0 pages/min), scraped 12 items (at 0 items/min)
+2015-03-23 22:22:38+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1104.4385> (referer: http://arxiv.org/list/cs/11?skip=2000&show=1000)
+2015-03-23 22:22:39+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1104.4385>
+	{'abstract': u'Statistical dependencies among wavelet coefficients are commonly represented by graphical models such as hidden Markov trees(HMTs). However, in linear inverse problems such as deconvolution, tomography, and compressed sensing, the presence of a sensing or observation matrix produces a linear mixing of the simple Markovian dependency structure. This leads to reconstruction problems that are non-convex optimizations. Past work has dealt with this issue by resorting to greedy or suboptimal iterative reconstruction methods. In this paper, we propose new modeling approaches based on group-sparsity penalties that leads to convex optimizations that can be solved exactly and efficiently. We show that the methods we develop perform significantly better in deconvolution and compressed sensing applications, while being as computationally efficient as standard coefficient-wise approaches such as lasso.',
+	 'authors': u'Nikhil S Rao, Robert D. Nowak, Stephen J. Wright, Nick G. Kingsbury,',
+	 'category': u'Computer Science ',
+	 'date': '2011-4-22',
+	 'pdflink': u'http://arxiv.org/pdf/1104.4385',
+	 'subjects': u'Computer Vision and Pattern Recognition (cs.CV)',
+	 'title': u'\nConvex Approaches to Model Wavelet Sparsity Patterns',
+	 'urllink': u'http://arxiv.org/abs/1104.4385'}
+2015-03-23 22:22:57+0000 [xxu46_2] INFO: Crawled 18 pages (at 1 pages/min), scraped 13 items (at 1 items/min)
+2015-03-23 22:23:57+0000 [xxu46_2] INFO: Crawled 18 pages (at 0 pages/min), scraped 13 items (at 0 items/min)
+2015-03-23 22:24:57+0000 [xxu46_2] INFO: Crawled 18 pages (at 0 pages/min), scraped 13 items (at 0 items/min)
+2015-03-23 22:25:00+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1103.0843> (referer: http://arxiv.org/list/cs/11?skip=1000&show=1000)
+2015-03-23 22:25:00+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1103.0843>
+	{'abstract': u"We study the asymptotic performance of two multi-hop overlaid ad-hoc networks that utilize the same temporal, spectral, and spatial resources based on random access schemes. The primary network consists of Poisson distributed legacy users with density lambda^ and the secondary network consists of Poisson distributed cognitive radio users with density lambda^ = ( lambda^)^ ( beta&gt;0, beta neq 1) that utilize the spectrum opportunistically. Both networks are decentralized and employ ALOHA medium access protocols where the secondary nodes are additionally equipped with range-limited perfect spectrum sensors to monitor and protect primary transmissions. We study the problem in two distinct regimes, namely beta&gt;1 and 0&lt; beta&lt;1. We show that in both cases, the two networks can achieve their corresponding stand-alone throughput scaling even without secondary spectrum sensing (i.e., the sensing range set to zero); this implies the need for a more comprehensive performance metric than just throughput scaling to evaluate the influence of the overlaid interactions. We thus introduce a new criterion, termed the asymptotic multiplexing gain, which captures the effect of inter-network interferences with different spectrum sensing setups. With this metric, we clearly demonstrate that spectrum sensing can substantially improve primary network performance when beta&gt;1. On the contrary, spectrum sensing turns out to be unnecessary when beta&lt;1 and setting the secondary network's ALOHA parameter appropriately can substantially improve primary network performance.",
+	 'authors': u'Armin Banaei, Costas N. Georghiades, Shuguang Cui,',
+	 'category': u'Computer Science ',
+	 'date': '2011-3-4',
+	 'pdflink': u'http://arxiv.org/pdf/1103.0843',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nLarge Overlaid Cognitive Radio Networks: From Throughput Scaling to  Asymptotic Multiplexing Gain',
+	 'urllink': u'http://arxiv.org/abs/1103.0843'}
+2015-03-23 22:25:57+0000 [xxu46_2] INFO: Crawled 19 pages (at 1 pages/min), scraped 14 items (at 1 items/min)
+2015-03-23 22:26:51+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1101.0613> (referer: http://arxiv.org/list/cs/11?skip=0&show=1000)
+2015-03-23 22:26:51+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1101.0613>
+	{'abstract': u"As the Distributed Collection Manager's work on building tools to support users maintaining collections of changing web-based resources has progressed, questions about the characteristics of people's collections of web pages have arisen. Simultaneously, work in the areas of social bookmarking, social news, and subscription-based technologies have been taking the existence, usage, and utility of this data for granted with neither investigation into what people are doing with their collections nor how they are trying to maintain them. In order to address these concerns, we performed an online user study of 125 individuals from a variety of online and offline communities, such as the reddit social news user community and the graduate student body in our department. From this study we were able to examine a user's needs for a system to manage their web-based distributed collections, how their current tools affect their ability to maintain their collections, and what the characteristics of their current practices and problems in maintaining their web-based collections were. We also present extensions and improvements being made to the system both in order to adapt DCM for usage in the Ensemble project and to meet the requirements found by our user study.",
+	 'authors': u'Paul Logasa Bogen II, Frank Shipman, Richard Furuta,',
+	 'category': u'Computer Science ',
+	 'date': '2011-1-3',
+	 'pdflink': u'http://arxiv.org/pdf/1101.0613',
+	 'subjects': u'Digital Libraries (cs.DL)',
+	 'title': u'\nDistributed Collections of Web Pages in the Wild',
+	 'urllink': u'http://arxiv.org/abs/1101.0613'}
+2015-03-23 22:26:57+0000 [xxu46_2] INFO: Crawled 20 pages (at 1 pages/min), scraped 15 items (at 1 items/min)
+2015-03-23 22:27:57+0000 [xxu46_2] INFO: Crawled 20 pages (at 0 pages/min), scraped 15 items (at 0 items/min)
+2015-03-23 22:28:17+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1101.2785> (referer: http://arxiv.org/list/cs/11?skip=0&show=1000)
+2015-03-23 22:28:17+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1101.2785>
+	{'abstract': u'This paper proposes a form of MPC in which the control variables are moved asynchronously. This contrasts with most MIMO control schemes, which assume that all variables are updated simultaneously. MPC outperforms other control strategies through its ability to deal with constraints. This requires on-line optimization, hence computational complexity can become an issue when applying MPC to complex systems with fast response times. The multiplexed MPC scheme described in this paper solves the MPC problem for each subsystem sequentially, and updates subsystem controls as soon as the solution is available, thus distributing the control moves over a complete update cycle. The resulting computational speed-up allows faster response to disturbances, which may result in improved performance, despite finding sub-optimal solutions to the original problem.',
+	 'authors': u'K.V.Ling, J.M. Maciejowski, A.G. Richards, B-F. Wu,',
+	 'category': u'Computer Science ',
+	 'date': '2011-1-14',
+	 'pdflink': u'http://arxiv.org/pdf/1101.2785',
+	 'subjects': u'Systems and Control (cs.SY)',
+	 'title': u'\nMultiplexed Model Predictive Control',
+	 'urllink': u'http://arxiv.org/abs/1101.2785'}
+2015-03-23 22:28:57+0000 [xxu46_2] INFO: Crawled 21 pages (at 1 pages/min), scraped 16 items (at 1 items/min)
+2015-03-23 22:29:57+0000 [xxu46_2] INFO: Crawled 21 pages (at 0 pages/min), scraped 16 items (at 0 items/min)
+2015-03-23 22:30:35+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1101.5766> (referer: http://arxiv.org/list/cs/11?skip=0&show=1000)
+2015-03-23 22:30:35+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1101.5766>
+	{'abstract': u'A geometric model of sparse signal representations is introduced for classes of signals. It is computed by optimizing co-occurrence groups with a maximum likelihood estimate calculated with a Bernoulli mixture model. Applications to face image compression and MNIST digit classification illustrate the applicability of this model.',
+	 'authors': u'Joan Bruna, St\xe9phane Mallat,',
+	 'category': u'Computer Science ',
+	 'date': '2011-1-30',
+	 'pdflink': u'http://arxiv.org/pdf/1101.5766',
+	 'subjects': u'Computer Vision and Pattern Recognition (cs.CV)',
+	 'title': u'\nGeometric Models with Co-occurrence Groups',
+	 'urllink': u'http://arxiv.org/abs/1101.5766'}
+2015-03-23 22:30:57+0000 [xxu46_2] INFO: Crawled 22 pages (at 1 pages/min), scraped 17 items (at 1 items/min)
+2015-03-23 22:31:57+0000 [xxu46_2] INFO: Crawled 22 pages (at 0 pages/min), scraped 17 items (at 0 items/min)
+2015-03-23 22:32:19+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.1095> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:32:19+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.1095>
+	{'abstract': u"Spectrum sensing receives much attention recently in the cognitive radio (CR) network research, i.e., secondary users (SUs) constantly monitor channel condition to detect the presence of the primary users (PUs). In this paper, we go beyond spectrum sensing and introduce the PU separation problem, which concerns with the issues of distinguishing and characterizing PUs in the context of collaborative spectrum sensing and monitor selection. The observations of monitors are modeled as boolean OR mixtures of underlying binary sources for PUs. We first justify the use of the binary OR mixture model as opposed to the traditional linear mixture model through simulation studies. Then we devise a novel binary inference algorithm for PU separation. Not only PU-SU relationship are revealed, but PUs' transmission statistics and activities at each time slot can also be inferred. Simulation results show that without any prior knowledge regarding PUs' activities, the algorithm achieves high inference accuracy even in the presence of noisy measurements.",
+	 'authors': u'Huy Nguyen, Guanbo Zheng, Zhu Han, Rong Zheng,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-6',
+	 'pdflink': u'http://arxiv.org/pdf/1012.1095',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nBinary Inference for Primary User Separation in Cognitive Radio Networks',
+	 'urllink': u'http://arxiv.org/abs/1012.1095'}
+2015-03-23 22:32:57+0000 [xxu46_2] INFO: Crawled 23 pages (at 1 pages/min), scraped 18 items (at 1 items/min)
+2015-03-23 22:33:57+0000 [xxu46_2] INFO: Crawled 23 pages (at 0 pages/min), scraped 18 items (at 0 items/min)
+2015-03-23 22:34:04+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.1010> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:34:04+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.1010>
+	{'abstract': u"Initial Semantics aims at characterizing the syntax associated to a signature as the initial object of some category. We present an initial semantics result for typed higher-order syntax together with its formalization in the Coq proof assistant. The main theorem was first proved on paper in the second author's PhD thesis in 2010, and verified formally shortly afterwards. To a simply-typed binding signature S over a fixed set T of object types we associate a category called the category of representations of S. We show that this category has an initial object Sigma(S). From its construction it will be clear that the object Sigma(S) merits the name abstract syntax associated to S. Our theorem is implemented and proved correct in the proof assistant Coq through heavy use of dependent types. The approach through monads gives rise to an implementation of syntax where both terms and variables are intrinsically typed, i.e. where the object types are reflected in the meta-level types. This article is to be seen as a research article rather than about the formalization of a classical mathematical result. The nature of our theorem - involving lengthy, technical proofs and complicated algebraic structures - makes it particularly interesting for formal verification. Our goal is to promote the use of computer theorem provers as research tools, and, accordingly, a new way of publishing mathematical results: a parallel description of a theorem and its formalization should allow the verification of correct transcription of definitions and statements into the proof assistant, and straightforward but technical proofs should be well-hidden in a digital library. We argue that Coq's rich type theory, combined with its various features such as implicit arguments, allows a particularly readable formalization and is hence well-suited for communicating mathematics.",
+	 'authors': u'Benedikt Ahrens, Julianna Zsido,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-5',
+	 'pdflink': u'http://arxiv.org/pdf/1012.1010',
+	 'subjects': u'Logic in Computer Science (cs.LO)',
+	 'title': u'\nInitial Semantics for higher-order typed syntax in Coq',
+	 'urllink': u'http://arxiv.org/abs/1012.1010'}
+2015-03-23 22:34:57+0000 [xxu46_2] INFO: Crawled 24 pages (at 1 pages/min), scraped 19 items (at 1 items/min)
+2015-03-23 22:35:48+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.1007> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:35:48+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.1007>
+	{'abstract': u"This paper studies the problem of neighbor discovery in wireless networks, namely, each node wishes to discover and identify the network interface addresses (NIAs) of those nodes within a single hop. A novel paradigm, called compressed neighbor discovery is proposed, which enables all nodes to simultaneously discover their respective neighborhoods with a single frame of transmission, which is typically of a few thousand symbol epochs. The key technique is to assign each node a unique on-off signature and let all nodes simultaneously transmit their signatures. Despite that the radios are half-duplex, each node observes a superposition of its neighbors' signatures (partially) through its own off-slots. To identify its neighbors out of a large network address space, each node solves a compressed sensing (or sparse recovery) problem. Two practical schemes are studied. The first employs random on-off signatures, and each node discovers its neighbors using a noncoherent detection algorithm based on group testing. The second scheme uses on-off signatures based on a deterministic second-order Reed-Muller code, and applies a chirp decoding algorithm. The second scheme needs much lower signal-to-noise ratio (SNR) to achieve the same error performance. The complexity of the chirp decoding algorithm is sub-linear, so that it is in principle scalable to networks with billions of nodes with 48-bit IEEE 802.11 MAC addresses. The compressed neighbor discovery schemes are much more efficient than conventional random-access discovery, where nodes have to retransmit over many frames with random delays to be successfully discovered.",
+	 'authors': u'Lei Zhang, Jun Luo, Dongning Guo,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-5',
+	 'pdflink': u'http://arxiv.org/pdf/1012.1007',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nNeighbor Discovery for Wireless Networks via Compressed Sensing',
+	 'urllink': u'http://arxiv.org/abs/1012.1007'}
+2015-03-23 22:35:57+0000 [xxu46_2] INFO: Crawled 25 pages (at 1 pages/min), scraped 20 items (at 1 items/min)
+2015-03-23 22:36:57+0000 [xxu46_2] INFO: Crawled 25 pages (at 0 pages/min), scraped 20 items (at 0 items/min)
+2015-03-23 22:37:34+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0993> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:37:34+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0993>
+	{'abstract': u"We propose a hash function based on arithmetic coding and public-key cryptography. The resistance of the hash function to second preimage attack, collision and differential cryptanalysis is based on the properties of arithmetic coding as a non-linear dynamical system. The resistance of the hash function to first preimage attack is based on the public-key cryptography. The new hash function uses the strength of HMAC with the difference that it didn't need a secret key for calculating the hash (in this step, it uses one, two or three public -keys) and in the classical attack, an adversary need to break the public key algorithm or to have all the secret keys to perform his attack.",
+	 'authors': u'Rene Ndoundam, Juvet Karnel Sadie, Patrick Nguening Nguembu,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-5',
+	 'pdflink': u'http://arxiv.org/e-print/1012.0993',
+	 'subjects': u'Cryptography and Security (cs.CR)',
+	 'title': u'\nHash function based on arithmetic coding and public-key cryptography',
+	 'urllink': u'http://arxiv.org/abs/1012.0993'}
+2015-03-23 22:37:57+0000 [xxu46_2] INFO: Crawled 26 pages (at 1 pages/min), scraped 21 items (at 1 items/min)
+2015-03-23 22:38:57+0000 [xxu46_2] INFO: Crawled 26 pages (at 0 pages/min), scraped 21 items (at 0 items/min)
+2015-03-23 22:39:52+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0956> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:39:52+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0956>
+	{'abstract': u"In this paper a tight bound on the worst-case number of comparisons for Floyd's well known heap construction algorithm, is derived. It is shown that at most 2n-2(n)-(n) comparisons are executed in the worst case, where (n) is the number of ones and (n) is the number of zeros after the last one in the binary representation of the number of keys n.",
+	 'authors': u'Ioannis Paparrizos,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-5',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0956',
+	 'subjects': u'Data Structures and Algorithms (cs.DS)',
+	 'title': u"\nA tight bound on the worst-case number of comparisons for Floyd's heap  construction algorithm",
+	 'urllink': u'http://arxiv.org/abs/1012.0956'}
+2015-03-23 22:39:57+0000 [xxu46_2] INFO: Crawled 27 pages (at 1 pages/min), scraped 22 items (at 1 items/min)
+2015-03-23 22:40:57+0000 [xxu46_2] INFO: Crawled 27 pages (at 0 pages/min), scraped 22 items (at 0 items/min)
+2015-03-23 22:41:57+0000 [xxu46_2] INFO: Crawled 27 pages (at 0 pages/min), scraped 22 items (at 0 items/min)
+2015-03-23 22:42:23+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0955> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:42:23+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0955>
+	{'abstract': u'In this paper, we demonstrate some applications of compressive sensing over networks. We make a connection between compressive sensing and traditional information theoretic techniques in source coding and channel coding. Our results provide an explicit trade-off between the rate and the decoding complexity. The key difference of compressive sensing and traditional information theoretic approaches is at their decoding side. Although optimal decoders to recover the original signal, compressed by source coding have high complexity, the compressive sensing decoder is a linear or convex optimization. First, we investigate applications of compressive sensing on distributed compression of correlated sources. Here, by using compressive sensing, we propose a compression scheme for a family of correlated sources with a modularized decoder, providing a trade-off between the compression rate and the decoding complexity. We call this scheme Sparse Distributed Compression. We use this compression scheme for a general multicast network with correlated sources. Here, we first decode some of the sources by a network decoding technique and then, we use a compressive sensing decoder to obtain the whole sources. Then, we investigate applications of compressive sensing on channel coding. We propose a coding scheme that combines compressive sensing and random channel coding for a high-SNR point-to-point Gaussian channel. We call this scheme Sparse Channel Coding. We propose a modularized decoder providing a trade-off between the capacity loss and the decoding complexity. At the receiver side, first, we use a compressive sensing decoder on a noisy signal to obtain a noisy estimate of the original signal and then, we apply a traditional channel coding decoder to find the original signal.',
+	 'authors': u'Soheil Feizi, Muriel Medard, Michelle Effros,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-4',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0955',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nCompressive Sensing Over Networks',
+	 'urllink': u'http://arxiv.org/abs/1012.0955'}
+2015-03-23 22:42:57+0000 [xxu46_2] INFO: Crawled 28 pages (at 1 pages/min), scraped 23 items (at 1 items/min)
+2015-03-23 22:43:57+0000 [xxu46_2] INFO: Crawled 28 pages (at 0 pages/min), scraped 23 items (at 0 items/min)
+2015-03-23 22:44:22+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0952> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:44:22+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0952>
+	{'abstract': u'We extend the work of Lehre and Witt (GECCO 2010) on the unbiased black-box model by considering higher arity variation operators. In particular, we show that already for binary operators the black-box complexity of leadingones drops from for unary operators to . For onemax, the unary black-box complexity drops to O(n) in the binary case. For -ary operators, , the onemax-complexity further decreases to .',
+	 'authors': u'Benjamin Doerr, Daniel Johannsen, Timo K\xf6tzing, Per Kristian Lehre, Markus Wagner, Carola Winzen,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-4',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0952',
+	 'subjects': u'Neural and Evolutionary Computing (cs.NE)',
+	 'title': u'\nFaster Black-Box Algorithms Through Higher Arity Operators',
+	 'urllink': u'http://arxiv.org/abs/1012.0952'}
+2015-03-23 22:44:57+0000 [xxu46_2] INFO: Crawled 29 pages (at 1 pages/min), scraped 24 items (at 1 items/min)
+2015-03-23 22:45:57+0000 [xxu46_2] INFO: Crawled 29 pages (at 0 pages/min), scraped 24 items (at 0 items/min)
+2015-03-23 22:46:51+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0930> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:46:51+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0930>
+	{'abstract': u'In practical applications, machine learning algorithms are often needed to learn classifiers that optimize domain specific performance measures. Previously, the research has focused on learning the needed classifier in isolation, yet learning nonlinear classifier for nonlinear and nonsmooth performance measures is still hard. In this paper, rather than learning the needed classifier by optimizing specific performance measure directly, we circumvent this problem by proposing a novel two-step approach called as CAPO, namely to first train nonlinear auxiliary classifiers with existing learning methods, and then to adapt auxiliary classifiers for specific performance measures. In the first step, auxiliary classifiers can be obtained efficiently by taking off-the-shelf learning algorithms. For the second step, we show that the classifier adaptation problem can be reduced to a quadratic program problem, which is similar to linear SVMperf and can be efficiently solved. By exploiting nonlinear auxiliary classifiers, CAPO can generate nonlinear classifier which optimizes a large variety of performance measures including all the performance measure based on the contingency table and AUC, whilst keeping high computational efficiency. Empirical studies show that CAPO is effective and of high computational efficiency, and even it is more efficient than linear SVMperf.',
+	 'authors': u'Nan Li, Ivor W. Tsang, Zhi-Hua Zhou,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-4',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0930',
+	 'subjects': u'Learning (cs.LG)',
+	 'title': u'\nEfficient Optimization of Performance Measures by Classifier Adaptation',
+	 'urllink': u'http://arxiv.org/abs/1012.0930'}
+2015-03-23 22:46:57+0000 [xxu46_2] INFO: Crawled 30 pages (at 1 pages/min), scraped 25 items (at 1 items/min)
+2015-03-23 22:47:57+0000 [xxu46_2] INFO: Crawled 30 pages (at 0 pages/min), scraped 25 items (at 0 items/min)
+2015-03-23 22:48:50+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0887> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:48:50+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0887>
+	{'abstract': u'Wide implementation of IEEE 802.11 based networks could lead to deployment of localized wireless data communication environments with a limited number of mobile hosts, called ad hoc networks. Implementation of a proper routing methodology in ad hoc networks makes it efficient in terms of performance. A wide spectrum of routing protocols has been contributed by several researchers. Real time applications have been most popular among the applications, run by ad hoc networks. Such applications strictly adhere to the Quality of Service (QoS) requirements such as overall throughput, end-toend delay and power level. Support of QoS requirements becomes more challenging due to dynamic nature of MANETs, where mobility of nodes results in frequent change in topology. QoS aware routing protocols can serve to the QoS support, which concentrate on determining a path between source and destination with the QoS requirements of the flow being satisfied. We propose a protocol, called Power and Delay aware Temporally Ordered Routing Algorithm (PDTORA), based on Temporally Ordered Routing Algorithm (TORA) Protocol, where verification of power and delay requirements is carried out with a query packet at each node along the path between source and destination. Simulations justify better performance of the proposed new protocol in terms of network lifetime, end-to-end delay and packet delivery ratio as compared to TORA.',
+	 'authors': u'Alok Kumar Jagadev, Binod Kumar Pattanayak, Manoj Kumar Mishra, Manojranjan Nayak,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-4',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0887',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nPower and Delay Aware On-Demand Routing For Ad Hoc Networks',
+	 'urllink': u'http://arxiv.org/abs/1012.0887'}
+2015-03-23 22:48:57+0000 [xxu46_2] INFO: Crawled 31 pages (at 1 pages/min), scraped 26 items (at 1 items/min)
+2015-03-23 22:49:57+0000 [xxu46_2] INFO: Crawled 31 pages (at 0 pages/min), scraped 26 items (at 0 items/min)
+2015-03-23 22:50:57+0000 [xxu46_2] INFO: Crawled 31 pages (at 0 pages/min), scraped 26 items (at 0 items/min)
+2015-03-23 22:51:10+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0854> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:51:10+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0854>
+	{'abstract': u"The use of domain knowledge is generally found to improve query efficiency in content filtering applications. In particular, tangible benefits have been achieved when using knowledge-based approaches within more specialized fields, such as medical free texts or legal documents. However, the problem is that sources of domain knowledge are time-consuming to build and equally costly to maintain. As a potential remedy, recent studies on Wikipedia suggest that this large body of socially constructed knowledge can be effectively harnessed to provide not only facts but also accurate information about semantic concept-similarities. This paper describes a framework for document filtering, where Wikipedia's concept-relatedness information is combined with a domain ontology to produce semantic content classifiers. The approach is evaluated using Reuters RCV1 corpus and TREC-11 filtering task definitions. In a comparative study, the approach shows robust performance and appears to outperform content classifiers based on Support Vector Machines (SVM) and C4.5 algorithm.",
+	 'authors': u'Pekka Malo, Pyry Siitari, Oskar Ahlgren, Jyrki Wallenius, Pekka Korhonen,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0854',
+	 'subjects': u'Information Retrieval (cs.IR)',
+	 'title': u'\nSemantic Content Filtering with Wikipedia and Ontologies',
+	 'urllink': u'http://arxiv.org/abs/1012.0854'}
+2015-03-23 22:51:57+0000 [xxu46_2] INFO: Crawled 32 pages (at 1 pages/min), scraped 27 items (at 1 items/min)
+2015-03-23 22:52:57+0000 [xxu46_2] INFO: Crawled 32 pages (at 0 pages/min), scraped 27 items (at 0 items/min)
+2015-03-23 22:53:16+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0841> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:53:16+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0841>
+	{'abstract': u'Most of the existing information retrieval systems are based on bag of words model and are not equipped with common world knowledge. Work has been done towards improving the efficiency of such systems by using intelligent algorithms to generate search queries, however, not much research has been done in the direction of incorporating human-and-society level knowledge in the queries. This paper is one of the first attempts where such information is incorporated into the search queries using Wikipedia semantics. The paper presents an essential shift from conventional token based queries to concept based queries, leading to an enhanced efficiency of information retrieval systems. To efficiently handle the automated query learning problem, we propose Wikipedia-based Evolutionary Semantics (Wiki-ES) framework where concept based queries are learnt using a co-evolving evolutionary procedure. Learning concept based queries using an intelligent evolutionary procedure yields significant improvement in performance which is shown through an extensive study using Reuters newswire documents. Comparison of the proposed framework is performed with other information retrieval systems. Concept based approach has also been implemented on other information retrieval systems to justify the effectiveness of a transition from token based queries to concept based queries.',
+	 'authors': u'Pekka Malo, Pyry Siitari, Ankur Sinha,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0841',
+	 'subjects': u'Artificial Intelligence (cs.AI)',
+	 'title': u'\nAutomated Query Learning with Wikipedia and Genetic Programming',
+	 'urllink': u'http://arxiv.org/abs/1012.0841'}
+2015-03-23 22:53:57+0000 [xxu46_2] INFO: Crawled 33 pages (at 1 pages/min), scraped 28 items (at 1 items/min)
+2015-03-23 22:54:57+0000 [xxu46_2] INFO: Crawled 33 pages (at 0 pages/min), scraped 28 items (at 0 items/min)
+2015-03-23 22:55:27+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0830> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:55:27+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0830>
+	{'abstract': u"We examine the practicality for a user of using Answer Set Programming (ASP) for representing logical formalisms. We choose as an example a formalism aiming at capturing causal explanations from causal information. We provide an implementation, showing the naturalness and relative efficiency of this translation job. We are interested in the ease for writing an ASP program, in accordance with the claimed ``declarative'' aspect of ASP. Limitations of the earlier systems (poor data structure and difficulty in reusing pieces of programs) made that in practice, the ``declarative aspect'' was more theoretical than practical. We show how recent improvements in working ASP systems facilitate a lot the translation, even if a few improvements could still be useful.",
+	 'authors': u'Yves Moinard,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0830',
+	 'subjects': u'Artificial Intelligence (cs.AI)',
+	 'title': u'\nUsing ASP with recent extensions for causal explanations',
+	 'urllink': u'http://arxiv.org/abs/1012.0830'}
+2015-03-23 22:55:57+0000 [xxu46_2] INFO: Crawled 34 pages (at 1 pages/min), scraped 29 items (at 1 items/min)
+2015-03-23 22:56:57+0000 [xxu46_2] INFO: Crawled 34 pages (at 0 pages/min), scraped 29 items (at 0 items/min)
+2015-03-23 22:57:57+0000 [xxu46_2] INFO: Crawled 34 pages (at 0 pages/min), scraped 29 items (at 0 items/min)
+2015-03-23 22:57:58+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0821> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 22:57:58+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0821>
+	{'abstract': u'This paper studies a generalization of multi-prover interactive proofs in which a verifier interacts with two competing teams of provers: one team attempts to convince the verifier to accept while the other attempts to convince the verifier to reject. Each team consists of two provers who jointly implement a no-signaling strategy. No-signaling strategies are a curious class of joint strategy that cannot in general be implemented without communication between the provers, yet cannot be used as a black box to establish communication between them. Attention is restricted in this paper to two-turn interactions in which the verifier asks questions of each of the four provers and decides whether to accept or reject based on their responses. We prove that the complexity class of decision problems that admit two-turn interactive proofs with competing teams of no-signaling provers is a subset of PSPACE. This upper bound matches existing PSPACE lower bounds on the following two disparate and weaker classes of interactive proof: 1. Two-turn multi-prover interactive proofs with only one team of no-signaling provers. 2. Two-turn competing-prover interactive proofs with only one prover per team. Our result implies that the complexity of these two models is unchanged by the addition of a second competing team of no-signaling provers in the first case and by the addition of a second no-signaling prover to each team in the second case. Moreover, our result unifies and subsumes prior PSPACE upper bounds on these classes.',
+	 'authors': u'Gus Gutoski,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0821',
+	 'subjects': u'Computational Complexity (cs.CC)',
+	 'title': u'\nInteractive proofs with competing teams of no-signaling provers',
+	 'urllink': u'http://arxiv.org/abs/1012.0821'}
+2015-03-23 22:58:57+0000 [xxu46_2] INFO: Crawled 35 pages (at 1 pages/min), scraped 30 items (at 1 items/min)
+2015-03-23 22:59:57+0000 [xxu46_2] INFO: Crawled 35 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2015-03-23 23:00:11+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0806> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:00:11+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0806>
+	{'abstract': u'We demonstrate implementations of the Eisert-Wilkens-Lewenstein scheme be- yond normal-form games. The scope of our research includes decision problems, i.e., one-player extensive games. The research is based on the examination of their features when the decision problems are carried out via the EWL protocol. We prove that unitary operators can be adapted to play the role of strategies in deci- sion problems with imperfect recall. Furthermore, we prove that unitary operators provide the decision maker possibilities that are inaccessible for classical strategies.',
+	 'authors': u'Piotr Frackiewicz,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0806',
+	 'subjects': u'Computer Science and Game Theory (cs.GT)',
+	 'title': u'\nApplication of the EWL protocol to decision problems with imperfect  recall',
+	 'urllink': u'http://arxiv.org/abs/1012.0806'}
+2015-03-23 23:00:57+0000 [xxu46_2] INFO: Crawled 36 pages (at 1 pages/min), scraped 31 items (at 1 items/min)
+2015-03-23 23:01:57+0000 [xxu46_2] INFO: Crawled 36 pages (at 0 pages/min), scraped 31 items (at 0 items/min)
+2015-03-23 23:02:26+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0774> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:02:26+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0774>
+	{'abstract': u'Many problems in machine learning and statistics can be formulated as (generalized) eigenproblems. In terms of the associated optimization problem, computing linear eigenvectors amounts to finding critical points of a quadratic function subject to quadratic constraints. In this paper we show that a certain class of constrained optimization problems with nonquadratic objective and constraints can be understood as nonlinear eigenproblems. We derive a generalization of the inverse power method which is guaranteed to converge to a nonlinear eigenvector. We apply the inverse power method to 1-spectral clustering and sparse PCA which can naturally be formulated as nonlinear eigenproblems. In both applications we achieve state-of-the-art results in terms of solution quality and runtime. Moving beyond the standard eigenproblem should be useful also in many other applications and our inverse power method can be easily adapted to new problems.',
+	 'authors': u'Matthias Hein, Thomas B\xfchler,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0774',
+	 'subjects': u'Learning (cs.LG)',
+	 'title': u'\nAn Inverse Power Method for Nonlinear Eigenproblems with Applications in  1-Spectral Clustering and Sparse PCA',
+	 'urllink': u'http://arxiv.org/abs/1012.0774'}
+2015-03-23 23:02:57+0000 [xxu46_2] INFO: Crawled 37 pages (at 1 pages/min), scraped 32 items (at 1 items/min)
+2015-03-23 23:03:57+0000 [xxu46_2] INFO: Crawled 37 pages (at 0 pages/min), scraped 32 items (at 0 items/min)
+2015-03-23 23:04:52+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0759> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:04:52+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0759>
+	{'abstract': u'Cloud computing allows shared computer and storage facilities to be used by a multitude of clients. While cloud management is centralized, the information resides in the cloud and information sharing can be implemented via off-the-shelf techniques for multiuser databases. Users, however, are very diffident for not having full control over their sensitive data. Untrusted database-as-a-server techniques are neither readily extendable to the cloud environment nor easily understandable by non-technical users. To solve this problem, we present an approach where agents share reserved data in a secure manner by the use of simple grant-and-revoke permissions on shared data.',
+	 'authors': u'Ernesto Damiani, Francesco Pagano,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0759',
+	 'subjects': u'Cryptography and Security (cs.CR)',
+	 'title': u'\nHandling Confidential Data on the Untrusted Cloud: An Agent-based  Approach',
+	 'urllink': u'http://arxiv.org/abs/1012.0759'}
+2015-03-23 23:04:57+0000 [xxu46_2] INFO: Crawled 38 pages (at 1 pages/min), scraped 33 items (at 1 items/min)
+2015-03-23 23:05:57+0000 [xxu46_2] INFO: Crawled 38 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2015-03-23 23:06:57+0000 [xxu46_2] INFO: Crawled 38 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2015-03-23 23:07:11+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0746> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:07:11+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0746>
+	{'abstract': u'We present a terminating tableau calculus for graded hybrid logic with global modalities, reflexivity, transitivity and role hierarchies. Termination of the system is achieved through pattern-based blocking. Previous approaches to related logics all rely on chain-based blocking. Besides being conceptually simple and suitable for efficient implementation, the pattern-based approach gives us a NExpTime complexity bound for the decision procedure.',
+	 'authors': u'Mark Kaminski, Sigurd Schneider, Gert Smolka,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0746',
+	 'subjects': u'Logic in Computer Science (cs.LO)',
+	 'title': u'\nTerminating Tableaux for Graded Hybrid Logic with Global Modalities and  Role Hierarchies',
+	 'urllink': u'http://arxiv.org/abs/1012.0746'}
+2015-03-23 23:07:57+0000 [xxu46_2] INFO: Crawled 39 pages (at 1 pages/min), scraped 34 items (at 1 items/min)
+2015-03-23 23:08:57+0000 [xxu46_2] INFO: Crawled 39 pages (at 0 pages/min), scraped 34 items (at 0 items/min)
+2015-03-23 23:09:14+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0742> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:09:14+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0742>
+	{'abstract': u'The Border algorithm and the iPred algorithm find the Hasse diagrams of FCA lattices. We show that they can be generalized to arbitrary lattices. In the case of iPred, this requires the identification of a join-semilattice homomorphism into a distributive lattice.',
+	 'authors': u'Jos\xe9 L. Balc\xe1zar, Cristina T\xeern\u0103uc\u0103,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0742',
+	 'subjects': u'Artificial Intelligence (cs.AI)',
+	 'title': u'\nBorder Algorithms for Computing Hasse Diagrams of Arbitrary Lattices',
+	 'urllink': u'http://arxiv.org/abs/1012.0742'}
+2015-03-23 23:09:57+0000 [xxu46_2] INFO: Crawled 40 pages (at 1 pages/min), scraped 35 items (at 1 items/min)
+2015-03-23 23:10:57+0000 [xxu46_2] INFO: Crawled 40 pages (at 0 pages/min), scraped 35 items (at 0 items/min)
+2015-03-23 23:11:25+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0735> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:11:25+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0735>
+	{'abstract': u'The output of an association rule miner is often huge in practice. This is why several concise lossless representations have been proposed, such as the "essential" or "representative" rules. We revisit the algorithm given by Kryszkiewicz (Int. Symp. Intelligent Data Analysis 2001, Springer-Verlag LNCS 2189, 350-359) for mining representative rules. We show that its output is sometimes incomplete, due to an oversight in its mathematical validation. We propose alternative complete generators and we extend the approach to an existing closure-aware basis similar to, and often smaller than, the representative rules, namely the basis B*.',
+	 'authors': u'Jos\xe9 L. Balc\xe1zar, Diego Garc\xeda-Saiz, Domingo G\xf3mez-P\xe9rez, Cristina T\xeern\u0103uc\u0103,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0735',
+	 'subjects': u'Learning (cs.LG)',
+	 'title': u'\nClosed-set-based Discovery of Bases of Association Rules',
+	 'urllink': u'http://arxiv.org/abs/1012.0735'}
+2015-03-23 23:11:57+0000 [xxu46_2] INFO: Crawled 41 pages (at 1 pages/min), scraped 36 items (at 1 items/min)
+2015-03-23 23:12:57+0000 [xxu46_2] INFO: Crawled 41 pages (at 0 pages/min), scraped 36 items (at 0 items/min)
+2015-03-23 23:13:39+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0729> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:13:39+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0729>
+	{'abstract': u"We prove the following strong hardness result for learning: Given a distribution of labeled examples from the hypercube such that there exists a monomial consistent with of the examples, it is NP-hard to find a halfspace that is correct on of the examples, for arbitrary constants . In learning theory terms, weak agnostic learning of monomials is hard, even if one is allowed to output a hypothesis from the much bigger concept class of halfspaces. This hardness result subsumes a long line of previous results, including two recent hardness results for the proper learning of monomials and halfspaces. As an immediate corollary of our result we show that weak agnostic learning of decision lists is NP-hard. Our techniques are quite different from previous hardness proofs for learning. We define distributions on positive and negative examples for monomials whose first few moments match. We use the invariance principle to argue that regular halfspaces (all of whose coefficients have small absolute value relative to the total norm) cannot distinguish between distributions whose first few moments match. For highly non-regular subspaces, we use a structural lemma from recent work on fooling halfspaces to argue that they are ``junta-like'' and one can zero out all but the top few coefficients without affecting the performance of the halfspace. The top few coefficients form the natural list decoding of a halfspace in the context of dictatorship tests/Label Cover reductions. We note that unlike previous invariance principle based proofs which are only known to give Unique-Games hardness, we are able to reduce from a version of Label Cover problem that is known to be NP-hard. This has inspired follow-up work on bypassing the Unique Games conjecture in some optimal geometric inapproximability results.",
+	 'authors': u'Vitaly Feldman, Venkatesan Guruswami, Prasad Raghavendra, Yi Wu,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0729',
+	 'subjects': u'Computational Complexity (cs.CC)',
+	 'title': u'\nAgnostic Learning of Monomials by Halfspaces is Hard',
+	 'urllink': u'http://arxiv.org/abs/1012.0729'}
+2015-03-23 23:13:57+0000 [xxu46_2] INFO: Crawled 42 pages (at 1 pages/min), scraped 37 items (at 1 items/min)
+2015-03-23 23:14:57+0000 [xxu46_2] INFO: Crawled 42 pages (at 0 pages/min), scraped 37 items (at 0 items/min)
+2015-03-23 23:15:57+0000 [xxu46_2] INFO: Crawled 42 pages (at 0 pages/min), scraped 37 items (at 0 items/min)
+2015-03-23 23:16:06+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0726> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:16:06+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0726>
+	{'abstract': u'Malicious mobile phone worms spread between devices via short-range Bluetooth contacts, similar to the propagation of human and other biological viruses. Recent work has employed models from epidemiology and complex networks to analyse the spread of malware and the effect of patching specific nodes. These approaches have adopted a static view of the mobile networks, i.e., by aggregating all the edges that appear over time, which leads to an approximate representation of the real interactions: instead, these networks are inherently dynamic and the edge appearance and disappearance is highly influenced by the ordering of the human contacts, something which is not captured at all by existing complex network measures. In this paper we first study how the blocking of malware propagation through immunisation of key nodes (even if carefully chosen through static or temporal betweenness centrality metrics) is ineffective: this is due to the richness of alternative paths in these networks. Then we introduce a time-aware containment strategy that spreads a patch message starting from nodes with high temporal closeness centrality and show its effectiveness using three real-world datasets. Temporal closeness allows the identification of nodes able to reach most nodes quickly: we show that this scheme can reduce the cellular network resource consumption and associated costs, achieving, at the same time, a complete containment of the malware in a limited amount of time.',
+	 'authors': u'John Tang, Cecilia Mascolo, Mirco Musolesi, Vito Latora,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0726',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nExploiting Temporal Complex Network Metrics in Mobile Malware  Containment',
+	 'urllink': u'http://arxiv.org/abs/1012.0726'}
+2015-03-23 23:16:57+0000 [xxu46_2] INFO: Crawled 43 pages (at 1 pages/min), scraped 38 items (at 1 items/min)
+2015-03-23 23:17:57+0000 [xxu46_2] INFO: Crawled 43 pages (at 0 pages/min), scraped 38 items (at 0 items/min)
+2015-03-23 23:18:14+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0684> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:18:14+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0684>
+	{'abstract': u'The paper deals with joint state and parameter estimation for nonlinear continuous-time systems. Based on a guaranteed LPV approximation, the set adaptive observers design problem is solved avoiding the exponential complexity obstruction usually met in the set-membership parameter estimation. Potential application to fault diagnosis is considered. The efficacy of the proposed set adaptive observers is demonstrated on several examples.',
+	 'authors': u'Denis Efimov, Tarek Ra\xefssi, Ali Zolghadri,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0684',
+	 'subjects': u'Systems and Control (cs.SY)',
+	 'title': u'\nAdaptive Set Observers Design for Nonlinear Continuous-Time Systems:  Application to Fault Detection and Diagnosis',
+	 'urllink': u'http://arxiv.org/abs/1012.0684'}
+2015-03-23 23:18:57+0000 [xxu46_2] INFO: Crawled 44 pages (at 1 pages/min), scraped 39 items (at 1 items/min)
+2015-03-23 23:19:57+0000 [xxu46_2] INFO: Crawled 44 pages (at 0 pages/min), scraped 39 items (at 0 items/min)
+2015-03-23 23:20:45+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0663> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:20:45+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0663>
+	{'abstract': u'Web query log data contain information useful to research; however, release of such data can re-identify the search engine users issuing the queries. These privacy concerns go far beyond removing explicitly identifying information such as name and address, since non-identifying personal data can be combined with publicly available information to pinpoint to an individual. In this work we model web query logs as unstructured transaction data and present a novel transaction anonymization technique based on clustering and generalization techniques to achieve the k-anonymity privacy. We conduct extensive experiments on the AOL query log data. Our results show that this method results in a higher data utility compared to the state of-the-art transaction anonymization methods.',
+	 'authors': u'Amin Milani Fard, Ke Wang,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0663',
+	 'subjects': u'Databases (cs.DB)',
+	 'title': u'\nAn Effective Clustering Approach to Web Query Log Anonymization',
+	 'urllink': u'http://arxiv.org/abs/1012.0663'}
+2015-03-23 23:20:57+0000 [xxu46_2] INFO: Crawled 45 pages (at 1 pages/min), scraped 40 items (at 1 items/min)
+2015-03-23 23:21:57+0000 [xxu46_2] INFO: Crawled 45 pages (at 0 pages/min), scraped 40 items (at 0 items/min)
+2015-03-23 23:22:41+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0634> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:22:41+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0634>
+	{'abstract': u'This paper considers the problem of finding a quickest path between two points in the Euclidean plane in the presence of a transportation network. A transportation network consists of a planar network where each road (edge) has an individual speed. A traveller may enter and exit the network at any point on the roads. Along any road the traveller moves with a fixed speed depending on the road, and outside the network the traveller moves at unit speed in any direction. We give an exact algorithm for the basic version of the problem: given a transportation network of total complexity n in the Euclidean plane, a source point s and a destination point t, and the quickest path between s and t. We also show how the transportation network can be preprocessed in time O(n^2 log n) into a data structure of size O(n^2) such that (1 + epsilon)-approximate cheapest path cost queries between any two points in the plane can be answered in time O(1 epsilon^4 log n).',
+	 'authors': u'Radwa El Shawi, Joachim Gudmundsson, Christos Levcopoulos,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0634',
+	 'subjects': u'Computational Geometry (cs.CG)',
+	 'title': u'\nQuickest Path Queries on Transportation Network',
+	 'urllink': u'http://arxiv.org/abs/1012.0634'}
+2015-03-23 23:22:57+0000 [xxu46_2] INFO: Crawled 46 pages (at 1 pages/min), scraped 41 items (at 1 items/min)
+2015-03-23 23:23:57+0000 [xxu46_2] INFO: Crawled 46 pages (at 0 pages/min), scraped 41 items (at 0 items/min)
+2015-03-23 23:24:43+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0610> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:24:43+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0610>
+	{'abstract': u'Corporate mail services are designed to perform better than public mail services. Fast mail delivery, large size file transfer as an attachments, high level spam and virus protection, commercial advertisement free environment are some of the advantages worth to mention. But these mail services are frequent target of hackers and spammers. Distributed Denial of service attacks are becoming more common and sophisticated. The researchers have proposed various solutions to the DDOS attacks. Can we stop these kinds of attacks with available technology? These days the DDoS attack through spam has increased and disturbed the mail services of various organizations. Spam penetrates through all the filters to establish DDoS attacks, which causes serious problems to users and the data. In this paper we propose a novel approach to defend DDoS attack caused by spam mails. This approach is a combination of fine tuning of source filters, content filters, strictly implementing mail policies,educating user, network monitoring and logical solutions to the ongoing attack. We have conducted several experiments in corporate mail services; the results show that this approach is highly effective to prevent DDoS attack caused by spam. The novel defense mechanism reduced 60% of the incoming spam traffic and repelled many DDoS attacks caused by spam.',
+	 'authors': u'Dhinaharan Nagamalai, Cynthia Dhinakaran, Jae-Kwang Lee,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0610',
+	 'subjects': u'Cryptography and Security (cs.CR)',
+	 'title': u'\nNovel Mechanism to Defend DDoS Attacks Caused by Spam',
+	 'urllink': u'http://arxiv.org/abs/1012.0610'}
+2015-03-23 23:24:57+0000 [xxu46_2] INFO: Crawled 47 pages (at 1 pages/min), scraped 42 items (at 1 items/min)
+2015-03-23 23:25:57+0000 [xxu46_2] INFO: Crawled 47 pages (at 0 pages/min), scraped 42 items (at 0 items/min)
+2015-03-23 23:26:57+0000 [xxu46_2] INFO: Crawled 47 pages (at 0 pages/min), scraped 42 items (at 0 items/min)
+2015-03-23 23:27:15+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0602> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:27:15+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0602>
+	{'abstract': u'We present a mathematical connection between channel coding and compressed sensing. In particular, we link, on the one hand, emph, which is a well-known relaxation o maximum-likelihood channel decoding for binary linear codes, and, on the other hand, emph, also known as basis pursuit, which is a widely used linear programming relaxation for the problem of finding the sparsest solution of an under-determined system of linear equations. More specifically, we establis a tight connection between CS-LPD based on a zero-one measurement matrix over the reals and CC-LPD of the binary linear channel code that is obtained by viewing this measurement matrix as a binary parity-check matrix. This connection allows the translation of performance guarantees from one setup to the other. The main message of this paper is that parity-check matrices of "good" channel codes can be used as provably "good" measurement matrices under basis pursuit. In particular, we provide the first deterministic construction of compressed sensing measurement matrices with an order-optimal number of rows using high-girth low-density parity-check (LDPC) codes constructed by Gallager.',
+	 'authors': u'Alexandros G. Dimakis, Roxana Smarandache, Pascal O. Vontobel,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0602',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nLDPC Codes for Compressed Sensing',
+	 'urllink': u'http://arxiv.org/abs/1012.0602'}
+2015-03-23 23:27:57+0000 [xxu46_2] INFO: Crawled 48 pages (at 1 pages/min), scraped 43 items (at 1 items/min)
+2015-03-23 23:28:57+0000 [xxu46_2] INFO: Crawled 48 pages (at 0 pages/min), scraped 43 items (at 0 items/min)
+2015-03-23 23:29:04+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0599> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:29:04+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0599>
+	{'abstract': u'The dynamic decode-and-forward (DDF) relaying protocol is a relatively new cooperative scheme which has been shown to achieve promising theoretical results in terms of diversity-multiplexing gain tradeoff and error rates. The case of a single relay has been extensively studied in the literature and several techniques to approach the optimum performance have been proposed. Until recently, however, a practical implementation for the case of several relays had been considered to be much more challenging. A rotation-based DDF technique, suitable for any number of relays, has been recently proposed which promises to overcome important implementation hurdles. This article provides an overview of the DDF protocol, describes different implementation techniques and compares their performance.',
+	 'authors': u'Charlotte Hucher, Parastoo Sadeghi,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0599',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nTowards a Low-Complexity Dynamic Decode-and-Forward Relay Protocol',
+	 'urllink': u'http://arxiv.org/abs/1012.0599'}
+2015-03-23 23:29:57+0000 [xxu46_2] INFO: Crawled 49 pages (at 1 pages/min), scraped 44 items (at 1 items/min)
+2015-03-23 23:30:57+0000 [xxu46_2] INFO: Crawled 49 pages (at 0 pages/min), scraped 44 items (at 0 items/min)
+2015-03-23 23:31:26+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0591> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:31:26+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0591>
+	{'abstract': u'We generalize the notions of flippable and simultaneously flippable edges in a triangulation of a set S of points in the plane to so-called emph. Such edges are related to the notion of convex decompositions spanned by S. We prove a worst-case tight lower bound for the number of pseudo-simultaneously flippable edges in a triangulation in terms of the number of vertices. We use this bound for deriving new upper bounds for the maximal number of crossing-free straight-edge graphs that can be embedded on any fixed set of N points in the plane. We obtain new upper bounds for the number of spanning trees and forests as well. Specifically, let tr(N) denote the maximum number of triangulations on a set of N points in the plane. Then we show (using the known bound tr(N) &lt; 30^N) that any N-element point set admits at most 6.9283^N * tr(N) &lt; 207.85^N crossing-free straight-edge graphs, O(4.7022^N) * tr(N) = O(141.07^N) spanning trees, and O(5.3514^N) * tr(N) = O(160.55^N) forests. We also obtain upper bounds for the number of crossing-free straight-edge graphs that have cN, fewer than cN, or more than cN edges, for any constant parameter c, in terms of c and N.',
+	 'authors': u'Michael Hoffmann, Micha Sharir, Adam Sheffer, Csaba D. T\xf3th, Emo Welzl,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0591',
+	 'subjects': u'Discrete Mathematics (cs.DM)',
+	 'title': u'\nCounting Plane Graphs: Flippability and its Applications',
+	 'urllink': u'http://arxiv.org/abs/1012.0591'}
+2015-03-23 23:31:57+0000 [xxu46_2] INFO: Crawled 50 pages (at 1 pages/min), scraped 45 items (at 1 items/min)
+2015-03-23 23:32:31+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0557> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:32:31+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0557>
+	{'abstract': u"Lov 'asz Local Lemma (LLL) is a probabilistic tool that allows us to prove the existence of combinatorial objects in the cases when standard probabilistic argument does not work (there are many partly independent conditions). LLL can be also used to prove the consistency of an infinite set of conditions, using standard compactness argument (if an infinite set of conditions is inconsistent, then some finite part of it is inconsistent, too, which contradicts LLL). In this way we show that objects satisfying all the conditions do exist (though the probability of this event equals~). However, if we are interested in finding a computable solution that satisfies all the constraints, compactness arguments do not work anymore. Moser and Tardos recently gave a nice constructive proof of LLL. Lance Fortnow asked whether one can apply Moser--Tardos technique to prove the existence of a computable solution. We show that this is indeed possible (under almost the same conditions as used in the non-constructive version).",
+	 'authors': u'Andrey Rumyantsev,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0557',
+	 'subjects': u'Data Structures and Algorithms (cs.DS)',
+	 'title': u'\nInfinite computable version of Lovasz Local Lemma',
+	 'urllink': u'http://arxiv.org/abs/1012.0557'}
+2015-03-23 23:32:57+0000 [xxu46_2] INFO: Crawled 51 pages (at 1 pages/min), scraped 46 items (at 1 items/min)
+2015-03-23 23:33:57+0000 [xxu46_2] INFO: Crawled 51 pages (at 0 pages/min), scraped 46 items (at 0 items/min)
+2015-03-23 23:34:57+0000 [xxu46_2] INFO: Crawled 51 pages (at 0 pages/min), scraped 46 items (at 0 items/min)
+2015-03-23 23:34:59+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0556> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:34:59+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0556>
+	{'abstract': u'We note that for each k in the following holds: NE has (nonuniform) ACC^k circuits if and only if NE has P^-uniform ACC^k circuits. And we mention how to get analogous results for other circuit and complexity classes.',
+	 'authors': u'Lane A. Hemaspaandra,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0556',
+	 'subjects': u'Computational Complexity (cs.CC)',
+	 'title': u'\nA Note on Nonuniform versus Uniform ACC^k Circuits for NE',
+	 'urllink': u'http://arxiv.org/abs/1012.0556'}
+2015-03-23 23:35:57+0000 [xxu46_2] INFO: Crawled 52 pages (at 1 pages/min), scraped 47 items (at 1 items/min)
+2015-03-23 23:36:57+0000 [xxu46_2] INFO: Crawled 52 pages (at 0 pages/min), scraped 47 items (at 0 items/min)
+2015-03-23 23:37:23+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0548> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:37:23+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0548>
+	{'abstract': u'Motivated by an open problem from graph drawing, we study several partitioning problems for line and hyperplane arrangements. We prove a ham-sandwich cut theorem: given two sets of n lines in R^2, there is a line l such that in both line sets, for both halfplanes delimited by l, there are n^ lines which pairwise intersect in that halfplane, and this bound is tight; a centerpoint theorem: for any set of n lines there is a point such that for any halfplane containing that point there are (n/3)^ of the lines which pairwise intersect in that halfplane. We generalize those results in higher dimension and obtain a center transversal theorem, a same-type lemma, and a positive portion Erdos-Szekeres theorem for hyperplane arrangements. This is done by formulating a generalization of the center transversal theorem which applies to set functions that are much more general than measures. Back to Graph Drawing (and in the plane), we completely solve the open problem that motivated our search: there is no set of n labelled lines that are universal for all n-vertex labelled planar graphs. As a side note, we prove that every set of n (unlabelled) lines is universal for all n-vertex (unlabelled) planar graphs.',
+	 'authors': u'Vida Dujmovic, Stefan Langerman,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0548',
+	 'subjects': u'Computational Geometry (cs.CG)',
+	 'title': u'\nA Center Transversal Theorem for Hyperplanes and Applications to Graph  Drawing',
+	 'urllink': u'http://arxiv.org/abs/1012.0548'}
+2015-03-23 23:37:57+0000 [xxu46_2] INFO: Crawled 53 pages (at 1 pages/min), scraped 48 items (at 1 items/min)
+2015-03-23 23:38:57+0000 [xxu46_2] INFO: Crawled 53 pages (at 0 pages/min), scraped 48 items (at 0 items/min)
+2015-03-23 23:39:05+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0522> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:39:05+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0522>
+	{'abstract': u'We present an architecture of a hosting system consisting of a set of hosted Web Services subject to QoS constraints, and a certain number of servers used to run users demand. The traffic is session-based, while provider and users agree on SLAs specifying the expected level of service performance such that the service provider is liable to compensate his/her customers if the level of performance is not satisfactory. The system is driven by a utility function which tries to optimize the average earned revenue per unit time. The middleware collects demand and performance statistics, and estimates traffic parameters in order to make dynamic decisions concerning server allocation and admission control. We empirically evaluate the effects of admission policies, resource allocation and service differentiation schemes on the achieved revenues, and we find that our system is robust enough to successfully deal with session-based traffic under different conditions.',
+	 'authors': u'Michele Mazzucco, Manuel Mazzara, Nicola Dragoni,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0522',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nDesign of QoS-aware Provisioning Systems',
+	 'urllink': u'http://arxiv.org/abs/1012.0522'}
+2015-03-23 23:39:57+0000 [xxu46_2] INFO: Crawled 54 pages (at 1 pages/min), scraped 49 items (at 1 items/min)
+2015-03-23 23:40:57+0000 [xxu46_2] INFO: Crawled 54 pages (at 0 pages/min), scraped 49 items (at 0 items/min)
+2015-03-23 23:40:58+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0498> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:40:58+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0498>
+	{'abstract': u"Recommendation systems are emerging as an important business application with significant economic impact. Currently popular systems include Amazon's book recommendations, Netflix's movie recommendations, and Pandora's music recommendations. In this paper we address the problem of estimating probabilities associated with recommendation system data using non-parametric kernel smoothing. In our estimation we interpret missing items as randomly censored observations and obtain efficient computation schemes using combinatorial properties of generating functions. We demonstrate our approach with several case studies involving real world movie recommendation data. The results are comparable with state-of-the-art techniques while also providing probabilistic preference estimates outside the scope of traditional recommender systems.",
+	 'authors': u'Mingxuan Sun, Guy Lebanon, Paul Kidwell,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0498',
+	 'subjects': u'Learning (cs.LG)',
+	 'title': u'\nEstimating Probabilities in Recommendation Systems',
+	 'urllink': u'http://arxiv.org/abs/1012.0498'}
+2015-03-23 23:41:57+0000 [xxu46_2] INFO: Crawled 55 pages (at 1 pages/min), scraped 50 items (at 1 items/min)
+2015-03-23 23:42:57+0000 [xxu46_2] INFO: Crawled 55 pages (at 0 pages/min), scraped 50 items (at 0 items/min)
+2015-03-23 23:43:15+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0467> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:43:15+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0467>
+	{'abstract': u'This article describes requirements and challenges of crossplatform multi-touch software engineering, and presents the open source framework Multi-Touch for Java (MT4j) as a solution. MT4j is designed for rapid development of graphically rich applications on a variety of contemporary hardware, from common PCs and notebooks to large-scale ambient displays, as well as different operating systems. The framework has a special focus on making multi-touch software development easier and more efficient. Architecture and abstractions used by MT4j are described, and implementations of several common use cases are presented.',
+	 'authors': u'Uwe Laufs, Christopher Ruff, Jan Zibuschka,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0467',
+	 'subjects': u'Human-Computer Interaction (cs.HC)',
+	 'title': u'\nMT4j - A Cross-platform Multi-touch Development Framework',
+	 'urllink': u'http://arxiv.org/abs/1012.0467'}
+2015-03-23 23:43:57+0000 [xxu46_2] INFO: Crawled 56 pages (at 1 pages/min), scraped 51 items (at 1 items/min)
+2015-03-23 23:44:57+0000 [xxu46_2] INFO: Crawled 56 pages (at 0 pages/min), scraped 51 items (at 0 items/min)
+2015-03-23 23:45:15+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0452> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:45:15+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0452>
+	{'abstract': u"In multi-user communication from one base station (BS) to multiple users, the problem of minimizing the transmit power to achieve some target guaranteed performance (rates) at users has been well investigated in the literature. Similarly various user selection algorithms have been proposed and analyzed when the BS has to transmit to a subset of the users in the system, mostly for the objective of the sum rate maximization. We study the joint problem of minimizing the transmit power at the BS to achieve specific signal-to-interference-and-noise ratio (SINR) targets at users in conjunction with user scheduling. The general analytical results for the average transmit power required to meet guaranteed performance at the users' side are difficult to obtain even without user selection due to joint optimization required over beamforming vectors and power allocation scalars. We study the transmit power minimization problem with various user selection algorithms, namely semi-orthogonal user selection (SUS), norm-based user selection (NUS) and angle-based user selection (AUS). When the SINR targets to achieve are relatively large, the average minimum transmit power expressions are derived for NUS and SUS for any number of users. For the special case when only two users are selected, similar expressions are further derived for AUS and a performance upper bound which serves to benchmark the performance of other selection schemes. Simulation results performed under various settings indicate that SUS is by far the better user selection criterion.",
+	 'authors': u'Umer Salim, Dirk Slock,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0452',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nAverage Minimum Transmit Power to achieve SINR Targets: Performance  Comparison of Various User Selection Algorithms',
+	 'urllink': u'http://arxiv.org/abs/1012.0452'}
+2015-03-23 23:45:57+0000 [xxu46_2] INFO: Crawled 57 pages (at 1 pages/min), scraped 52 items (at 1 items/min)
+2015-03-23 23:46:57+0000 [xxu46_2] INFO: Crawled 57 pages (at 0 pages/min), scraped 52 items (at 0 items/min)
+2015-03-23 23:47:26+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0416> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:47:26+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0416>
+	{'abstract': u'In this paper, a compress-and-forward scheme with backward decoding is presented for the unicast wireless relay network. The encoding at the source and relay is a generalization of the noisy network coding scheme (NNC). While it achieves the same reliable data rate as noisy network coding scheme, the backward decoding allows for a better decoding complexity as compared to the joint decoding of the NNC scheme. Characterizing the layered decoding scheme is shown to be equivalent to characterizing an information flow for the wireless network. A node-flow for a graph with bisubmodular capacity constraints is presented and a max-flow min-cut theorem is proved for it. This generalizes many well-known results of flows over capacity constrained graphs studied in computer science literature. The results for the unicast relay network are generalized to the network with multiple sources with independent messages intended for a single destination.',
+	 'authors': u'Adnan Raja, Pramod Viswanath,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0416',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nCompress-and-Forward Scheme for Relay Networks: Backword Decoding and  Connection to Bisubmodular Flows',
+	 'urllink': u'http://arxiv.org/abs/1012.0416'}
+2015-03-23 23:47:57+0000 [xxu46_2] INFO: Crawled 58 pages (at 1 pages/min), scraped 53 items (at 1 items/min)
+2015-03-23 23:48:57+0000 [xxu46_2] INFO: Crawled 58 pages (at 0 pages/min), scraped 53 items (at 0 items/min)
+2015-03-23 23:49:34+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0412> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:49:34+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0412>
+	{'abstract': u'It is known that the Entropy Power Inequality (EPI) always holds if the random variables have density. Not much work has been done to identify discrete distributions for which the inequality holds with the differential entropy replaced by the discrete entropy. Harremo "s and Vignat showed that it holds for the pair (B(m,p), B(n,p)), m,n in mathbb, (where B(n,p) is a Binomial distribution with n trials each with success probability p) for p = 0.5. In this paper, we considerably expand the set of Binomial distributions for which the inequality holds and, in particular, identify n_0(p) such that for all m,n geq n_0(p), the EPI holds for (B(m,p), B(n,p)). We further show that the EPI holds for the discrete random variables that can be expressed as the sum of n independent identical distributed (IID) discrete random variables for large n.',
+	 'authors': u'Naresh Sharma, Smarajit Das, Siddharth Muthukrishnan,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0412',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nEntropy power inequality for a family of discrete random variables',
+	 'urllink': u'http://arxiv.org/abs/1012.0412'}
+2015-03-23 23:49:57+0000 [xxu46_2] INFO: Crawled 59 pages (at 1 pages/min), scraped 54 items (at 1 items/min)
+2015-03-23 23:50:57+0000 [xxu46_2] INFO: Crawled 59 pages (at 0 pages/min), scraped 54 items (at 0 items/min)
+2015-03-23 23:51:11+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0397> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:51:11+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0397>
+	{'abstract': u'The goal of this paper is to design compact support basis spline functions that best approximate a given filter (e.g., an ideal Lowpass filter). The optimum function is found by minimizing the least square problem (2 norm of the difference between the desired and the approximated filters) by means of the calculus of variation; more precisely, the introduced splines give optimal filtering properties with respect to their time support interval. Both mathematical analysis and simulation results confirm the superiority of these splines.',
+	 'authors': u'Ramtin Madani, Ali Ayremlou, Arash Amini, Farrokh Marvasti,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0397',
+	 'subjects': u'Multimedia (cs.MM)',
+	 'title': u'\nA proposed Optimized Spline Interpolation',
+	 'urllink': u'http://arxiv.org/abs/1012.0397'}
+2015-03-23 23:51:57+0000 [xxu46_2] INFO: Crawled 60 pages (at 1 pages/min), scraped 55 items (at 1 items/min)
+2015-03-23 23:52:40+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0392> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:52:40+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0392>
+	{'abstract': u'Supporting Information for the Paper: Optimal Ternary Constant-Composition Codes of Weight Four and Distance Five, IEEE Trans. Inform. Theory, To Appear.',
+	 'authors': u'Fei Gao, Gennian Ge,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0392',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nSupporting Information for the Paper: Optimal Ternary  Constant-Composition Codes of Weight Four and Distance Five, IEEE Trans.  Inform. Theory, To Appear',
+	 'urllink': u'http://arxiv.org/abs/1012.0392'}
+2015-03-23 23:52:57+0000 [xxu46_2] INFO: Crawled 61 pages (at 1 pages/min), scraped 56 items (at 1 items/min)
+2015-03-23 23:53:57+0000 [xxu46_2] INFO: Crawled 61 pages (at 0 pages/min), scraped 56 items (at 0 items/min)
+2015-03-23 23:54:31+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0379> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:54:31+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0379>
+	{'abstract': u"We propose an efficient scheme for generating fake network traffic to disguise the real event notification in the presence of a global eavesdropper, which is especially relevant for the quality of service in delay-intolerant applications monitoring rare and spatially sparse events, and deployed as large wireless sensor networks with single data collector. The efficiency of the scheme that provides statistical source anonymity is achieved by partitioning network nodes randomly into several node groups. Members of the same group collectively emulate both temporal and spatial distribution of the event. Under such dummy-traffic framework of the source anonymity protection, we aim to better model the global eavesdropper, especially her way of using statistical tests to detect the real event, and to present the quality of the location protection as relative to the adversary's strength. In addition, our approach aims to reduce the per-event work spent to generate the fake traffic while, most importantly, providing a guaranteed latency in reporting the event. The latency is controlled by decoupling the routing from the fake traffic schedule. We believe that the proposed source anonymity protection strategy, and the quality evaluation framework, are well justified by the abundance of the applications that monitor a rare event with known temporal statistics, and uniform spatial distribution.",
+	 'authors': u'Silvija Kokalj-Filipovic, Fabrice Le Fessant, Predrag Spasojevic,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0379',
+	 'subjects': u'Cryptography and Security (cs.CR)',
+	 'title': u'\nQuality of Source Location Protection in Globally Attacked Sensor  Networks',
+	 'urllink': u'http://arxiv.org/abs/1012.0379'}
+2015-03-23 23:54:57+0000 [xxu46_2] INFO: Crawled 62 pages (at 1 pages/min), scraped 57 items (at 1 items/min)
+2015-03-23 23:55:57+0000 [xxu46_2] INFO: Crawled 62 pages (at 0 pages/min), scraped 57 items (at 0 items/min)
+2015-03-23 23:56:57+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0378> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:56:57+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0378>
+	{'abstract': u"In the problem of location anonymity of the events exposed to a global eavesdropper, we highlight and analyze some aspects that are missing in the prior work, which is especially relevant for the quality of secure sensing in delay-intolerant applications monitoring rare and spatially sparse events, and deployed as large wireless sensor networks with single data collector. We propose an efficient scheme for generating fake network traffic to disguise the real event notification. The efficiency of the scheme that provides statistical source location anonymity is achieved by partitioning network nodes randomly into several dummy source groups. Members of the same group collectively emulate both temporal and spatial distribution of the event. Under such dummy-traffic framework of the source anonymity protection, we aim to better model the global eavesdropper, especially her way of using statistical tests to detect the real event, and to present the quality of the location protection as relative to the adversary's strength. In addition, our approach aims to reduce the per-event work spent to generate the fake traffic while, most importantly, providing a guaranteed latency in reporting the event. The latency is controlled by decoupling the routing from the fake-traffic schedule. A good dummy source group design also provides a robust protection of event bursts. This is achieved at the expense of the significant overhead as the number of dummy source groups must be increased to the reciprocal value of the false alarm parameter used in the statistical test. We believe that the proposed source anonymity protection strategy, and the evaluation framework, are well justified by the abundance of the applications that monitor a rare event with known temporal statistics, and uniform spatial distribution.",
+	 'authors': u'Silvija Kokalj-Filipovic, Fabrice Le Fessant, Predrag Spasojevic,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0378',
+	 'subjects': u'Cryptography and Security (cs.CR)',
+	 'title': u'\nSome Important Aspects of Source Location Protection in Globally  Attacked Sensor Networks',
+	 'urllink': u'http://arxiv.org/abs/1012.0378'}
+2015-03-23 23:56:57+0000 [xxu46_2] INFO: Crawled 63 pages (at 1 pages/min), scraped 58 items (at 1 items/min)
+2015-03-23 23:57:57+0000 [xxu46_2] INFO: Crawled 63 pages (at 0 pages/min), scraped 58 items (at 0 items/min)
+2015-03-23 23:58:47+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0375> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-23 23:58:47+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0375>
+	{'abstract': u'Femtocell is emerging as a key technology to secure the coverage and capacity in indoor environments. However the deployment of a new femtocell layer may originate undesired interference to the whole system. This paper investigates spectrum resource coordination and interference management for the femtocell networks. A resource coordination scheme based on broadcasting resource coordination request messages by the femto mobile is proposed to reduce the system interference.',
+	 'authors': u'Yan Liang, Chengling Jiang, Chunliang Yang,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0375',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nDynamic Resource Coordination and Interference Management for Femtocell  Networks',
+	 'urllink': u'http://arxiv.org/abs/1012.0375'}
+2015-03-23 23:58:57+0000 [xxu46_2] INFO: Crawled 64 pages (at 1 pages/min), scraped 59 items (at 1 items/min)
+2015-03-23 23:59:57+0000 [xxu46_2] INFO: Crawled 64 pages (at 0 pages/min), scraped 59 items (at 0 items/min)
+2015-03-24 00:00:57+0000 [xxu46_2] INFO: Crawled 64 pages (at 0 pages/min), scraped 59 items (at 0 items/min)
+2015-03-24 00:01:16+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0367> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:01:16+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0367>
+	{'abstract': u'This paper investigates universal polar coding schemes. In particular, a notion of ordering (called convolutional path) is introduced between probability distributions to determine when a polar compression (or communication) scheme designed for one distribution can also succeed for another one. The original polar decoding algorithm is also generalized to an algorithm allowing to learn information about the source distribution using the idea of checkers. These tools are used to construct a universal compression algorithm for binary sources, operating at the lowest achievable rate (entropy), with low complexity and with guaranteed small error probability. In a second part of the paper, the problem of sketching high dimensional discrete signals which are sparse is approached via the polarization technique. It is shown that the number of measurements required for perfect recovery is competitive with the bound (with optimal constant for binary signals), meanwhile affording a deterministic low complexity measurement matrix.',
+	 'authors': u'Emmanuel Abbe,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0367',
+	 'subjects': u'Information Theory (cs.IT)',
+	 'title': u'\nUniversal polar coding and sparse recovery',
+	 'urllink': u'http://arxiv.org/abs/1012.0367'}
+2015-03-24 00:01:57+0000 [xxu46_2] INFO: Crawled 65 pages (at 1 pages/min), scraped 60 items (at 1 items/min)
+2015-03-24 00:02:57+0000 [xxu46_2] INFO: Crawled 65 pages (at 0 pages/min), scraped 60 items (at 0 items/min)
+2015-03-24 00:03:33+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0365> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:03:33+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0365>
+	{'abstract': u'Recent years have witnessed the popularity of using rank minimization as a regularizer for various signal processing and machine learning problems. As rank minimization problems are often converted to nuclear norm minimization (NNM) problems, they have to be solved iteratively and each iteration requires computing a singular value decomposition (SVD). Therefore, their solution suffers from the high computation cost of multiple SVDs. To relieve this issue, we propose using the block Lanczos method to compute the partial SVDs, where the principal singular subspaces obtained in the previous iteration are used to start the block Lanczos procedure. To avoid the expensive reorthogonalization in the Lanczos procedure, the block Lanczos procedure is performed for only a few steps. Our block Lanczos with warm start (BLWS) technique can be adopted by different algorithms that solve NNM problems. We present numerical results on applying BLWS to Robust PCA and Matrix Completion problems. Experimental results show that our BLWS technique usually accelerates its host algorithm by at least two to three times.',
+	 'authors': u'Zhouchen Lin, Siming Wei,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0365',
+	 'subjects': u'Numerical Analysis (cs.NA)',
+	 'title': u'\nA Block Lanczos with Warm Start Technique for Accelerating Nuclear Norm  Minimization Algorithms',
+	 'urllink': u'http://arxiv.org/abs/1012.0365'}
+2015-03-24 00:03:57+0000 [xxu46_2] INFO: Crawled 66 pages (at 1 pages/min), scraped 61 items (at 1 items/min)
+2015-03-24 00:04:57+0000 [xxu46_2] INFO: Crawled 66 pages (at 0 pages/min), scraped 61 items (at 0 items/min)
+2015-03-24 00:05:38+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0359> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:05:38+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0359>
+	{'abstract': u'In the case of the scientometric evaluation of multi- or interdisciplinary units one risks to compare apples with oranges: each paper has to assessed in comparison to an appropriate reference set. We suggest that the set of citing papers first can be considered as the relevant representation of the field of impact. In order to normalize for differences in citation behavior among fields, citations can be fractionally counted proportionately to the length of the reference lists in the citing papers. This new method enables us to compare among units with different disciplinary affiliations at the paper level and also to assess the statistical significance of differences among sets. Twenty-seven departments of the Tsinghua University in Beijing are thus compared. Among them, the Department of Chinese Language and Linguistics is upgraded from the 19th to the second position in the ranking. The overall impact of 19 of the 27 departments is not significantly different at the 5% level when thus normalized for different citation potentials.',
+	 'authors': u'Ping Zhou, Loet Leydesdorff,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0359',
+	 'subjects': u'Digital Libraries (cs.DL)',
+	 'title': u'\nFractional counting of citations in research evaluation: An option for  cross- and interdisciplinary assessments',
+	 'urllink': u'http://arxiv.org/abs/1012.0359'}
+2015-03-24 00:05:57+0000 [xxu46_2] INFO: Crawled 67 pages (at 1 pages/min), scraped 62 items (at 1 items/min)
+2015-03-24 00:06:57+0000 [xxu46_2] INFO: Crawled 67 pages (at 0 pages/min), scraped 62 items (at 0 items/min)
+2015-03-24 00:07:57+0000 [xxu46_2] INFO: Crawled 67 pages (at 0 pages/min), scraped 62 items (at 0 items/min)
+2015-03-24 00:08:09+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0335> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:08:09+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0335>
+	{'abstract': u'A boolean expression is in read-once form if each of its variables appears exactly once. When the variables denote independent events in a probability space, the probability of the event denoted by the whole expression in read-once form can be computed in polynomial time (whereas the general problem for arbitrary expressions is #P-complete). Known approaches to checking read-once property seem to require putting these expressions in disjunctive normal form. In this paper, we tell a better story for a large subclass of boolean event expressions: those that are generated by conjunctive queries without self-joins and on tuple-independent probabilistic databases. We first show that given a tuple-independent representation and the provenance graph of an SPJ query plan without self-joins, we can, without using the DNF of a result event expression, efficiently compute its co-occurrence graph. From this, the read-once form can already, if it exists, be computed efficiently using existing techniques. Our second and key contribution is a complete, efficient, and simple to implement algorithm for computing the read-once forms (whenever they exist) directly, using a new concept, that of co-table graph, which can be significantly smaller than the co-occurrence graph.',
+	 'authors': u'Sudeepa Roy, Vittorio Perduca, Val Tannen,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0335',
+	 'subjects': u'Databases (cs.DB)',
+	 'title': u'\nFaster Query Answering in Probabilistic Databases using Read-Once  Functions',
+	 'urllink': u'http://arxiv.org/abs/1012.0335'}
+2015-03-24 00:08:57+0000 [xxu46_2] INFO: Crawled 68 pages (at 1 pages/min), scraped 63 items (at 1 items/min)
+2015-03-24 00:09:40+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0326> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:09:40+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0326>
+	{'abstract': u'This paper is an attempt to incorporate the idea of spiking neural P systems as an early seed into the area of Operating System Design, regarding their capability to solve some classical computer science problems. It is reflecting the power of such systems to simulate well known parallel computational models, like logic gates, arithmetic operation, and sorting. In these devices, the time (when the neurons fire and/or spike) plays an essential role. For instance, the result of a computation is the time between the moments when a specified neuron spikes. Seen as number computing devices, SN P systems are shown to be computationally complete, and with such capabilities, arithmetic operations, logic, and timing, some first steps could be taken towards an OS design.',
+	 'authors': u'Ammar Adl, Amr Badr, Ibrahim Farag,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0326',
+	 'subjects': u'Other Computer Science (cs.OH)',
+	 'title': u'\nTowards a Spiking Neural P Systems OS',
+	 'urllink': u'http://arxiv.org/abs/1012.0326'}
+2015-03-24 00:09:57+0000 [xxu46_2] INFO: Crawled 69 pages (at 1 pages/min), scraped 64 items (at 1 items/min)
+2015-03-24 00:10:57+0000 [xxu46_2] INFO: Crawled 69 pages (at 0 pages/min), scraped 64 items (at 0 items/min)
+2015-03-24 00:11:43+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0322> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:11:43+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0322>
+	{'abstract': u'Uncertainty of decisions in safety-critical engineering applications can be estimated on the basis of the Bayesian Markov Chain Monte Carlo (MCMC) technique of averaging over decision models. The use of decision tree (DT) models assists experts to interpret causal relations and find factors of the uncertainty. Bayesian averaging also allows experts to estimate the uncertainty accurately when a priori information on the favored structure of DTs is available. Then an expert can select a single DT model, typically the Maximum a Posteriori model, for interpretation purposes. Unfortunately, a priori information on favored structure of DTs is not always available. For this reason, we suggest a new prior on DTs for the Bayesian MCMC technique. We also suggest a new procedure of selecting a single DT and describe an application scenario. In our experiments on the Short-Term Conflict Alert data our technique outperforms the existing Bayesian techniques in predictive accuracy of the selected single DTs.',
+	 'authors': u'Vitaly Schetinin, Jonathan Fieldsend, Derek Partridge, Wojtek Krzanowski, Richard Everson, Trevor Bailey, Adolfo Hernandez,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0322',
+	 'subjects': u'Artificial Intelligence (cs.AI)',
+	 'title': u'\nA Bayesian Methodology for Estimating Uncertainty of Decisions in  Safety-Critical Systems',
+	 'urllink': u'http://arxiv.org/abs/1012.0322'}
+2015-03-24 00:11:57+0000 [xxu46_2] INFO: Crawled 70 pages (at 1 pages/min), scraped 65 items (at 1 items/min)
+2015-03-24 00:12:57+0000 [xxu46_2] INFO: Crawled 70 pages (at 0 pages/min), scraped 65 items (at 0 items/min)
+2015-03-24 00:13:57+0000 [xxu46_2] INFO: Crawled 70 pages (at 0 pages/min), scraped 65 items (at 0 items/min)
+2015-03-24 00:14:11+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0284> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:14:11+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0284>
+	{'abstract': u'A fast simple O( log n) iteration algorithm for individual Lucas numbers is given. This is faster than using Fibonacci based methods because of the structure of Lucas numbers. Using a sqrt 5 conversion factor on Lucus numbers gives a faster Fibonacci algorithm. In addition, a fast simple recursive algorithm for individual Lucas numbers is given that is O(log n).',
+	 'authors': u'L. F. Johnson,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0284',
+	 'subjects': u'Discrete Mathematics (cs.DM)',
+	 'title': u'\nMiddle and Ripple, fast simple O(lg n) algorithms for Lucas Numbers',
+	 'urllink': u'http://arxiv.org/abs/1012.0284'}
+2015-03-24 00:14:57+0000 [xxu46_2] INFO: Crawled 71 pages (at 1 pages/min), scraped 66 items (at 1 items/min)
+2015-03-24 00:15:57+0000 [xxu46_2] INFO: Crawled 71 pages (at 0 pages/min), scraped 66 items (at 0 items/min)
+2015-03-24 00:16:02+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0280> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:16:02+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0280>
+	{'abstract': u'We present an efficient algorithm for finding all approximate occurrences of a given pattern of length in a text of length allowing for translocations of equal length adjacent factors and inversions of factors. The algorithm is based on an efficient filtering method and has an -time complexity in the worst case and -space complexity, where and are respectively the maximum length of the factors involved in any translocation and inversion. Moreover we show that under the assumptions of equiprobability and independence of characters our algorithm has a average time complexity, whenever , where and is the dimension of the alphabet. Experiments show that the new proposed algorithm achieves very good results in practical cases.',
+	 'authors': u'Szymon Grabowski, Simone Faro, Emanuele Giaquinta,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0280',
+	 'subjects': u'Data Structures and Algorithms (cs.DS)',
+	 'title': u'\nString Matching with Inversions and Translocations in Linear Average  Time (Most of the Time)',
+	 'urllink': u'http://arxiv.org/abs/1012.0280'}
+2015-03-24 00:16:57+0000 [xxu46_2] INFO: Crawled 72 pages (at 1 pages/min), scraped 67 items (at 1 items/min)
+2015-03-24 00:17:57+0000 [xxu46_2] INFO: Crawled 72 pages (at 0 pages/min), scraped 67 items (at 0 items/min)
+2015-03-24 00:18:34+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0260> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:18:34+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0260>
+	{'abstract': u"We live in a world increasingly dominated by networks -- communications, social, information, biological etc. A central attribute of many of these networks is that they are dynamic, that is, they exhibit structural changes over time. While the practice of dynamic networks has proliferated, we lag behind in the fundamental, mathematical understanding of network dynamism. Existing research on time-varying graphs ranges from preliminary algorithmic studies (e.g., Ferreira's work on evolving graphs) to analysis of specific properties such as flooding time in dynamic random graphs. A popular model for studying dynamic graphs is a sequence of graphs arranged by increasing snapshots of time. In this paper, we study the fundamental property of reachability in a time-varying graph over time and characterize the latency with respect to two metrics, namely store-or-advance latency and cut-through latency. Instead of expected value analysis, we concentrate on characterizing the exact probability distribution of routing latency along a randomly intermittent path in two popular dynamic random graph models. Using this analysis, we characterize the loss of accuracy (in a probabilistic setting) between multiple temporal graph models, ranging from one that preserves all the temporal ordering information for the purpose of computing temporal graph properties to one that collapses various snapshots into one graph (an operation called smashing), with multiple intermediate variants. We also show how some other traditional graph theoretic properties can be extended to the temporal domain. Finally, we propose algorithms for controlling the progress of a packet in single-copy adaptive routing schemes in various dynamic random graphs.",
+	 'authors': u'Prithwish Basu, Amotz Bar-Noy, Ram Ramanathan, Matthew P. Johnson,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0260',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nModeling and Analysis of Time-Varying Graphs',
+	 'urllink': u'http://arxiv.org/abs/1012.0260'}
+2015-03-24 00:18:57+0000 [xxu46_2] INFO: Crawled 73 pages (at 1 pages/min), scraped 68 items (at 1 items/min)
+2015-03-24 00:19:57+0000 [xxu46_2] INFO: Crawled 73 pages (at 0 pages/min), scraped 68 items (at 0 items/min)
+2015-03-24 00:20:42+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0259> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:20:42+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0259>
+	{'abstract': u'Knuth [12, Page 417] states that "the (program of the) Fibonaccian search technique looks very mysterious at first glance" and that "it seems to work by magic". In this work, we show that there is even more magic in Fibonaccian (or else Fibonacci) search. We present a generalized Fibonacci procedure that follows perfectly the implicit optimal decision tree for search problems where the cost of each comparison depends on its outcome.',
+	 'authors': u'Pavlos S. Efraimidis,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0259',
+	 'subjects': u'Data Structures and Algorithms (cs.DS)',
+	 'title': u'\n(\u03b1, \u03b2) Fibonacci Search',
+	 'urllink': u'http://arxiv.org/abs/1012.0259'}
+2015-03-24 00:20:57+0000 [xxu46_2] INFO: Crawled 74 pages (at 1 pages/min), scraped 69 items (at 1 items/min)
+2015-03-24 00:21:57+0000 [xxu46_2] INFO: Crawled 74 pages (at 0 pages/min), scraped 69 items (at 0 items/min)
+2015-03-24 00:22:34+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0256> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:22:34+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0256>
+	{'abstract': u'In this work, we present a comprehensive treatment of weighted random sampling (WRS) over data streams. More precisely, we examine two natural interpretations of the item weights, describe an existing algorithm for each case ([2, 4]), discuss sampling with and without replacement and show adaptations of the algorithms for several WRS problems and evolving data streams.',
+	 'authors': u'Pavlos S. Efraimidis,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0256',
+	 'subjects': u'Data Structures and Algorithms (cs.DS)',
+	 'title': u'\nWeighted Random Sampling over Data Streams',
+	 'urllink': u'http://arxiv.org/abs/1012.0256'}
+2015-03-24 00:22:57+0000 [xxu46_2] INFO: Crawled 75 pages (at 1 pages/min), scraped 70 items (at 1 items/min)
+2015-03-24 00:23:57+0000 [xxu46_2] INFO: Crawled 75 pages (at 0 pages/min), scraped 70 items (at 0 items/min)
+2015-03-24 00:24:52+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0255> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:24:52+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0255>
+	{'abstract': u'We study the Minimum Crossing Number problem: given an -vertex graph , the goal is to find a drawing of in the plane with minimum number of edge crossings. This is one of the central problems in topological graph theory, that has been studied extensively over the past three decades. The first non-trivial efficient algorithm for the problem, due to Leighton and Rao, achieved an -approximation for bounded degree graphs. This algorithm has since been improved by poly-logarithmic factors, with the best current approximation ratio standing on for graphs with maximum degree . In contrast, only APX-hardness is known on the negative side. In this paper we present an efficient randomized algorithm to find a drawing of any -vertex graph in the plane with crossings, where is the number of crossings in the optimal solution, and is the maximum vertex degree in . This result implies an -approximation for Minimum Crossing Number, thus breaking the long-standing -approximation barrier for bounded-degree graphs.',
+	 'authors': u'Julia Chuzhoy,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0255',
+	 'subjects': u'Data Structures and Algorithms (cs.DS)',
+	 'title': u'\nAn Algorithm for the Graph Crossing Number Problem',
+	 'urllink': u'http://arxiv.org/abs/1012.0255'}
+2015-03-24 00:24:57+0000 [xxu46_2] INFO: Crawled 76 pages (at 1 pages/min), scraped 71 items (at 1 items/min)
+2015-03-24 00:25:57+0000 [xxu46_2] INFO: Crawled 76 pages (at 0 pages/min), scraped 71 items (at 0 items/min)
+2015-03-24 00:26:57+0000 [xxu46_2] INFO: Crawled 76 pages (at 0 pages/min), scraped 71 items (at 0 items/min)
+2015-03-24 00:26:59+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0232> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:26:59+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0232>
+	{'abstract': u"Loveland complexity is a variant of Kolmogorov complexity, where it is asked to output separately the bits of the desired string, instead of the string itself. Similarly to the resource-bounded Kolmogorov sets we define Loveland sets. We highlight a structural connection between resource-bounded Loveland sets and some advice complexity classes. This structural connection enables us to map to advice complexity classes some properties of Kolmogorov sets first noticed by Hartmanis and thoroughly investigated in Longpr 'e's thesis: 1. Non-inclusion properties of Loveland sets result in hierarchy properties on the corresponding advice complexity classes; 2. Immunity properties of Loveland sets result in the non-existence of natural proofs between the corresponding advice complexity classes, in the sense of Razborov &amp; Rudich.",
+	 'authors': u'Thomas Hugel,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0232',
+	 'subjects': u'Computational Complexity (cs.CC)',
+	 'title': u'\nKolmogorov-Loveland Sets and Advice Complexity Classes',
+	 'urllink': u'http://arxiv.org/abs/1012.0232'}
+2015-03-24 00:27:57+0000 [xxu46_2] INFO: Crawled 77 pages (at 1 pages/min), scraped 72 items (at 1 items/min)
+2015-03-24 00:28:57+0000 [xxu46_2] INFO: Crawled 77 pages (at 0 pages/min), scraped 72 items (at 0 items/min)
+2015-03-24 00:29:30+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0230> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:29:30+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0230>
+	{'abstract': u'In the point set embeddability problem, we are given a plane graph with vertices and a point set with points. Now the goal is to answer the question whether there exists a straight-line drawing of such that each vertex is represented as a distinct point of as well as to provide an embedding if one does exist. Recently, in cite, a complete characterization for this problem on a special class of graphs known as the plane 3-trees was presented along with an efficient algorithm to solve the problem. In this paper, we use the same characterization to devise an improved algorithm for the same problem. Much of the efficiency we achieve comes from clever uses of the triangular range search technique. We also study a generalized version of the problem and present improved algorithms for this version of the problem as well.',
+	 'authors': u'Tanaeem M. Moosa, M. Sohel Rahman,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0230',
+	 'subjects': u'Computational Geometry (cs.CG)',
+	 'title': u'\nImproved Algorithms for the Point-Set Embeddability problem for Plane  3-Trees',
+	 'urllink': u'http://arxiv.org/abs/1012.0230'}
+2015-03-24 00:29:57+0000 [xxu46_2] INFO: Crawled 78 pages (at 1 pages/min), scraped 73 items (at 1 items/min)
+2015-03-24 00:30:57+0000 [xxu46_2] INFO: Crawled 78 pages (at 0 pages/min), scraped 73 items (at 0 items/min)
+2015-03-24 00:31:57+0000 [xxu46_2] INFO: Crawled 78 pages (at 0 pages/min), scraped 73 items (at 0 items/min)
+2015-03-24 00:31:59+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0223> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:31:59+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0223>
+	{'abstract': u'The present research scholars are having keen interest in doing their research activities in the area of Data mining all over the world. Especially, [13]Mining Image data is the one of the essential features in this present scenario since image data plays vital role in every aspect of the system such as business for marketing, hospital for surgery, engineering for construction, Web for publication and so on. The other area in the Image mining system is the Content-Based Image Retrieval (CBIR) which performs retrieval based on the similarity defined in terms of extracted features with more objectiveness. The drawback in CBIR is the features of the query image alone are considered. Hence, a new technique called Image retrieval based on optimum clusters is proposed for improving user interaction with image retrieval systems by fully exploiting the similarity information. The index is created by describing the images according to their color characteristics, with compact feature vectors, that represent typical color distributions [12].',
+	 'authors': u'A. Kannan, V. Mohan, N. Anbazhagan,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0223',
+	 'subjects': u'Computer Vision and Pattern Recognition (cs.CV)',
+	 'title': u'\nAn Effective Method of Image Retrieval using Image Mining Techniques',
+	 'urllink': u'http://arxiv.org/abs/1012.0223'}
+2015-03-24 00:32:57+0000 [xxu46_2] INFO: Crawled 79 pages (at 1 pages/min), scraped 74 items (at 1 items/min)
+2015-03-24 00:33:57+0000 [xxu46_2] INFO: Crawled 79 pages (at 0 pages/min), scraped 74 items (at 0 items/min)
+2015-03-24 00:34:24+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0178> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:34:24+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0178>
+	{'abstract': u'Socio-economic data mining has a great potential in terms of gaining a better understanding of problems that our economy and society are facing, such as financial instability, shortages of resources, or conflicts. Without large-scale data mining, progress in these areas seems hard or impossible. Therefore, a suitable, distributed data mining infrastructure and research centers should be built in Europe. It also appears appropriate to build a network of Crisis Observatories. They can be imagined as laboratories devoted to the gathering and processing of enormous volumes of data on both natural systems such as the Earth and its ecosystem, as well as on human techno-socio-economic systems, so as to gain early warnings of impending events. Reality mining provides the chance to adapt more quickly and more accurately to changing situations. Further opportunities arise by individually customized services, which however should be provided in a privacy-respecting way. This requires the development of novel ICT (such as a self- organizing Web), but most likely new legal regulations and suitable institutions as well. As long as such regulations are lacking on a world-wide scale, it is in the public interest that scientists explore what can be done with the huge data available. Big data do have the potential to change or even threaten democratic societies. The same applies to sudden and large-scale failures of ICT systems. Therefore, dealing with data must be done with a large degree of responsibility and care. Self-interests of individuals, companies or institutions have limits, where the public interest is affected, and public interest is not a sufficient justification to violate human rights of individuals. Privacy is a high good, as confidentiality is, and damaging it would have serious side effects for society.',
+	 'authors': u'Dirk Helbing, Stefano Balietti,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0178',
+	 'subjects': u'Computers and Society (cs.CY)',
+	 'title': u'\nFrom Social Data Mining to Forecasting Socio-Economic Crisis',
+	 'urllink': u'http://arxiv.org/abs/1012.0178'}
+2015-03-24 00:34:57+0000 [xxu46_2] INFO: Crawled 80 pages (at 1 pages/min), scraped 75 items (at 1 items/min)
+2015-03-24 00:35:57+0000 [xxu46_2] INFO: Crawled 80 pages (at 0 pages/min), scraped 75 items (at 0 items/min)
+2015-03-24 00:36:09+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0160> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:36:09+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0160>
+	{'abstract': u'The GIIDA project aims to develop a digital infrastructure for the spatial information within CNR. It is foreseen to use semantic-oriented technologies to ease information modeling and connecting, according to international standards like the ISO/IEC 11179. Complex information management systems, like GIIDA, will take benefit from the use of terminological tools like thesauri that make available a reference lexicon for the indexing and retrieval of information. Within GIIDA the goal is to make available the EARTh thesaurus (Environmental Applications Reference Thesaurus), developed by the CNR-IIA-EKOLab. A web-based software, developed by the CNR-Water Research Institute (IRSA) was implemented to allow consultation and utilization of thesaurus through the web. This service is a useful tool to ensure interoperability between thesaurus and other systems of the indexing, with, the idea of cooperating to develop a comprehensive system of knowledge organization, that could be defined integrated, open, multi-functional and multilingual. Currently the system is available in multiple languages mode (Italian - English) and navigation can be done in the following ways: Alphabetical, Hierarchical and for Themes. A full search allows to find any term by searching for the whole term or a part of it and as well as allows to filter the results by themes. Within a collaborative initiative with the CNR-Institute of Applied Mathematics and Information Technology (IMATI) a SKOS (Simple Knowledge Organization System) version of EARTh was developed. This will ensure the possibility to support the use of the thesaurus within the framework of the Semantic Web in order to be used in decentralized metadata applications',
+	 'authors': u"Paolo Plini, Sabin Di Franco, Valentina De Santis, Vito F. Uricchio, Dario De Carlo, Stefania D'Arpa, Monica De Martino, Riccardo Albertoni,",
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0160',
+	 'subjects': u'Digital Libraries (cs.DL)',
+	 'title': u'\nA Joint Initiative to Support the Semantic Interoperability within the  GIIDA Project',
+	 'urllink': u'http://arxiv.org/abs/1012.0160'}
+2015-03-24 00:36:57+0000 [xxu46_2] INFO: Crawled 81 pages (at 1 pages/min), scraped 76 items (at 1 items/min)
+2015-03-24 00:37:57+0000 [xxu46_2] INFO: Crawled 81 pages (at 0 pages/min), scraped 76 items (at 0 items/min)
+2015-03-24 00:38:09+0000 [xxu46_2] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1012.0126> (referer: http://arxiv.org/list/cs/10?skip=6000&show=1000)
+2015-03-24 00:38:09+0000 [xxu46_2] DEBUG: Scraped from <200 http://arxiv.org/abs/1012.0126>
+	{'abstract': u'In this paper, we propose a new method of channel estimation for asynchronous additive white Gaussian noise channels in satellite communications. This method is based on signals correlation and multiuser interference cancellation which adopts a successive structure. Propagation delays and signals amplitudes are jointly estimated in order to be used for data detection at the receiver. As, a multiuser detector, a single stage successive interference cancellation (SIC) architecture is analyzed and integrated to the channel estimation technique and the whole system is evaluated. The satellite access method adopted is the direct sequence code division multiple access (DS CDMA) one. To evaluate the channel estimation and the detection technique, we have simulated a satellite uplink with an asynchronous multiuser access.',
+	 'authors': u'Helmi Chaouech, Ridha Bouallegue,',
+	 'category': u'Computer Science ',
+	 'date': '2010-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1012.0126',
+	 'subjects': u'Networking and Internet Architecture (cs.NI)',
+	 'title': u'\nChannel Estimation And Multiuser Detection In Asynchronous Satellite  Communications',
+	 'urllink': u'http://arxiv.org/abs/1012.0126'}
+2015-03-24 00:38:57+0000 [xxu46_2] INFO: Crawled 82 pages (at 1 pages/min), scraped 77 items (at 1 items/min)
