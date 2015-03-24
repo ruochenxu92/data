@@ -10770,3 +10770,49 @@ nohup: ignoring input
 	 'subjects': u'Computational Complexity (cs.CC)',
 	 'title': u'\nPlaying with parameters: structural parameterization in graphs',
 	 'urllink': u'http://arxiv.org/abs/1309.6144'}
+2015-03-24 23:18:09+0000 [xxu46_7] INFO: Crawled 929 pages (at 1 pages/min), scraped 922 items (at 1 items/min)
+2015-03-24 23:19:09+0000 [xxu46_7] INFO: Crawled 929 pages (at 0 pages/min), scraped 922 items (at 0 items/min)
+2015-03-24 23:19:11+0000 [xxu46_7] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1310.5463> (referer: http://arxiv.org/list/cs/13?skip=11000&show=1000)
+2015-03-24 23:19:11+0000 [xxu46_7] DEBUG: Scraped from <200 http://arxiv.org/abs/1310.5463>
+	{'abstract': u'A crowdsourced stream processing system (CSP) is a system that incorporates crowdsourced tasks in the processing of a data stream. This can be seen as enabling crowdsourcing work to be applied on a sample of large-scale data at high speed, or equivalently, enabling stream processing to employ human intelligence. It also leads to a substantial expansion of the capabilities of data processing systems. Engineering a CSP system requires the combination of human and machine computation elements. From a general systems theory perspective, this means taking into account inherited as well as emerging properties from both these elements. In this paper, we position CSP systems within a broader taxonomy, outline a series of design principles and evaluation metrics, present an extensible framework for their design, and describe several design patterns. We showcase the capabilities of CSP systems by performing a case study that applies our proposed framework to the design and analysis of a real system (AIDR) that classifies social media messages during time-critical crisis events. Results show that compared to a pure stream processing system, AIDR can achieve a higher data classification accuracy, while compared to a pure crowdsourcing solution, the system makes better use of human workers by requiring much less manual work effort.',
+	 'authors': u'Muhammad Imran, Ioanna Lykourentzou, Yannick Naudet, Carlos Castillo,',
+	 'category': u'Computer Science ',
+	 'date': '2013-10-21',
+	 'pdflink': u'http://arxiv.org/pdf/1310.5463',
+	 'subjects': u'Databases (cs.DB)',
+	 'title': u'\nEngineering Crowdsourced Stream Processing Systems',
+	 'urllink': u'http://arxiv.org/abs/1310.5463'}
+2015-03-24 23:20:09+0000 [xxu46_7] INFO: Crawled 930 pages (at 1 pages/min), scraped 923 items (at 1 items/min)
+2015-03-24 23:20:26+0000 [xxu46_7] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1311.4224> (referer: http://arxiv.org/list/cs/13?skip=12000&show=1000)
+2015-03-24 23:20:26+0000 [xxu46_7] DEBUG: Scraped from <200 http://arxiv.org/abs/1311.4224>
+	{'abstract': u'This paper looks at frequency domain design of a fractional order (FO) PID controller for an Automatic Voltage Regulator (AVR) system. Various performance criteria of the AVR system are formulated as system norms and is then coupled with an evolutionary multi-objective optimization (MOO) algorithm to yield Pareto optimal design trade-offs. The conflicting performance measures consist of the mixed H2/H-infinity designs for objectives like set-point tracking, load disturbance and noise rejection, controller effort and as such are an exhaustive study of various conflicting design objectives. A fuzzy logic based mechanism is used to identify the best compromise solution on the Pareto fronts. The advantages and disadvantages of using a FOPID controller over the conventional PID controller, which are popular for industrial use, are enunciated from the presented simulations. The relevance and impact of FO controller design from the perspective of the dynamics of AVR control loop is also discussed.',
+	 'authors': u'Saptarshi Das, Indranil Pan,',
+	 'category': u'Computer Science ',
+	 'date': '2013-11-17',
+	 'pdflink': u'http://arxiv.org/pdf/1311.4224',
+	 'subjects': u'Systems and Control (cs.SY)',
+	 'title': u'\nOn the Mixed H2/H-infinity Loop Shaping Trade-offs in Fractional Order  Control of the AVR System',
+	 'urllink': u'http://arxiv.org/abs/1311.4224'}
+2015-03-24 23:21:09+0000 [xxu46_7] INFO: Crawled 931 pages (at 1 pages/min), scraped 924 items (at 1 items/min)
+2015-03-24 23:22:00+0000 [xxu46_7] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1308.4186> (referer: http://arxiv.org/list/cs/13?skip=9000&show=1000)
+2015-03-24 23:22:00+0000 [xxu46_7] DEBUG: Scraped from <200 http://arxiv.org/abs/1308.4186>
+	{'abstract': u'It is an open problem, posed in cite, to determine the minimal such that an open flexible -chain can interlock with a flexible 2-chain. It was first established in cite that there is an open 16-chain in a trapezoid frame that achieves interlocking. This was subsequently improved in cite to establish interlocking between a 2-chain and an open 11-chain. Here we improve that result once more, establishing interlocking between a 2-chain and a 10-chain. We present arguments that indicate that 10 is likely the minimum.',
+	 'authors': u"Bin Lu, Joseph O'Rourke, Jianyuan K. Zhong,",
+	 'category': u'Computer Science ',
+	 'date': '2013-8-19',
+	 'pdflink': u'http://arxiv.org/pdf/1308.4186',
+	 'subjects': u'Computational Geometry (cs.CG)',
+	 'title': u'\nA 2-chain can interlock with an open 10-chain',
+	 'urllink': u'http://arxiv.org/abs/1308.4186'}
+2015-03-24 23:22:09+0000 [xxu46_7] INFO: Crawled 932 pages (at 1 pages/min), scraped 925 items (at 1 items/min)
+2015-03-24 23:23:09+0000 [xxu46_7] INFO: Crawled 932 pages (at 0 pages/min), scraped 925 items (at 0 items/min)
+2015-03-24 23:23:28+0000 [xxu46_7] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1309.6132> (referer: http://arxiv.org/list/cs/13?skip=10000&show=1000)
+2015-03-24 23:23:28+0000 [xxu46_7] DEBUG: Scraped from <200 http://arxiv.org/abs/1309.6132>
+	{'abstract': u'Modularization is an important architectural principle underlying many types of complex systems. It tends to tame the complexity of systems, to facilitate their management, and to enhance their flexibility with respect to evolution. In software, modularization has been practiced and studied thoroughly in local, i.e. non-distributed systems. But very little attention has been paid so far to modularization in distributed systems. This is, in part, because distributed systems are inherently modularized, in the sense that the internals of each component of such a system is inaccessible to other components, thus satisfying the Parnas hiding principle. It is, however, the thesis of this paper that there is much to be gained by being able to treat groups of distributed components as modules, called here distributed modules. And that besides the conventional hiding principle, distributed modularization should provide additional capabilities, which rarely, if ever, figure in conventional modularized systems. These capabilities include, but are not limited to: the ability to impose constraints on which kind of messages can be sent from a given distributed-module to its outside; and the ability to create AOP-like crosscutting modules. This paper introduces a model of modular distributed system, orMDS, which satisfies such capabilities, and which is implemented via the LGI middleware.',
+	 'authors': u'Naftaly Minsky,',
+	 'category': u'Computer Science ',
+	 'date': '2013-9-24',
+	 'pdflink': u'http://arxiv.org/pdf/1309.6132',
+	 'subjects': u'Distributed, Parallel, and Cluster Computing (cs.DC)',
+	 'title': u'\nAn Approach to Modularization of Distributed Systems',
+	 'urllink': u'http://arxiv.org/abs/1309.6132'}
